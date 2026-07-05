@@ -1,0 +1,196 @@
+{
+  "communities": {
+    "0": [
+      "component:backup",
+      "component:bottom-nav",
+      "component:design-tokens",
+      "component:theme-toggle",
+      "component:toast",
+      "page:config",
+      "trait:safe-areas"
+    ],
+    "1": [
+      "component:donut-chart",
+      "component:skeleton-loader",
+      "feature:month-nav",
+      "feature:transaction-crud",
+      "page:dashboard",
+      "page:transacoes",
+      "trait:currency-dual"
+    ],
+    "2": [
+      "component:id-generator",
+      "feature:debts-crud",
+      "feature:goals-crud",
+      "feature:link-tx",
+      "page:dividas",
+      "page:dividas:status-logic",
+      "page:objetivos"
+    ],
+    "3": [
+      "file:index.html",
+      "trait:csp-locked",
+      "trait:iife",
+      "trait:lgpd",
+      "trait:monolithic",
+      "trait:pwa"
+    ],
+    "4": [
+      "component:confirm-dialog",
+      "component:fab",
+      "component:modal-drawer",
+      "trait:reduced-motion",
+      "trait:touch-safe"
+    ],
+    "5": [
+      "component:indexeddb",
+      "component:localstorage-fallback",
+      "component:promise-polyfill",
+      "trait:offline-first",
+      "trait:xss-sanitizer"
+    ],
+    "6": [
+      "component:es-polyfills"
+    ]
+  },
+  "cohesion": {
+    "0": 0.2857142857142857,
+    "1": 0.2857142857142857,
+    "2": 0.3333333333333333,
+    "3": 0.4,
+    "4": 0.4,
+    "5": 0.4,
+    "6": 1.0
+  },
+  "gods": [
+    {
+      "id": "component:indexeddb",
+      "label": "IndexedDB - 3 stores: transacoes, objetivos, dividas",
+      "degree": 8
+    },
+    {
+      "id": "component:modal-drawer",
+      "label": "Drawer system com overlay + transform animado - 6 drawers especializados",
+      "degree": 5
+    },
+    {
+      "id": "feature:transaction-crud",
+      "label": "CRUD transações: add/edit/delete com drawer campos valor descrição categoria pagamento parcelas",
+      "degree": 5
+    },
+    {
+      "id": "file:index.html",
+      "label": "Gestor Financeiro - PWA monolítico",
+      "degree": 4
+    },
+    {
+      "id": "component:design-tokens",
+      "label": "CSS Custom Properties - 2 temas dark/light, spacing 8px grid, shadows, radius tokens",
+      "degree": 4
+    },
+    {
+      "id": "page:dashboard",
+      "label": "Dashboard - saldo hero stats donut gastos por categoria últimas transações",
+      "degree": 4
+    },
+    {
+      "id": "feature:goals-crud",
+      "label": "CRUD objetivos: criar/editar/excluir/aportar/resgatar com meta valor limite",
+      "degree": 4
+    },
+    {
+      "id": "feature:debts-crud",
+      "label": "CRUD dívidas: criar/editar/excluir/amortizar com status calculado automaticamente",
+      "degree": 4
+    },
+    {
+      "id": "trait:monolithic",
+      "label": "Monolito HTML+CSS+JS único arquivo",
+      "degree": 3
+    },
+    {
+      "id": "trait:offline-first",
+      "label": "Offline-first - sem servidor, sem cadastro",
+      "degree": 3
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Gestor Financeiro - PWA monolítico",
+      "target": "Offline-first - sem servidor, sem cadastro",
+      "source_files": [
+        "index.html",
+        "index.html"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "",
+      "note": "Bridges community 3 → community 5"
+    },
+    {
+      "source": "IndexedDB - 3 stores: transacoes, objetivos, dividas",
+      "target": "Backup - export JSON, share, import JSON, clear data",
+      "source_files": [
+        "index.html",
+        "index.html"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "",
+      "note": "Bridges community 5 → community 0"
+    },
+    {
+      "source": "IndexedDB - 3 stores: transacoes, objetivos, dividas",
+      "target": "CRUD dívidas: criar/editar/excluir/amortizar com status calculado automaticamente",
+      "source_files": [
+        "index.html",
+        "index.html"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "",
+      "note": "Bridges community 5 → community 2"
+    },
+    {
+      "source": "IndexedDB - 3 stores: transacoes, objetivos, dividas",
+      "target": "CRUD transações: add/edit/delete com drawer campos valor descrição categoria pagamento parcelas",
+      "source_files": [
+        "index.html",
+        "index.html"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "",
+      "note": "Bridges community 5 → community 1"
+    },
+    {
+      "source": "genId() - crypto.getRandomValues + Date.now + rnd string",
+      "target": "CRUD transações: add/edit/delete com drawer campos valor descrição categoria pagamento parcelas",
+      "source_files": [
+        "index.html",
+        "index.html"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "",
+      "note": "Bridges community 2 → community 1"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `IndexedDB - 3 stores: transacoes, objetivos, dividas` connect `Community 5` to `Community 0`, `Community 1`, `Community 2`, `Community 3`?",
+      "why": "High betweenness centrality (0.545) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `CRUD transações: add/edit/delete com drawer campos valor descrição categoria pagamento parcelas` connect `Community 1` to `Community 2`, `Community 4`, `Community 5`?",
+      "why": "High betweenness centrality (0.475) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Drawer system com overlay + transform animado - 6 drawers especializados` connect `Community 4` to `Community 0`, `Community 1`?",
+      "why": "High betweenness centrality (0.330) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `PWA com apple-mobile-web-app-capable e theme-color`, `Fallback localStorage wrapper com _memStore in-memory`, `Custom confirm dialog substitui window.confirm - WebView compat` to the rest of the system?",
+      "why": "15 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}

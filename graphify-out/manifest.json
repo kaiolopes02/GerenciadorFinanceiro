@@ -1,0 +1,92 @@
+{
+  "index.html": {
+    "mtime": 1783288328.656796,
+    "ast_hash": "1624f312b986851f9c4e60e0cec39a42",
+    "semantic_hash": ""
+  },
+  "src/core.js": {
+    "mtime": 1783291124.3978336,
+    "ast_hash": "6a9f378a330a453d8cd293d6e4956404",
+    "semantic_hash": ""
+  },
+  "src/repository.js": {
+    "mtime": 1783290937.5977294,
+    "ast_hash": "c470a6751c7d9a368f5b0632dd1ca4c5",
+    "semantic_hash": ""
+  },
+  "src/theme-router.js": {
+    "mtime": 1783279328.015849,
+    "ast_hash": "eeef56d02ca9ff9461a25f3d0d0e146d",
+    "semantic_hash": "eeef56d02ca9ff9461a25f3d0d0e146d"
+  },
+  "src/currency-utils.js": {
+    "mtime": 1783288446.6892042,
+    "ast_hash": "419c0b0d18e84631f8a93953ab2acebc",
+    "semantic_hash": ""
+  },
+  "src/models.js": {
+    "mtime": 1783279380.694781,
+    "ast_hash": "c7ad94b80e59ba87748e694424e362fb",
+    "semantic_hash": "c7ad94b80e59ba87748e694424e362fb"
+  },
+  "src/services.js": {
+    "mtime": 1783279392.6215034,
+    "ast_hash": "2d7e1027f576b99fca9227c0ecb9ce8f",
+    "semantic_hash": "2d7e1027f576b99fca9227c0ecb9ce8f"
+  },
+  "src/components-shell.js": {
+    "mtime": 1783288902.6431472,
+    "ast_hash": "84e53e6197ccd0829baa1a48bf4d0db2",
+    "semantic_hash": ""
+  },
+  "src/components-data.js": {
+    "mtime": 1783281014.9358163,
+    "ast_hash": "530382f4ae11ea754440b05d7f47f628",
+    "semantic_hash": "530382f4ae11ea754440b05d7f47f628"
+  },
+  "src/page-dashboard.js": {
+    "mtime": 1783288929.6785638,
+    "ast_hash": "c45f8a80ebd367ad8a22069b222bb66b",
+    "semantic_hash": ""
+  },
+  "src/page-transacoes.js": {
+    "mtime": 1783289626.3483706,
+    "ast_hash": "569780e8f8865d36fe4b8ef4deaf6fe9",
+    "semantic_hash": ""
+  },
+  "src/page-objetivos.js": {
+    "mtime": 1783279531.487566,
+    "ast_hash": "964bec4d8b08af2a0e6dc30f6f137809",
+    "semantic_hash": "964bec4d8b08af2a0e6dc30f6f137809"
+  },
+  "src/page-dividas.js": {
+    "mtime": 1783279553.541083,
+    "ast_hash": "0cfd73495780ba2d658b7fb75a6e3d65",
+    "semantic_hash": "0cfd73495780ba2d658b7fb75a6e3d65"
+  },
+  "src/page-config.js": {
+    "mtime": 1783280954.1903188,
+    "ast_hash": "38cab26f6a100b5a02032b252fa86b6f",
+    "semantic_hash": "38cab26f6a100b5a02032b252fa86b6f"
+  },
+  "src/app.js": {
+    "mtime": 1783290770.9913597,
+    "ast_hash": "b1a05abdb4582ba10fc1dd930fbf1e9b",
+    "semantic_hash": ""
+  },
+  "sw.js": {
+    "mtime": 1783288336.8260653,
+    "ast_hash": "2ca498d6983849043d45c1030d1b7550",
+    "semantic_hash": ""
+  },
+  "assets/VFIcon.png": {
+    "mtime": 1783285743.9012344,
+    "ast_hash": "88744bec1014c7b7b9aca472f2435373",
+    "semantic_hash": ""
+  },
+  "assets/VFLogo.png": {
+    "mtime": 1783285593.1182008,
+    "ast_hash": "dc5285843f6bfddde1dfaa30032ae5fd",
+    "semantic_hash": ""
+  }
+}

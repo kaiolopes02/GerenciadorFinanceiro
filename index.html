@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#0a1a18">
+  <meta name="description" content="Controle suas finanças pessoais com privacidade total. Sem cadastro, sem servidor.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Gestor">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Gestor Financeiro">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAHyUlEQVR42p2XeWxc1RXGf/fe995stmfGdhIvwWS3AQeUCqIgaNwsikirUJY2giaiLaJCLUUtlJS0pYsqUbVFbaFIbQRV0yikLAVBWKSWraENZQsEQhYTYkggcRw7nvHMeLbn9+7tH288eIiBJO+fN7pz3/3OPd93vnuPMMYYTvExxqAnfCaFQAjB6TziZAMwGIKpAjkJmK91EIyUnEoo1qeDBrvFmGDhCvDwaJZX3tvP9nf2cf6MuSw9Zz6JaGzSTFXXqLyllDUbmDQD2gS7VVJWx0bLJV4/eIBtvbt5/WAfI6U8R4bTpLJ5psbjXDy3i0vOXcCiOZ20xhNYSp16BrTRSFGJUAjGfJ+3Pnyfbb1v8+r773I0k8YAojJHCYk2hin1DfSnU2zf30vMdmg/73MYY8gUCwyP5hjMZBjIjNDbf5iLZ8/j8+fMr2JNmoF9/R/ywv49vNTXy6HhIcZ8H0sqfKMRQEtDgovmns3s5hYe2/EKM5unctvlq9ny4gu8+cFBjoykOJJOMZzLkSkWKLplfGMYOXSY+25ez5rlK/B9H6VUkIFAWrB15ys8+dYO+oYGKHtjKKmq/CUiURZ0zOILXd2cP2MudeEwAKsWXMAHx4fIl0uEbYe7n3kK23JwbAtLSiypiIbCyGwBOxxjVlt7hXzxEQXjknjg1e30DQ2QjMZwPY+Y49Dd1sHizm4unN1Jc31DDV3juetonoIxhisXXkhDNMqaP99J1HHwKyLU6Sx+oYztODQ1NFTwxYkaiEeiRGwHKSTX96xgSdd8pjc214gTYxBSIIWsRq61BiHwtWbrG6/iG41nTFC86Ryi5OJXsthY2YSYKMJxCpSUjPkeUaeeqxf1YEmJ1hpTMZtxcX681BACAXx74wb+9uI2psYT+EYjU6NQchFK4bkuibo64rFYDQWysgoAIcsGwPU9hnIZjDEIIVATPODj5iQqgd2w6V62vLydlkQSrTUilYNSGWkppBT4vmZKPI5tWcG6k2UgVhHWmO/jeh5CCPSEyTVUVJwxWyxy/cYN/GP7NpKNTRPAXaRtkS8WAYHna1obm6rfq4kZ+EjpMRAC1/PIlgqfaB4BHRIlFdlCiZ553Tz0vR+x7pJL0cMZKLnYIYdjqRTXf3EVm265ldHRLFMTSSbinSDC5rp6RCUDqdHRGo4NBoHAN5rHe7cxUs6hhMRSFmfODGEpwxVnXMAfN2/GdgLwG1ZdxpqVK+nPpPnruvXkSsVPd8Jp8WQl7ZpjmXQt1wTjm996kh0DewkpG99obKHoz2UxyuHGzi9jWzaDI2nWLlvOH264kfUPbuY3Wx/m0Zt/zOru89DG1Ni0nFiT7YlGbKXQGD5MD1fhBeBrj01vPs4bA3tJhGKELIcGJ4qrYbBcJuZECdk2g+k01yxbwT03rQPg4PEh6uob+P7fNzLqlpFC1FAgJ9Zke7KJunAEhODg8GDVMFwNW3Y/y5uD7xEPJ9FYSCSpYpF3M+ng4FKSXKHA15evYMNNtyClpOi69A0dQypJazJJPBypKcGPnFAIDJCM1dEWTzJSyNM32M/RTIbWeBy/cJQlbTNZ2dEZVIUQGBXj1hc2M+Z7OMpmtFikq6ODDT9Yh6mU9rvHjnI4NYwxMK+ljbDjoI2pOY6rGtBao6Rk/vQZvNzXS1uiGakUxZe+S6n/eZpCcbTWSEsxlssSXrwR26lHcpyyP0ZY2jTWxxFC4PketrLYtm8PebeMEIJFs+ZWS3DSAMaHzj9zFk83t/O7q64juedWcge2oEJJSvk8Ukq8jEfp2HGkW0AJRXGsTEtdE+svugpLKrTRwVtrtu58DcuyiFg2S86eXy3hmpKu/pASMJw7/UzuXfsNpr1zG7n9W1DRFoywUHYYvwzltAsqhFIWRc8l7kT59ZJrm">
+
+  <title>Gestor Financeiro</title>
+
+  <!-- CSP: block external connections (LGPD — no data leaves the device) -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src 'none'; img-src 'self' data: blob:; worker-src blob:; object-src 'none';">
+
+  <!-- Google Fonts: Inter (body) + DM Mono (numbers) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" referrerpolicy="no-referrer">
+
+  <!-- CSS: tokens → base → app -->
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+  <!-- Toast container (ARIA live region) -->
+  <div class="toast-container" id="toastContainer" aria-live="polite" aria-atomic="false"></div>
+
+  <!-- LGPD Banner -->
+  <aside class="lgpd-banner" id="lgpdBanner" role="complementary" aria-label="Aviso de privacidade">
+    <div style="display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;gap:10px;margin-bottom:6px">
+      <span style="font-size:20px">🔒</span>
+      <p class="lgpd-banner__title" style="margin:0">Seus dados ficam só com você</p>
+    </div>
+    <p class="lgpd-banner__text">
+      Este app armazena suas informações financeiras <strong>exclusivamente no seu dispositivo</strong> via IndexedDB.
+      Nenhum dado é coletado, transmitido ou compartilhado com terceiros. Conforme a <strong>LGPD (Lei 13.709/2018)</strong>,
+      você tem controle total — incluindo o direito de apagar todos os dados a qualquer momento.
+    </p>
+    <div class="lgpd-banner__actions">
+      <button class="lgpd-banner__btn lgpd-banner__btn--accept" id="lgpdAccept" aria-label="Aceitar e fechar aviso">Entendido</button>
+      <button class="lgpd-banner__btn lgpd-banner__btn--reject" id="lgpdDetails" type="button">Saiba mais</button>
+    </div>
+  </aside>
+
+  <div class="app-shell">
+    <!-- TOP HEADER (mobile only) -->
+    <header class="top-header" role="banner">
+      <div class="top-header__brand">
+        <div class="top-header__brand-icon"><img src="assets/VFIcon.png" alt="Gestor Financeiro" width="36" height="36"></div>
+        <span>Gestor</span>
+      </div>
+      <nav class="top-header__month-nav" aria-label="Navegação mensal">
+        <button class="month-nav__btn" id="prevMonthBtn" aria-label="Mês anterior">‹</button>
+        <span class="month-nav__label" id="monthLabel" aria-live="polite">Mês</span>
+        <button class="month-nav__btn" id="nextMonthBtn" aria-label="Próximo mês">›</button>
+      </nav>
+    </header>
+
+    <!-- BOTTOM / SIDE NAV -->
+    <nav class="bottom-nav" role="navigation" aria-label="Navegação principal">
+      <div class="bottom-nav__brand" id="desktopBrand" style="display:none">
+        <span class="bottom-nav__brand-icon"><img src="assets/VFIcon.png" alt="Gestor Financeiro" width="28" height="28"></span>
+        Gestor Financeiro
+      </div>
+
+      <button class="bottom-nav__item is-active" data-page="dashboard" aria-label="Dashboard" aria-current="page">
+        <span class="bottom-nav__icon" aria-hidden="true">📊</span>
+        <span>Início</span>
+      </button>
+      <button class="bottom-nav__item" data-page="transacoes" aria-label="Transações">
+        <span class="bottom-nav__icon" aria-hidden="true">↕️</span>
+        <span>Transações</span>
+      </button>
+      <button class="bottom-nav__item" data-page="objetivos" aria-label="Objetivos">
+        <span class="bottom-nav__icon" aria-hidden="true">🎯</span>
+        <span>Objetivos</span>
+      </button>
+      <button class="bottom-nav__item" data-page="dividas" aria-label="Dívidas">
+        <span class="bottom-nav__icon" aria-hidden="true">🤝</span>
+        <span>Dívidas</span>
+      </button>
+      <button class="bottom-nav__item" data-page="config" aria-label="Configurações">
+        <span class="bottom-nav__icon" aria-hidden="true">⚙️</span>
+        <span>Config</span>
+      </button>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content" id="mainContent" role="main">
+
+      <!-- ======== PAGE: DASHBOARD ======== -->
+      <section class="page is-active fade-in" id="page-dashboard" aria-label="Dashboard">
+        <div class="balance-hero" id="balanceHero">
+          <p class="balance-hero__label">Saldo disponível</p>
+          <p class="balance-hero__amount" id="balanceAmount" aria-live="polite" aria-atomic="true">R$ 0,00</p>
+          <div class="balance-hero__stats">
+            <div class="balance-stat">
+              <p class="balance-stat__label">Entradas</p>
+              <p class="balance-stat__value balance-stat__value--green" id="totalIncome">R$ 0,00</p>
+            </div>
+            <div class="balance-stat">
+              <p class="balance-stat__label">Saídas</p>
+              <p class="balance-stat__value balance-stat__value--red" id="totalExpense">R$ 0,00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" id="donutCard">
+          <div class="card__header">
+            <h2 class="card__title">Distribuição do mês</h2>
+            <span style="font-size:.6875rem;color:var(--clr-text-dim)">gastos + disponível</span>
+          </div>
+          <div class="donut-wrap" id="donutWrap">
+            <div class="donut-empty">
+              <p class="empty-state__icon" style="font-size:36px;opacity:.4">🍩</p>
+              <p style="font-size:.8125rem;color:var(--clr-text-dim);margin-top:8px">Sem dados no mês</p>
+            </div>
+          </div>
+          <div class="donut-legend" id="donutLegend" role="list" aria-label="Legenda do gráfico"></div>
+        </div>
+
+        <div class="card">
+          <div class="card__header">
+            <h2 class="card__title">Gastos por categoria</h2>
+          </div>
+          <div id="categoriesBreakdown">
+            <div class="empty-state">
+              <p class="empty-state__icon">📋</p>
+              <p class="empty-state__title">Nenhum gasto ainda</p>
+              <p class="empty-state__desc">Adicione transações para ver o resumo por categoria.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-header">
+          <h2 class="section-title">Últimas transações</h2>
+        </div>
+        <div class="card card--flush" id="recentTxCard">
+          <div class="tx-list" id="recentTxList">
+            <div class="empty-state">
+              <p class="empty-state__icon">💸</p>
+              <p class="empty-state__title">Sem movimentações</p>
+              <p class="empty-state__desc">Toque em <strong>+</strong> para registrar sua primeira transação.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======== PAGE: TRANSAÇÕES ======== -->
+      <section class="page fade-in" id="page-transacoes" aria-label="Transações">
+        <div class="section-header">
+          <h2 class="section-title">Todas as transações</h2>
+          <div class="top-header__month-nav" aria-label="Navegação mensal">
+            <button class="month-nav__btn" id="prevMonthBtn2" aria-label="Mês anterior">‹</button>
+            <span class="month-nav__label" id="monthLabel2">Mês</span>
+            <button class="month-nav__btn" id="nextMonthBtn2" aria-label="Próximo mês">›</button>
+          </div>
+        </div>
+
+        <div class="tx-filters" id="txFilters">
+          <div class="tx-filters__row">
+            <button class="tx-filter-chip is-active" data-filter-type="all">Todos</button>
+            <button class="tx-filter-chip" data-filter-type="receita">↑ Entradas</button>
+            <button class="tx-filter-chip" data-filter-type="despesa">↓ Saídas</button>
+          </div>
+          <div class="tx-filters__row" style="margin-top:var(--sp-2)">
+            <select class="tx-filter-select" id="txFilterCategory" aria-label="Filtrar por categoria">
+              <option value="">Todas as categorias</option>
+            </select>
+            <select class="tx-filter-select" id="txFilterPayment" aria-label="Filtrar por pagamento">
+              <option value="">Todas as formas</option>
+              <option value="PIX">PIX</option>
+              <option value="Cartão de Crédito">Cartão de Crédito</option>
+              <option value="Cartão de Débito">Cartão de Débito</option>
+              <option value="Boleto">Boleto</option>
+              <option value="Dinheiro">Dinheiro</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="card card--flush" id="allTxCard">
+          <div class="tx-list" id="allTxList">
+            <div class="empty-state">
+              <p class="empty-state__icon">💸</p>
+              <p class="empty-state__title">Sem movimentações neste mês</p>
+              <p class="empty-state__desc">Adicione receitas ou despesas usando o botão <strong>+</strong>.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======== PAGE: OBJETIVOS ======== -->
+      <section class="page fade-in" id="page-objetivos" aria-label="Objetivos financeiros">
+        <div class="section-header">
+          <h2 class="section-title">Meus objetivos</h2>
+          <button class="btn btn--sm" id="addGoalBtn" style="width:auto;background:var(--clr-accent-bg);border:1px solid var(--clr-accent);color:var(--clr-accent);">
+            + Novo objetivo
+          </button>
+        </div>
+        <div id="goalsList">
+          <div class="empty-state">
+            <p class="empty-state__icon">🎯</p>
+            <p class="empty-state__title">Nenhum objetivo ainda</p>
+            <p class="empty-state__desc">Crie metas financeiras como Reserva de Emergência ou Viagem dos Sonhos.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======== PAGE: DÍVIDAS ======== -->
+      <section class="page fade-in" id="page-dividas" aria-label="Controle de dívidas">
+        <div class="section-header">
+          <h2 class="section-title">Controle de dívidas</h2>
+          <button class="btn btn--sm" id="addDebtBtn" style="width:auto;background:var(--clr-accent-bg);border:1px solid var(--clr-accent);color:var(--clr-accent);">
+            + Nova dívida
+          </button>
+        </div>
+
+        <div class="tab-bar" role="tablist">
+          <button class="tab-bar__tab is-active" role="tab" data-debt-tab="devo" aria-selected="true">💳 Devo</button>
+          <button class="tab-bar__tab" role="tab" data-debt-tab="me_devem" aria-selected="false">📥 Me devem</button>
+        </div>
+
+        <div id="debtsList">
+          <div class="empty-state">
+            <p class="empty-state__icon">🤝</p>
+            <p class="empty-state__title">Nenhum registro</p>
+            <p class="empty-state__desc">Registre dívidas a pagar ou valores que te devem.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======== PAGE: CONFIGURAÇÕES ======== -->
+      <section class="page fade-in" id="page-config" aria-label="Configurações">
+        <div class="config-logo-wrap">
+          <img src="assets/VFLogo.png" alt="Gestor Financeiro" class="config-logo">
+        </div>
+
+        <div class="section-header">
+          <h2 class="section-title">Configurações</h2>
+        </div>
+
+        <div class="card" style="margin-bottom:var(--sp-4)">
+          <div class="card__header">
+            <h3 class="card__title">Aparência</h3>
+          </div>
+          <p style="font-size:.8125rem;color:var(--clr-text-muted);margin-bottom:var(--sp-4);line-height:1.6">
+            O tema segue automaticamente as preferências do seu sistema. Você pode substituir manualmente abaixo.
+          </p>
+          <div class="theme-toggle-group" role="group" aria-label="Escolha o tema">
+            <button class="theme-btn" id="themeDarkBtn"  data-theme-val="dark">
+              <span class="theme-btn__icon">🌙</span>
+              <span class="theme-btn__label">Escuro</span>
+            </button>
+            <button class="theme-btn" id="themeAutoBtn"  data-theme-val="auto">
+              <span class="theme-btn__icon">⚙️</span>
+              <span class="theme-btn__label">Automático</span>
+            </button>
+            <button class="theme-btn" id="themeLightBtn" data-theme-val="light">
+              <span class="theme-btn__icon">☀️</span>
+              <span class="theme-btn__label">Claro</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="margin-bottom:var(--sp-4)">
+          <div class="card__header">
+            <h3 class="card__title">Backup dos dados</h3>
+          </div>
+          <p style="font-size:.8125rem;color:var(--clr-text-muted);margin-bottom:var(--sp-4);line-height:1.6">
+            Seus dados ficam salvos neste dispositivo. Faça backup regularmente para não perder suas informações.
+          </p>
+          <div class="backup-actions">
+            <button class="backup-btn" id="exportBtn">
+              <span class="backup-btn__icon">📤</span>
+              <span>Exportar JSON</span>
+            </button>
+            <button class="backup-btn" id="shareBtn" style="background:var(--clr-accent);color:var(--clr-accent-text)">
+              <span class="backup-btn__icon">🔗</span>
+              <span>Compartilhar</span>
+            </button>
+            <label class="backup-btn" for="importInput" style="cursor:pointer">
+              <span class="backup-btn__icon">📥</span>
+              <span>Importar JSON</span>
+              <input type="file" id="importInput" accept=".json" style="display:none" aria-label="Importar arquivo de backup">
+            </label>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card__header">
+            <h3 class="card__title">Dados & Privacidade</h3>
+          </div>
+          <p style="font-size:.8125rem;color:var(--clr-text-muted);margin-bottom:var(--sp-3);line-height:1.6" id="privacidade">
+            🔒 <strong>100% local e privado.</strong> Todos os dados são armazenados no seu navegador via IndexedDB
+            e <strong>nunca saem do seu dispositivo</strong>. Nenhuma informação é enviada a servidores externos.
+          </p>
+          <p style="font-size:.8125rem;color:var(--clr-text-muted);margin-bottom:var(--sp-4);line-height:1.6">
+            📋 <strong>LGPD (Lei 13.709/2018):</strong> Você tem direito de acessar, corrigir e excluir seus dados
+            a qualquer momento usando o botão abaixo. Nenhum dado é compartilhado com terceiros.
+          </p>
+          <button class="btn btn--danger btn--sm" id="clearDataBtn" style="width:100%">
+            🗑️ Apagar todos os dados
+          </button>
+        </div>
+
+        <div class="card mt-4" style="background:transparent;border-color:var(--clr-border)">
+          <p style="font-size:.75rem;color:var(--clr-text-dim);text-align:center;line-height:1.8">
+            Gestor Financeiro v1.1 · 100% offline<br>
+            Nenhum cadastro necessário · LGPD compliant<br>
+            <button id="privPolicyBtn" type="button" style="background:none;border:none;color:var(--clr-accent);font-size:.75rem;cursor:pointer;text-decoration:underline;padding:0">Política de Privacidade</button>
+          </p>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- FAB -->
+  <button class="fab" id="fabBtn" aria-label="Adicionar transação">+</button>
+
+  <!-- CONFIRM DIALOG -->
+  <div class="overlay" id="confirmDialog" role="alertdialog" aria-modal="true" aria-labelledby="confirmMsg"
+       style="-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center">
+    <div class="confirm-dialog__box">
+      <span class="confirm-dialog__icon" aria-hidden="true" id="confirmIcon">⚠️</span>
+      <p class="confirm-dialog__msg" id="confirmMsg"></p>
+      <div class="confirm-dialog__actions">
+        <button class="btn btn--danger" id="confirmOkBtn" type="button">Confirmar</button>
+        <button class="btn btn--ghost"  id="confirmCancelBtn" type="button">Cancelar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- DRAWER: NOVA TRANSAÇÃO -->
+  <div class="overlay" id="txOverlay" role="dialog" aria-modal="true" aria-label="Nova transação">
+    <div class="drawer" id="txDrawer">
+      <div class="drawer__handle" aria-hidden="true"></div>
+      <h2 class="drawer__title" id="txDrawerTitle">Nova transação</h2>
+
+      <div class="type-toggle" role="group" aria-label="Tipo de transação">
+        <button class="type-toggle__btn is-active-income" id="typeIncomeBtn" aria-pressed="true">↑ Entrada</button>
+        <button class="type-toggle__btn" id="typeExpenseBtn" aria-pressed="false">↓ Saída</button>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="txAmount">Valor (R$)</label>
+        <input type="tel" class="form-control form-control--mono" id="txAmount" placeholder="0,00" inputmode="decimal" autocomplete="off">
+        <span class="form-error" id="txAmountError">Informe um valor válido.</span>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="txDesc">Descrição</label>
+        <input type="text" class="form-control" id="txDesc" placeholder="Ex: Supermercado, Salário..." maxlength="80" autocomplete="off">
+        <span class="form-error" id="txDescError">Descrição obrigatória.</span>
+      </div>
+
+      <div class="form-group" id="categoryGroup">
+        <label class="form-label" for="txCategory">Categoria</label>
+        <select class="form-control" id="txCategory"></select>
+      </div>
+
+      <div class="form-group" id="paymentGroup">
+        <label class="form-label" for="txPayment">Forma de pagamento</label>
+        <select class="form-control" id="txPayment">
+          <option value="PIX">⚡ PIX</option>
+          <option value="Cartão de Crédito">💳 Cartão de Crédito</option>
+          <option value="Cartão de Débito">🏦 Cartão de Débito</option>
+          <option value="Boleto">📄 Boleto</option>
+          <option value="Dinheiro">💵 Dinheiro</option>
+        </select>
+      </div>
+
+      <div class="form-group" id="installmentGroup" style="display:none">
+        <label class="form-label">Parcelamento</label>
+        <div class="installment-row">
+          <div>
+            <label class="form-label" for="txInstallCurrent" style="font-size:.7rem">Parcela atual</label>
+            <input type="tel" class="form-control" id="txInstallCurrent" value="1" min="1" inputmode="numeric">
+          </div>
+          <div>
+            <label class="form-label" for="txInstallTotal" style="font-size:.7rem">Total de parcelas</label>
+            <input type="tel" class="form-control" id="txInstallTotal" value="1" min="1" inputmode="numeric">
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="txDate">Data</label>
+        <input type="date" class="form-control" id="txDate">
+      </div>
+
+      <button class="btn btn--primary mt-4" id="saveTxBtn">Salvar transação</button>
+      <button class="btn btn--ghost mt-2" id="cancelTxBtn">Cancelar</button>
+    </div>
+  </div>
+
+  <!-- DRAWER: NOVO OBJETIVO -->
+  <div class="overlay" id="goalOverlay" role="dialog" aria-modal="true" aria-label="Novo objetivo">
+    <div class="drawer">
+      <div class="drawer__handle" aria-hidden="true"></div>
+      <h2 class="drawer__title" id="goalDrawerTitle">Novo objetivo</h2>
+
+      <div class="form-group">
+        <label class="form-label" for="goalName">Nome do objetivo</label>
+        <input type="text" class="form-control" id="goalName" placeholder="Ex: Reserva de Emergência" maxlength="60" autocomplete="off">
+        <span class="form-error" id="goalNameError">Nome obrigatório.</span>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="goalTarget">Valor alvo (R$)</label>
+        <input type="tel" class="form-control form-control--mono" id="goalTarget" placeholder="0,00" inputmode="decimal" autocomplete="off">
+        <span class="form-error" id="goalTargetError">Informe um valor válido.</span>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="goalDeadline">Data limite</label>
+        <input type="date" class="form-control" id="goalDeadline">
+      </div>
+
+      <button class="btn btn--primary mt-4" id="saveGoalBtn">Criar objetivo</button>
+      <button class="btn btn--ghost mt-2" id="cancelGoalBtn">Cancelar</button>
+    </div>
+  </div>
+
+  <!-- DRAWER: NOVA DÍVIDA -->
+  <div class="overlay" id="debtOverlay" role="dialog" aria-modal="true" aria-label="Nova dívida">
+    <div class="drawer">
+      <div class="drawer__handle" aria-hidden="true"></div>
+      <h2 class="drawer__title">Nova dívida</h2>
+
+      <div class="type-toggle" role="group" aria-label="Tipo de dívida">
+        <button class="type-toggle__btn is-active-expense" id="debtTypeDewoBtn" data-type="devo" aria-pressed="true">💳 Devo</button>
+        <button class="type-toggle__btn" id="debtTypeMeBtn" data-type="me_devem" aria-pressed="false">📥 Me devem</button>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="debtDesc">Descrição</label>
+        <input type="text" class="form-control" id="debtDesc" placeholder="Ex: Empréstimo carro..." maxlength="80" autocomplete="off">
+        <span class="form-error" id="debtDescError">Descrição obrigatória.</span>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="debtTotal">Valor total (R$)</label>
+        <input type="tel" class="form-control form-control--mono" id="debtTotal" placeholder="0,00" inputmode="decimal" autocomplete="off">
+        <span class="form-error" id="debtTotalError">Informe um valor válido.</span>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="debtPaid">Valor já pago (R$)</label>
+        <input type="tel" class="form-control form-control--mono" id="debtPaid" placeholder="0,00" inputmode="decimal" value="0">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="debtDue">Vencimento</label>
+        <input type="date" class="form-control" id="debtDue">
+      </div>
+
+      <button class="btn btn--primary mt-4" id="saveDebtBtn">Salvar dívida</button>
+      <button class="btn btn--ghost mt-2" id="cancelDebtBtn">Cancelar</button>
+    </div>
+  </div>
+
+  <!-- DRAWER: APORTE / RESGATE EM OBJETIVO -->
+  <div class="overlay" id="goalActionOverlay" role="dialog" aria-modal="true" aria-label="Movimentação no objetivo">
+    <div class="drawer">
+      <div class="drawer__handle" aria-hidden="true"></div>
+      <h2 class="drawer__title" id="goalActionTitle">Aportar no objetivo</h2>
+      <input type="hidden" id="goalActionId">
+      <input type="hidden" id="goalActionType">
+
+      <div class="form-group">
+        <label class="form-label" for="goalActionAmt">Valor (R$)</label>
+        <input type="tel" class="form-control form-control--mono" id="goalActionAmt" placeholder="0,00" inputmode="decimal" autocomplete="off">
+        <span class="form-error" id="goalActionAmtError">Informe um valor válido.</span>
+      </div>
+
+      <button class="btn btn--primary mt-4" id="saveGoalActionBtn">Confirmar</button>
+      <button class="btn btn--ghost mt-2" id="cancelGoalActionBtn">Cancelar</button>
+    </div>
+  </div>
+
+  <!-- DRAWER: AMORTIZAÇÃO DE DÍVIDA -->
+  <div class="overlay" id="payDebtOverlay" role="dialog" aria-modal="true" aria-label="Registrar pagamento">
+    <div class="drawer">
+      <div class="drawer__handle" aria-hidden="true"></div>
+      <h2 class="drawer__title">Registrar pagamento</h2>
+      <input type="hidden" id="payDebtId">
+      <input type="hidden" id="payDebtTipo">
+
+      <div class="form-group">
+        <label class="form-label" for="payDebtAmt">Valor pago agora (R$)</label>
+        <input type="tel" class="form-control form-control--mono" id="payDebtAmt" placeholder="0,00" inputmode="decimal" autocomplete="off">
+        <span class="form-error" id="payDebtAmtError">Informe um valor válido.</span>
+      </div>
+
+      <button class="btn btn--primary mt-4" id="savePayDebtBtn">Registrar pagamento</button>
+      <button class="btn btn--ghost mt-2" id="cancelPayDebtBtn">Cancelar</button>
+    </div>
+  </div>
+
+  <!-- DRAWER: EDITAR OBJETIVO -->
+  <div class="overlay" id="editGoalOverlay" role="dialog" aria-modal="true" aria-label="Editar objetivo">
+    <div class="drawer">
+      <div class="drawer__handle" aria-hidden="true"></div>
+      <h2 class="drawer__title">Editar objetivo</h2>
+      <input type="hidden" id="editGoalId">
+
+      <div class="form-group">
+        <label class="form-label" for="editGoalName">Nome</label>
+        <input type="text" class="form-control" id="editGoalName" maxlength="60" autocomplete="off">
+        <span class="form-error" id="editGoalNameError">Nome obrigatório.</span>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="editGoalTarget">Valor alvo (R$)</label>
+        <input type="tel" class="form-control form-control--mono" id="editGoalTarget" placeholder="0,00" inputmode="decimal" autocomplete="off">
+        <span class="form-error" id="editGoalTargetError">Informe um valor válido.</span>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="editGoalCurrent">Valor atual (R$)</label>
+        <input type="tel" class="form-control form-control--mono" id="editGoalCurrent" placeholder="0,00" inputmode="decimal" autocomplete="off">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="editGoalDeadline">Data limite</label>
+        <input type="date" class="form-control" id="editGoalDeadline">
+      </div>
+
+      <button class="btn btn--primary mt-4" id="saveEditGoalBtn">Salvar alterações</button>
+      <button class="btn btn--ghost mt-2" id="cancelEditGoalBtn">Cancelar</button>
+    </div>
+  </div>
+
+  <!-- DRAWER: EDITAR DÍVIDA -->
+  <div class="overlay" id="editDebtOverlay" role="dialog" aria-modal="true" aria-label="Editar dívida">
+    <div class="drawer">
+      <div class="drawer__handle" aria-hidden="true"></div>
+      <h2 class="drawer__title">Editar dívida</h2>
+      <input type="hidden" id="editDebtId">
+
+      <div class="type-toggle" role="group" aria-label="Tipo de dívida">
+        <button class="type-toggle__btn" id="editDebtTypeDewoBtn" data-type="devo" aria-pressed="false">💳 Devo</button>
+        <button class="type-toggle__btn" id="editDebtTypeMeBtn"   data-type="me_devem" aria-pressed="false">📥 Me devem</button>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="editDebtDesc">Descrição</label>
+        <input type="text" class="form-control" id="editDebtDesc" maxlength="80" autocomplete="off">
+        <span class="form-error" id="editDebtDescError">Descrição obrigatória.</span>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="editDebtTotal">Valor total (R$)</label>
+        <input type="tel" class="form-control form-control--mono" id="editDebtTotal" placeholder="0,00" inputmode="decimal" autocomplete="off">
+        <span class="form-error" id="editDebtTotalError">Informe um valor válido.</span>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="editDebtPaid">Valor já pago (R$)</label>
+        <input type="tel" class="form-control form-control--mono" id="editDebtPaid" placeholder="0,00" inputmode="decimal" autocomplete="off">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="editDebtDue">Vencimento</label>
+        <input type="date" class="form-control" id="editDebtDue">
+      </div>
+
+      <button class="btn btn--primary mt-4" id="saveEditDebtBtn">Salvar alterações</button>
+      <button class="btn btn--ghost mt-2" id="cancelEditDebtBtn">Cancelar</button>
+    </div>
+  </div>
+
+  <!-- DRAWER: EDITAR TRANSAÇÃO -->
+  <div class="overlay" id="editTxOverlay" role="dialog" aria-modal="true" aria-label="Editar transação">
+    <div class="drawer">
+      <div class="drawer__handle" aria-hidden="true"></div>
+      <h2 class="drawer__title">Editar transação</h2>
+      <input type="hidden" id="editTxId">
+
+      <span id="editTxLinkedBadge" style="display:none;align-items:center;gap:6px;font-size:.75rem;font-weight:600;color:var(--clr-accent);background:var(--clr-accent-bg);border:1px solid var(--clr-accent);border-radius:100px;padding:3px 10px;margin-bottom:var(--sp-3)"></span>
+
+      <div class="type-toggle" role="group" aria-label="Tipo de transação">
+        <button class="type-toggle__btn" id="editTypeIncomeBtn" aria-pressed="false">↑ Entrada</button>
+        <button class="type-toggle__btn" id="editTypeExpenseBtn" aria-pressed="false">↓ Saída</button>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="editTxAmount">Valor (R$)</label>
+        <input type="tel" class="form-control form-control--mono" id="editTxAmount" placeholder="0,00" inputmode="decimal" autocomplete="off">
+        <span class="form-error" id="editTxAmountError">Informe um valor válido.</span>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="editTxDesc">Descrição</label>
+        <input type="text" class="form-control" id="editTxDesc" maxlength="80" autocomplete="off">
+        <span class="form-error" id="editTxDescError">Descrição obrigatória.</span>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="editTxCategory">Categoria</label>
+        <select class="form-control" id="editTxCategory"></select>
+      </div>
+
+      <div class="form-group" id="editPaymentGroup">
+        <label class="form-label" for="editTxPayment">Forma de pagamento</label>
+        <select class="form-control" id="editTxPayment">
+          <option value="PIX">⚡ PIX</option>
+          <option value="Cartão de Crédito">💳 Cartão de Crédito</option>
+          <option value="Cartão de Débito">🏦 Cartão de Débito</option>
+          <option value="Boleto">📄 Boleto</option>
+          <option value="Dinheiro">💵 Dinheiro</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="editTxDate">Data</label>
+        <input type="date" class="form-control" id="editTxDate">
+      </div>
+
+      <button class="btn btn--primary mt-4" id="saveEditTxBtn">Salvar alterações</button>
+      <button class="btn btn--ghost mt-2" id="cancelEditTxBtn">Cancelar</button>
+    </div>
+  </div>
+
+  <!-- Bootstrap vanilla JS (ES modules) -->
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "0": "App Shell + Routing",
+  "1": "Data Layer (IndexedDB + Repo)",
+  "2": "HTML UI Scaffold",
+  "3": "Data Components + Services",
+  "4": "Currency Utils + Models",
+  "5": "Confirm Dialog",
+  "6": "Edit Goal Drawer",
+  "7": "Google Fonts",
+  "8": "Goal Action Drawer",
+  "9": "New Goal Drawer",
+  "10": "Pay Debt Drawer",
+  "11": "Array.at Polyfill",
+  "12": "Array.find Polyfill",
+  "13": "Array.findIndex Polyfill",
+  "14": "String.padStart Polyfill",
+  "15": "Service Worker",
+  "16": "core.js"
+}

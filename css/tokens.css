@@ -1,0 +1,171 @@
+/* ============================================================
+   CSS CUSTOM PROPERTIES — Design Tokens
+   Brand palette: teal-green (#1a7a6e, #2aab96), amber/gold (#e8a020), dark navy bg
+   Supports: dark (default), light, auto (system preference)
+   ============================================================ */
+
+/* ── DARK MODE (DEFAULT) ─────────────────────────────────────── */
+:root {
+  /* Brand — from logo */
+  --clr-teal:        #2aab96;
+  --clr-teal-dim:    #1a7a6e;
+  --clr-teal-deep:   #0e5c52;
+  --clr-gold:        #e8a020;
+  --clr-gold-dim:    #b87a10;
+
+  /* Backgrounds */
+  --clr-bg:          #0a1a18;
+  --clr-surface:     #112420;
+  --clr-surface-2:   #1a3530;
+  --clr-border:      #234d45;
+
+  /* Text */
+  --clr-text:        #e8f5f3;
+  --clr-text-muted:  #7ab8b0;
+  --clr-text-dim:    #4a8880;
+
+  /* Semantic — Expense categories */
+  --clr-green:       #2aab96;
+  --clr-green-dim:   #1a7a6e;
+  --clr-green-bg:    rgba(42,171,150,.15);
+  --clr-red:         #ef5350;
+  --clr-red-dim:     #c62828;
+  --clr-red-bg:      rgba(239,83,80,.13);
+  --clr-amber:       #e8a020;
+  --clr-amber-bg:    rgba(232,160,32,.15);
+  --clr-blue:        #26a69a;
+  --clr-blue-bg:     rgba(38,166,154,.13);
+
+  /* Semantic — Income categories (distinct from expense) */
+  --clr-income-teal:  #26a69a;
+  --clr-income-green: #66bb6a;
+  --clr-income-orange:#ffa726;
+  --clr-income-blue:  #42a5f5;
+  --clr-income-purple:#ab47bc;
+  --clr-income-red:   #ef5350;
+  --clr-income-cyan:  #26c6da;
+  --clr-income-lime:  #d4e157;
+
+  /* Linked categories */
+  --clr-goal:        #f06292;
+  --clr-debt:        #ff8a65;
+
+  /* Accent (primary action) */
+  --clr-accent:      #2aab96;
+  --clr-accent-bg:   rgba(42,171,150,.15);
+  --clr-accent-text: #0a1a18;
+
+  /* Header */
+  --clr-header-bg:   rgba(10,26,24,.96);
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.5);
+  --shadow-md: 0 4px 16px rgba(0,0,0,.6);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,.7);
+
+  /* Typography */
+  --font-body:  'Inter', system-ui, sans-serif;
+  --font-mono:  'DM Mono', 'Courier New', monospace;
+
+  /* Spacing grid: 8px base */
+  --sp-1: 4px;  --sp-2: 8px;  --sp-3: 12px; --sp-4: 16px;
+  --sp-5: 20px; --sp-6: 24px; --sp-8: 32px; --sp-10: 40px;
+
+  /* Radius */
+  --r-sm: 6px; --r-md: 10px; --r-lg: 16px; --r-xl: 24px;
+
+  /* Transitions */
+  --t-fast: 150ms ease; --t-base: 250ms ease; --t-slow: 400ms ease;
+
+  /* Nav */
+  --nav-h: 64px; --bottom-nav-h: 68px;
+
+  /* Donut chart — distinct cyan for "Disponível" */
+  --clr-disponivel: #4dd0e1;
+}
+
+/* ── LIGHT MODE ──────────────────────────────────────────────── */
+[data-theme="light"] {
+  /* Backgrounds — warm white/cream, not blue-tinted */
+  --clr-bg:          #f7f9f8;
+  --clr-surface:     #ffffff;
+  --clr-surface-2:   #edf4f2;
+  --clr-border:      #cde0dc;
+  --clr-header-bg:   rgba(247,249,248,.97);
+
+  /* Text — dark charcoal, never pure black */
+  --clr-text:        #1a2e2b;
+  --clr-text-muted:  #4a7a72;
+  --clr-text-dim:    #7aada6;
+
+  /* Semantic — pastel, not neon */
+  --clr-green:       #1a7a6e;
+  --clr-green-dim:   #0e5c52;
+  --clr-green-bg:    rgba(26,122,110,.09);
+  --clr-red:         #b84040;
+  --clr-red-dim:     #8b2e2e;
+  --clr-red-bg:      rgba(184,64,64,.09);
+  --clr-amber:       #9a6a10;
+  --clr-amber-bg:    rgba(154,106,16,.09);
+  --clr-blue:        #2e7a8a;
+  --clr-blue-bg:     rgba(46,122,138,.09);
+
+  /* Income pastel variants */
+  --clr-income-teal:  #2e7a8a;
+  --clr-income-green: #388e3c;
+  --clr-income-orange:#c47600;
+  --clr-income-blue:  #1565c0;
+  --clr-income-purple:#7b1fa2;
+  --clr-income-red:   #c62828;
+  --clr-income-cyan:  #00838f;
+  --clr-income-lime:  #827717;
+
+  /* Linked */
+  --clr-goal:        #c2185b;
+  --clr-debt:        #e65100;
+
+  /* Accent */
+  --clr-accent:      #1a7a6e;
+  --clr-accent-bg:   rgba(26,122,110,.1);
+  --clr-accent-text: #ffffff;
+
+  /* Shadows — subtle */
+  --shadow-sm: 0 1px 4px rgba(10,40,35,.08);
+  --shadow-md: 0 4px 16px rgba(10,40,35,.1);
+  --shadow-lg: 0 8px 32px rgba(10,40,35,.12);
+
+  /* Donut — distinct cyan for "Disponível" */
+  --clr-disponivel: #00bcd4;
+}
+
+/* ── AUTO (SYSTEM PREFERENCE) ────────────────────────────────── */
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --clr-bg:          #f7f9f8;
+    --clr-surface:     #ffffff;
+    --clr-surface-2:   #edf4f2;
+    --clr-border:      #cde0dc;
+    --clr-header-bg:   rgba(247,249,248,.97);
+    --clr-text:        #1a2e2b;
+    --clr-text-muted:  #4a7a72;
+    --clr-text-dim:    #7aada6;
+    --clr-green:       #1a7a6e;
+    --clr-green-dim:   #0e5c52;
+    --clr-green-bg:    rgba(26,122,110,.09);
+    --clr-red:         #b84040;
+    --clr-red-dim:     #8b2e2e;
+    --clr-red-bg:      rgba(184,64,64,.09);
+    --clr-amber:       #9a6a10;
+    --clr-amber-bg:    rgba(154,106,16,.09);
+    --clr-blue:        #2e7a8a;
+    --clr-blue-bg:     rgba(46,122,138,.09);
+    --clr-accent:      #1a7a6e;
+    --clr-accent-bg:   rgba(26,122,110,.1);
+    --clr-accent-text: #ffffff;
+    --clr-header-bg:   rgba(247,249,248,.97);
+    --shadow-sm:       0 1px 4px rgba(10,40,35,.08);
+    --shadow-md:       0 4px 16px rgba(10,40,35,.1);
+    --shadow-lg:       0 8px 32px rgba(10,40,35,.12);
+    --clr-disponivel:  #00bcd4;
+  }
+}
