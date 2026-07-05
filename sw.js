@@ -33,7 +33,9 @@ self.addEventListener('install', function(e) {
       // Use addAll with care — if any asset fails, the whole batch fails.
       // For resilience, cache files individually and ignore failures.
       return Promise.all(ASSETS.map(function(url) {
-        return cache.add(url).catch(function() { /* ignore individual failures */ });
+        return cache.add(url).catch(function(err) {
+          console.warn('[SW] precache fail:', url, err);
+        });
       }));
     }).then(function() {
       return self.skipWaiting();

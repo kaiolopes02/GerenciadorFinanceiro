@@ -47,6 +47,7 @@ export const ConfirmDialog = {
     if (!dialog || !msgEl) {
       // Ultimate fallback for extremely old browsers
       if (window.confirm(msg)) { if (typeof onConfirm === 'function') onConfirm(); }
+      _confirmCallback = null;
       return;
     }
     msgEl.textContent  = msg;

@@ -48,7 +48,6 @@ const TxForm = {
     $('txAmount').value    = '';
     $('txDesc').value      = '';
     $('txDate').value      = today;
-    $('txPayment').value   = 'PIX';
     $('txInstallCurrent').value = '1';
     $('txInstallTotal').value   = '1';
     var txOvl = $('txOverlay');

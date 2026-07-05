@@ -140,7 +140,7 @@
 
 /* ── AUTO (SYSTEM PREFERENCE) ────────────────────────────────── */
 @media (prefers-color-scheme: light) {
-  :root:not([data-theme="dark"]) {
+  :root:not([data-theme="dark"]):not([data-theme="light"]) {
     --clr-bg:          #f7f9f8;
     --clr-surface:     #ffffff;
     --clr-surface-2:   #edf4f2;
