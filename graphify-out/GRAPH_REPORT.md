@@ -1,13 +1,18 @@
 # Graph Report - GerenciadorFinanceiro  (2026-07-05)
 
 ## Corpus Check
-- 15 files · ~24,302 words
+- 15 files · ~24,482 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
 - 149 nodes · 327 edges · 17 communities (11 shown, 6 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 8 edges (avg confidence: 0.83)
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `72be5dc5`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_App Shell + Routing|App Shell + Routing]]

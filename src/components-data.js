@@ -215,12 +215,15 @@ export function TxItem(tx) {
 }
 
 /* === TX LIST === */
+var _txListState = new Map(); // containerId -> { allTxs, shownCount, pageSize }
+
 /**
- * Render transaction list into a container
+ * Render transaction list into a container with pagination
  * @param {string} containerId - DOM element ID
  * @param {Array} txs - Transactions array
+ * @param {Object} [options] - { pageSize?: number }
  */
-export function TxList(containerId, txs) {
+export function TxList(containerId, txs, options) {
   var container = $(containerId);
   if (!container) return;
   if (!txs || !txs.length) {
@@ -232,15 +235,33 @@ export function TxList(containerId, txs) {
       '</div>';
     return;
   }
-  var MAX_VISIBLE = 200;
-  var visible = txs.length > MAX_VISIBLE ? txs.slice(0, MAX_VISIBLE) : txs;
+  var pageSize = (options && options.pageSize) || 50;
+  var state = _txListState.get(containerId);
+  if (!state || state.allTxs.length !== txs.length || state.allTxs[0]?.id !== txs[0]?.id) {
+    state = { allTxs: txs, shownCount: 0, pageSize: pageSize };
+    _txListState.set(containerId, state);
+  }
+  state.allTxs = txs;
+  state.pageSize = pageSize;
+  var toShow = Math.min(state.shownCount + pageSize, txs.length);
+  var visible = txs.slice(0, toShow);
   var html = '';
   visible.forEach(tx => { html += TxItem(tx); });
-  if (txs.length > MAX_VISIBLE) {
-    html += '<p style="text-align:center;font-size:.75rem;color:var(--clr-text-dim);padding:var(--sp-3)">' +
-            'Mostrando ' + MAX_VISIBLE + ' de ' + txs.length + ' transações. Use os filtros para refinar.</p>';
+  if (toShow < txs.length) {
+    html += '<button class="btn btn--ghost tx-load-more" data-container="' + containerId + '" style="width:100%;margin-top:var(--sp-3)">' +
+            'Carregar mais ' + (txs.length - toShow) + '...</button>';
+  } else if (state.shownCount > 0) {
+    // Reset when all shown and data refreshed
+    state.shownCount = 0;
   }
   container.innerHTML = html;
+  state.shownCount = toShow;
+
+  // Bind load more button
+  var btn = container.querySelector('.tx-load-more');
+  if (btn) {
+    btn.onclick = function() { TxList(containerId, txs, options); };
+  }
 }
 
 /* === GOAL CARD === */

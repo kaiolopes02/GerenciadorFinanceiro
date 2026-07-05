@@ -113,9 +113,17 @@ const TxForm = {
       $('txDescError').classList.remove('is-visible');
     }
 
-    if (!dateVal || !/^\d{4}-\d{2}-\d{2}$/.test(dateVal)) {
-      var dateEl = $('txDate');
-      if (dateEl) { if (!dateVal) dateEl.value = new Date().toISOString().split('T')[0]; }
+    if (!dateVal) {
+      $('txDate').classList.add('is-invalid');
+      $('txDateError').classList.add('is-visible');
+      valid = false;
+    } else if (!/^\d{4}-\d{2}-\d{2}$/.test(dateVal)) {
+      $('txDate').classList.add('is-invalid');
+      $('txDateError').classList.add('is-visible');
+      valid = false;
+    } else {
+      $('txDate').classList.remove('is-invalid');
+      $('txDateError').classList.remove('is-visible');
     }
     return valid;
   },

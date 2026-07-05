@@ -90,9 +90,33 @@ var _focusTrapHandler = null;
 export function openOverlay(id) {
   var el = $(id);
   if (!el) return;
-  el.classList.add('is-open');
+  var drawer = el.querySelector('.drawer');
   var firstInput = el.querySelector('input:not([type=hidden]), select, button:not([disabled])');
-  if (firstInput) setTimeout(() => { try { firstInput.focus(); } catch(e) {} }, 350);
+  
+  function focusFirstInput() {
+    if (firstInput) {
+      try { firstInput.focus(); } catch(e) {}
+    }
+  }
+
+  if (drawer) {
+    var onTransitionEnd = function(e) {
+      if (e.target === drawer && (e.propertyName === 'transform' || e.propertyName === '-webkit-transform')) {
+        drawer.removeEventListener('transitionend', onTransitionEnd);
+        focusFirstInput();
+      }
+    };
+    drawer.addEventListener('transitionend', onTransitionEnd);
+    // Fallback in case transitionend doesn't fire
+    setTimeout(function() {
+      drawer.removeEventListener('transitionend', onTransitionEnd);
+      focusFirstInput();
+    }, 500);
+  } else {
+    focusFirstInput();
+  }
+
+  el.classList.add('is-open');
 
   if (_focusTrapHandler) document.removeEventListener('keydown', _focusTrapHandler);
   _focusTrapHandler = function(ev) {

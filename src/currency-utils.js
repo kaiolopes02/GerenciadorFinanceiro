@@ -34,7 +34,8 @@ export function genId(prefix) {
 export function parseBRL(str) {
   if (typeof str !== 'string') str = String(str || '');
   str = str.slice(0, 20);
-  str = str.replace(/[^\d,\.]/g, '');
+  var negative = str.trim().startsWith('-');
+  str = str.replace(/[^\d,\.\-]/g, '');
   if (str.indexOf(',') > -1 && str.indexOf('.') > -1) {
     if (str.lastIndexOf(',') > str.lastIndexOf('.')) {
       str = str.replace(/\./g, '').replace(',', '.');
@@ -45,7 +46,9 @@ export function parseBRL(str) {
     str = str.replace(',', '.');
   }
   var v = parseFloat(str);
-  return isNaN(v) ? 0 : Math.round(v * 100) / 100;
+  if (isNaN(v)) return 0;
+  v = Math.round(v * 100) / 100;
+  return negative ? -Math.abs(v) : v;
 }
 
 export function formatBRL(num) {
