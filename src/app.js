@@ -973,28 +973,31 @@ function init() {
     });
   }
 
-  // TX form input handlers — clears red-border state on any edit (mobile fires input only when content changes, so unconditional clear is safest)
-  var amtEl = $('txAmount');
-  if (amtEl) {
-    amtEl.addEventListener('input', function() {
-      amtEl.classList.remove('is-invalid');
-      $('txAmountError').classList.remove('is-visible');
-    });
+  // TX form handlers — clear red-border state on input AND change (mobile keyboards may skip 'input' on paste/autocomplete, so 'change' is the safety net). Errors re-appear only on submit via validate(true).
+  function clearFieldError(el, errId) {
+    if (el) el.classList.remove('is-invalid');
+    var err = $(errId); if (err) err.classList.remove('is-visible');
   }
+  var amtEl  = $('txAmount');
   var descEl = $('txDesc');
-  if (descEl) {
-    descEl.addEventListener('input', function() {
-      descEl.classList.remove('is-invalid');
-      $('txDescError').classList.remove('is-visible');
-    });
-  }
   var dateEl = $('txDate');
-  if (dateEl) {
-    dateEl.addEventListener('input', function() {
-      dateEl.classList.remove('is-invalid');
-      $('txDateError').classList.remove('is-visible');
-    });
-  }
+  if (amtEl)  { amtEl.addEventListener('input',  () => clearFieldError(amtEl,  'txAmountError'));
+                amtEl.addEventListener('change',  () => clearFieldError(amtEl,  'txAmountError')); }
+  if (descEl) { descEl.addEventListener('input',  () => clearFieldError(descEl, 'txDescError'));
+                descEl.addEventListener('change', () => clearFieldError(descEl, 'txDescError')); }
+  if (dateEl) { dateEl.addEventListener('input',  () => clearFieldError(dateEl, 'txDateError'));
+                dateEl.addEventListener('change', () => clearFieldError(dateEl, 'txDateError')); }
+
+  // Edit-TX form handlers — same pattern as new-tx (mobile 'input' may not fire on paste/autocomplete)
+  var editAmtEl  = $('editTxAmount');
+  var editDescEl = $('editTxDesc');
+  var editDateEl = $('editTxDate');
+  if (editAmtEl)  { editAmtEl.addEventListener('input',  () => clearFieldError(editAmtEl,  'editTxAmountError'));
+                   editAmtEl.addEventListener('change', () => clearFieldError(editAmtEl,  'editTxAmountError')); }
+  if (editDescEl) { editDescEl.addEventListener('input',  () => clearFieldError(editDescEl, 'editTxDescError'));
+                    editDescEl.addEventListener('change', () => clearFieldError(editDescEl, 'editTxDescError')); }
+  if (editDateEl) { editDateEl.addEventListener('input',  () => clearFieldError(editDateEl, 'editTxDateError'));
+                    editDateEl.addEventListener('change', () => clearFieldError(editDateEl, 'editTxDateError')); }
 
   // TX filters
   $all('.tx-filter-chip').forEach(chip => {

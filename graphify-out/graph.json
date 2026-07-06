@@ -1357,7 +1357,7 @@
       "relation": "indirect_call",
       "confidence": "INFERRED",
       "source_file": "src/app.js",
-      "source_location": "L1086",
+      "source_location": "L1089",
       "weight": 1.0,
       "context": "argument",
       "source": "src_app",
@@ -2044,7 +2044,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/app.js",
-      "source_location": "L1076",
+      "source_location": "L1079",
       "weight": 1.0,
       "source": "src_app_init",
       "target": "src_app_showdiagnostics",
@@ -2077,7 +2077,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/app.js",
-      "source_location": "L1066",
+      "source_location": "L1069",
       "weight": 1.0,
       "source": "src_app_init",
       "target": "src_components_shell_handleresize",
@@ -2099,7 +2099,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/app.js",
-      "source_location": "L1056",
+      "source_location": "L1059",
       "weight": 1.0,
       "source": "src_app_init",
       "target": "src_components_shell_smoothscroll",
@@ -2110,7 +2110,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/app.js",
-      "source_location": "L1000",
+      "source_location": "L1003",
       "weight": 1.0,
       "source": "src_app_init",
       "target": "src_core_all",
@@ -4600,5 +4600,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "79da5da163df9784bdb451512cf9172ee89c26b2"
+  "built_at_commit": "b77b7e11716ed0b1f03b63463a80916f58db0d56"
 }
