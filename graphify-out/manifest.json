@@ -45,13 +45,13 @@
     "semantic_hash": "e239f0c01a5fb72712b32091dc3f07b0"
   },
   "src/page-dashboard.js": {
-    "mtime": 1783288929.6785638,
-    "ast_hash": "c45f8a80ebd367ad8a22069b222bb66b",
-    "semantic_hash": "c45f8a80ebd367ad8a22069b222bb66b"
+    "mtime": 1783378229.6016226,
+    "ast_hash": "d327c5f7704d7d7a9c646888194938ec",
+    "semantic_hash": ""
   },
   "src/page-transacoes.js": {
-    "mtime": 1783376412.0051568,
-    "ast_hash": "01bf159a4b46a9d205ad4f874c777fdc",
+    "mtime": 1783378168.768609,
+    "ast_hash": "aaba30ba23969806cb18e1c7c399e1c2",
     "semantic_hash": ""
   },
   "src/page-objetivos.js": {

@@ -5,7 +5,7 @@ import { $, state } from './core.js';
 import { BalanceService } from './services.js';
 import { BalanceHero, DonutChart, CategoryBars, TxList } from './components-data.js';
 
-var _refreshTimer = null;
+var _refreshGen = 0;
 
 export const DashboardPage = {
   /**
@@ -22,12 +22,9 @@ export const DashboardPage = {
    * Refresh dashboard (debounced)
    */
   refresh() {
-    clearTimeout(_refreshTimer);
-    _refreshTimer = setTimeout(() => this._doRefresh(), 0);
-  },
-
-  _doRefresh() {
+    var gen = ++_refreshGen;
     this.repos.transacoes.getCurrentMonth().then(txs => {
+      if (_refreshGen !== gen) return;
       var balance = BalanceService.calcular(txs);
 
       BalanceHero(balance);

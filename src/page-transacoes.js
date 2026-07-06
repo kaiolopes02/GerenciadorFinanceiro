@@ -8,21 +8,18 @@ import { TxList } from './components-data.js';
 var txFilterState = { type: 'all', category: '', payment: '' };
 
 export const TransacoesPage = {
-  /**
-   * Initialize transacoes page
-   * @param {Object} ctx - { repos, bus }
-   */
+  _refreshGen: 0,
+
   init(ctx) {
     this.repos = ctx.repos;
     this.bus = ctx.bus;
     this.refresh();
   },
 
-  /**
-   * Refresh the transactions list
-   */
   refresh() {
+    var gen = ++this._refreshGen;
     this.repos.transacoes.getCurrentMonth().then(txs => {
+      if (this._refreshGen !== gen) return;
       txs.sort((a, b) => b.data.localeCompare(a.data));
       this._populateCategoryFilter(txs);
       var filtered = this._applyFilters(txs);
