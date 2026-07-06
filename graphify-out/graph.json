@@ -1,56 +1,7 @@
 {
   "directed": false,
   "multigraph": false,
-  "graph": {
-    "hyperedges": [
-      {
-        "id": "index_payment_options_group",
-        "label": "Payment Method Enumeration",
-        "nodes": [
-          "index_tx_drawer",
-          "index_edit_tx_drawer",
-          "index_tx_filters",
-          "index_payment_methods"
-        ],
-        "relation": "participate_in",
-        "confidence": "EXTRACTED",
-        "confidence_score": 0.95,
-        "source_file": "index.html"
-      },
-      {
-        "id": "index_drawer_forms_flow",
-        "label": "CRUD Drawer Form Flow",
-        "nodes": [
-          "index_tx_drawer",
-          "index_goal_drawer",
-          "index_debt_drawer",
-          "index_edit_tx_drawer",
-          "index_edit_goal_drawer",
-          "index_edit_debt_drawer",
-          "index_goal_action_drawer",
-          "index_pay_debt_drawer"
-        ],
-        "relation": "form",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": "index.html"
-      },
-      {
-        "id": "index_lgpd_privacy_scaffold",
-        "label": "LGPD Privacy Scaffold",
-        "nodes": [
-          "index_csp_meta",
-          "index_lgpd_banner",
-          "index_backup_actions",
-          "index_page_config_section"
-        ],
-        "relation": "participate_in",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": "index.html"
-      }
-    ]
-  },
+  "graph": {},
   "nodes": [
     {
       "label": "app.js",
@@ -59,7 +10,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_app",
-      "community": 0,
+      "community": 1,
       "norm_label": "app.js"
     },
     {
@@ -69,7 +20,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_app_repos",
-      "community": 0,
+      "community": 1,
       "norm_label": "repos"
     },
     {
@@ -79,7 +30,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "src_app_getmonthlabel",
-      "community": 0,
+      "community": 1,
       "norm_label": "getmonthlabel()"
     },
     {
@@ -89,7 +40,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "src_app_updatemonthlabels",
-      "community": 0,
+      "community": 1,
       "norm_label": "updatemonthlabels()"
     },
     {
@@ -99,7 +50,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "src_app_changemonth",
-      "community": 0,
+      "community": 1,
       "norm_label": "changemonth()"
     },
     {
@@ -109,7 +60,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "src_app_txform",
-      "community": 0,
+      "community": 1,
       "norm_label": "txform"
     },
     {
@@ -119,7 +70,7 @@
       "source_location": "L383",
       "_origin": "ast",
       "id": "src_app_goalform",
-      "community": 0,
+      "community": 1,
       "norm_label": "goalform"
     },
     {
@@ -129,7 +80,7 @@
       "source_location": "L560",
       "_origin": "ast",
       "id": "src_app_debtform",
-      "community": 0,
+      "community": 1,
       "norm_label": "debtform"
     },
     {
@@ -139,7 +90,7 @@
       "source_location": "L776",
       "_origin": "ast",
       "id": "src_app_initlgpd",
-      "community": 0,
+      "community": 1,
       "norm_label": "initlgpd()"
     },
     {
@@ -149,7 +100,7 @@
       "source_location": "L785",
       "_origin": "ast",
       "id": "src_app_handledelegatedaction",
-      "community": 0,
+      "community": 1,
       "norm_label": "handledelegatedaction()"
     },
     {
@@ -159,7 +110,7 @@
       "source_location": "L812",
       "_origin": "ast",
       "id": "src_app_initeventdelegation",
-      "community": 0,
+      "community": 1,
       "norm_label": "initeventdelegation()"
     },
     {
@@ -169,7 +120,7 @@
       "source_location": "L862",
       "_origin": "ast",
       "id": "src_app_initoverlayhandlers",
-      "community": 0,
+      "community": 1,
       "norm_label": "initoverlayhandlers()"
     },
     {
@@ -179,7 +130,7 @@
       "source_location": "L885",
       "_origin": "ast",
       "id": "src_app_showdiagnostics",
-      "community": 0,
+      "community": 1,
       "norm_label": "showdiagnostics()"
     },
     {
@@ -189,7 +140,7 @@
       "source_location": "L898",
       "_origin": "ast",
       "id": "src_app_init",
-      "community": 0,
+      "community": 1,
       "norm_label": "init()"
     },
     {
@@ -199,7 +150,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_data",
-      "community": 3,
+      "community": 2,
       "norm_label": "components-data.js"
     },
     {
@@ -209,7 +160,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_components_data_balancehero",
-      "community": 3,
+      "community": 2,
       "norm_label": "balancehero()"
     },
     {
@@ -219,7 +170,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_components_data_polartoxy",
-      "community": 3,
+      "community": 2,
       "norm_label": "polartoxy()"
     },
     {
@@ -229,7 +180,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "src_components_data_makearcpath",
-      "community": 3,
+      "community": 2,
       "norm_label": "makearcpath()"
     },
     {
@@ -239,7 +190,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "src_components_data_donutchart",
-      "community": 3,
+      "community": 2,
       "norm_label": "donutchart()"
     },
     {
@@ -249,7 +200,7 @@
       "source_location": "L152",
       "_origin": "ast",
       "id": "src_components_data_categorybars",
-      "community": 3,
+      "community": 2,
       "norm_label": "categorybars()"
     },
     {
@@ -259,7 +210,7 @@
       "source_location": "L186",
       "_origin": "ast",
       "id": "src_components_data_txitem",
-      "community": 3,
+      "community": 2,
       "norm_label": "txitem()"
     },
     {
@@ -269,7 +220,7 @@
       "source_location": "L226",
       "_origin": "ast",
       "id": "src_components_data_txlist",
-      "community": 3,
+      "community": 2,
       "norm_label": "txlist()"
     },
     {
@@ -279,7 +230,7 @@
       "source_location": "L273",
       "_origin": "ast",
       "id": "src_components_data_goalcard",
-      "community": 3,
+      "community": 2,
       "norm_label": "goalcard()"
     },
     {
@@ -289,7 +240,7 @@
       "source_location": "L309",
       "_origin": "ast",
       "id": "src_components_data_debtcard",
-      "community": 3,
+      "community": 2,
       "norm_label": "debtcard()"
     },
     {
@@ -299,7 +250,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_shell",
-      "community": 0,
+      "community": 3,
       "norm_label": "components-shell.js"
     },
     {
@@ -309,7 +260,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_components_shell_toaststack",
-      "community": 0,
+      "community": 3,
       "norm_label": "toaststack"
     },
     {
@@ -319,7 +270,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "src_components_shell_confirmdialog",
-      "community": 0,
+      "community": 3,
       "norm_label": "confirmdialog"
     },
     {
@@ -329,7 +280,7 @@
       "source_location": "L91",
       "_origin": "ast",
       "id": "src_components_shell_openoverlay",
-      "community": 0,
+      "community": 1,
       "norm_label": "openoverlay()"
     },
     {
@@ -339,7 +290,7 @@
       "source_location": "L140",
       "_origin": "ast",
       "id": "src_components_shell_closeoverlay",
-      "community": 0,
+      "community": 1,
       "norm_label": "closeoverlay()"
     },
     {
@@ -349,7 +300,7 @@
       "source_location": "L157",
       "_origin": "ast",
       "id": "src_components_shell_emptystate",
-      "community": 0,
+      "community": 3,
       "norm_label": "emptystate()"
     },
     {
@@ -359,7 +310,7 @@
       "source_location": "L166",
       "_origin": "ast",
       "id": "src_components_shell_monthnav",
-      "community": 0,
+      "community": 3,
       "norm_label": "monthnav"
     },
     {
@@ -369,7 +320,7 @@
       "source_location": "L180",
       "_origin": "ast",
       "id": "src_components_shell_handleresize",
-      "community": 0,
+      "community": 1,
       "norm_label": "handleresize()"
     },
     {
@@ -379,7 +330,7 @@
       "source_location": "L186",
       "_origin": "ast",
       "id": "src_components_shell_smoothscroll",
-      "community": 0,
+      "community": 3,
       "norm_label": "smoothscroll()"
     },
     {
@@ -389,7 +340,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_core",
-      "community": 16,
+      "community": 3,
       "norm_label": "core.js"
     },
     {
@@ -399,7 +350,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_core_promiseshim",
-      "community": 1,
+      "community": 0,
       "norm_label": "promiseshim()"
     },
     {
@@ -409,7 +360,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "src_core_promiseshim_then",
-      "community": 1,
+      "community": 0,
       "norm_label": ".then()"
     },
     {
@@ -419,7 +370,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "src_core_promiseshim_catch",
-      "community": 1,
+      "community": 0,
       "norm_label": ".catch()"
     },
     {
@@ -429,7 +380,7 @@
       "source_location": "L60",
       "_origin": "ast",
       "id": "src_core_array_at",
-      "community": 11,
+      "community": 8,
       "norm_label": ".at()"
     },
     {
@@ -439,7 +390,7 @@
       "source_location": "L68",
       "_origin": "ast",
       "id": "src_core_array_find",
-      "community": 12,
+      "community": 9,
       "norm_label": ".find()"
     },
     {
@@ -449,7 +400,7 @@
       "source_location": "L76",
       "_origin": "ast",
       "id": "src_core_array_findindex",
-      "community": 13,
+      "community": 10,
       "norm_label": ".findindex()"
     },
     {
@@ -459,7 +410,7 @@
       "source_location": "L84",
       "_origin": "ast",
       "id": "src_core_string_padstart",
-      "community": 14,
+      "community": 11,
       "norm_label": ".padstart()"
     },
     {
@@ -469,7 +420,7 @@
       "source_location": "L111",
       "_origin": "ast",
       "id": "src_core_eventbus",
-      "community": 16,
+      "community": 3,
       "norm_label": "eventbus"
     },
     {
@@ -479,7 +430,7 @@
       "source_location": "L166",
       "_origin": "ast",
       "id": "c_users_suass_onedrive_\u00e1rea_de_trabalho_projetos_programa\u00e7\u00e3o_gerenciadorfinanceiro_src_core",
-      "community": 0,
+      "community": 1,
       "norm_label": "$$"
     },
     {
@@ -489,7 +440,7 @@
       "source_location": "L176",
       "_origin": "ast",
       "id": "src_core_all",
-      "community": 0,
+      "community": 1,
       "norm_label": "$all()"
     },
     {
@@ -499,7 +450,7 @@
       "source_location": "L185",
       "_origin": "ast",
       "id": "src_core_onclick",
-      "community": 16,
+      "community": 3,
       "norm_label": "onclick()"
     },
     {
@@ -509,7 +460,7 @@
       "source_location": "L220",
       "_origin": "ast",
       "id": "src_core_createel",
-      "community": 16,
+      "community": 3,
       "norm_label": "createel()"
     },
     {
@@ -519,7 +470,7 @@
       "source_location": "L236",
       "_origin": "ast",
       "id": "src_core_storage",
-      "community": 16,
+      "community": 3,
       "norm_label": "storage"
     },
     {
@@ -529,7 +480,7 @@
       "source_location": "L253",
       "_origin": "ast",
       "id": "src_core_db_stores",
-      "community": 16,
+      "community": 3,
       "norm_label": "db_stores"
     },
     {
@@ -539,7 +490,7 @@
       "source_location": "L261",
       "_origin": "ast",
       "id": "src_core_opendb",
-      "community": 1,
+      "community": 0,
       "norm_label": "opendb()"
     },
     {
@@ -549,7 +500,7 @@
       "source_location": "L303",
       "_origin": "ast",
       "id": "src_core_dbgetall",
-      "community": 1,
+      "community": 0,
       "norm_label": "dbgetall()"
     },
     {
@@ -559,7 +510,7 @@
       "source_location": "L332",
       "_origin": "ast",
       "id": "src_core_dbput",
-      "community": 1,
+      "community": 0,
       "norm_label": "dbput()"
     },
     {
@@ -569,7 +520,7 @@
       "source_location": "L349",
       "_origin": "ast",
       "id": "src_core_dbdelete",
-      "community": 1,
+      "community": 0,
       "norm_label": "dbdelete()"
     },
     {
@@ -579,7 +530,7 @@
       "source_location": "L364",
       "_origin": "ast",
       "id": "src_core_dbclearall",
-      "community": 1,
+      "community": 0,
       "norm_label": "dbclearall()"
     },
     {
@@ -589,7 +540,7 @@
       "source_location": "L381",
       "_origin": "ast",
       "id": "src_core_dbbulkimport",
-      "community": 1,
+      "community": 0,
       "norm_label": "dbbulkimport()"
     },
     {
@@ -599,7 +550,7 @@
       "source_location": "L396",
       "_origin": "ast",
       "id": "src_core_state",
-      "community": 16,
+      "community": 2,
       "norm_label": "state"
     },
     {
@@ -619,7 +570,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "src_currency_utils_sanitize",
-      "community": 3,
+      "community": 2,
       "norm_label": "sanitize()"
     },
     {
@@ -629,7 +580,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "src_currency_utils_genid",
-      "community": 0,
+      "community": 1,
       "norm_label": "genid()"
     },
     {
@@ -639,7 +590,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "src_currency_utils_parsebrl",
-      "community": 0,
+      "community": 1,
       "norm_label": "parsebrl()"
     },
     {
@@ -649,7 +600,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "src_currency_utils_formatbrl",
-      "community": 3,
+      "community": 2,
       "norm_label": "formatbrl()"
     },
     {
@@ -659,7 +610,7 @@
       "source_location": "L63",
       "_origin": "ast",
       "id": "src_currency_utils_formatdate",
-      "community": 3,
+      "community": 2,
       "norm_label": "formatdate()"
     },
     {
@@ -799,7 +750,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_models",
-      "community": 0,
+      "community": 1,
       "norm_label": "models.js"
     },
     {
@@ -809,7 +760,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_models_transacao",
-      "community": 0,
+      "community": 1,
       "norm_label": "transacao"
     },
     {
@@ -819,7 +770,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "src_models_objetivo",
-      "community": 0,
+      "community": 1,
       "norm_label": "objetivo"
     },
     {
@@ -829,7 +780,7 @@
       "source_location": "L142",
       "_origin": "ast",
       "id": "src_models_divida",
-      "community": 0,
+      "community": 1,
       "norm_label": "divida"
     },
     {
@@ -839,7 +790,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_page_config",
-      "community": 16,
+      "community": 3,
       "norm_label": "page-config.js"
     },
     {
@@ -849,7 +800,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_page_config_configpage",
-      "community": 16,
+      "community": 1,
       "norm_label": "configpage"
     },
     {
@@ -859,7 +810,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_page_dashboard",
-      "community": 3,
+      "community": 2,
       "norm_label": "page-dashboard.js"
     },
     {
@@ -869,7 +820,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_page_dashboard_dashboardpage",
-      "community": 3,
+      "community": 1,
       "norm_label": "dashboardpage"
     },
     {
@@ -879,7 +830,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_page_dividas",
-      "community": 16,
+      "community": 2,
       "norm_label": "page-dividas.js"
     },
     {
@@ -889,7 +840,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_page_dividas_dividaspage",
-      "community": 16,
+      "community": 2,
       "norm_label": "dividaspage"
     },
     {
@@ -899,7 +850,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_page_objetivos",
-      "community": 0,
+      "community": 3,
       "norm_label": "page-objetivos.js"
     },
     {
@@ -909,7 +860,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_page_objetivos_objetivospage",
-      "community": 0,
+      "community": 3,
       "norm_label": "objetivospage"
     },
     {
@@ -919,7 +870,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_page_transacoes",
-      "community": 3,
+      "community": 2,
       "norm_label": "page-transacoes.js"
     },
     {
@@ -929,7 +880,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_page_transacoes_transacoespage",
-      "community": 3,
+      "community": 1,
       "norm_label": "transacoespage"
     },
     {
@@ -939,7 +890,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_repository",
-      "community": 1,
+      "community": 0,
       "norm_label": "repository.js"
     },
     {
@@ -949,7 +900,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_repository_acquirelock",
-      "community": 1,
+      "community": 0,
       "norm_label": "_acquirelock()"
     },
     {
@@ -959,7 +910,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "src_repository_releaselock",
-      "community": 1,
+      "community": 0,
       "norm_label": "_releaselock()"
     },
     {
@@ -969,7 +920,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "src_repository_baserepo",
-      "community": 1,
+      "community": 0,
       "norm_label": "baserepo"
     },
     {
@@ -979,7 +930,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_repository_baserepo_constructor",
-      "community": 1,
+      "community": 0,
       "norm_label": ".constructor()"
     },
     {
@@ -989,7 +940,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "src_repository_baserepo_getall",
-      "community": 1,
+      "community": 0,
       "norm_label": ".getall()"
     },
     {
@@ -999,7 +950,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "src_repository_baserepo_getbyid",
-      "community": 1,
+      "community": 0,
       "norm_label": ".getbyid()"
     },
     {
@@ -1009,7 +960,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "src_repository_baserepo_put",
-      "community": 1,
+      "community": 0,
       "norm_label": ".put()"
     },
     {
@@ -1019,7 +970,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "src_repository_baserepo_delete",
-      "community": 1,
+      "community": 0,
       "norm_label": ".delete()"
     },
     {
@@ -1029,7 +980,7 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "src_repository_baserepo_clear",
-      "community": 1,
+      "community": 0,
       "norm_label": ".clear()"
     },
     {
@@ -1039,7 +990,7 @@
       "source_location": "L76",
       "_origin": "ast",
       "id": "src_repository_transacaorepo",
-      "community": 1,
+      "community": 0,
       "norm_label": "transacaorepo"
     },
     {
@@ -1049,7 +1000,7 @@
       "source_location": "L77",
       "_origin": "ast",
       "id": "src_repository_transacaorepo_constructor",
-      "community": 1,
+      "community": 0,
       "norm_label": ".constructor()"
     },
     {
@@ -1059,7 +1010,7 @@
       "source_location": "L85",
       "_origin": "ast",
       "id": "src_repository_transacaorepo_getbymonth",
-      "community": 1,
+      "community": 0,
       "norm_label": ".getbymonth()"
     },
     {
@@ -1069,7 +1020,7 @@
       "source_location": "L97",
       "_origin": "ast",
       "id": "src_repository_transacaorepo_getlinkedto",
-      "community": 1,
+      "community": 0,
       "norm_label": ".getlinkedto()"
     },
     {
@@ -1079,7 +1030,7 @@
       "source_location": "L106",
       "_origin": "ast",
       "id": "src_repository_transacaorepo_getcurrentmonth",
-      "community": 1,
+      "community": 0,
       "norm_label": ".getcurrentmonth()"
     },
     {
@@ -1089,7 +1040,7 @@
       "source_location": "L112",
       "_origin": "ast",
       "id": "src_repository_objetivorepo",
-      "community": 1,
+      "community": 0,
       "norm_label": "objetivorepo"
     },
     {
@@ -1099,7 +1050,7 @@
       "source_location": "L113",
       "_origin": "ast",
       "id": "src_repository_objetivorepo_constructor",
-      "community": 1,
+      "community": 0,
       "norm_label": ".constructor()"
     },
     {
@@ -1109,7 +1060,7 @@
       "source_location": "L117",
       "_origin": "ast",
       "id": "src_repository_dividarepo",
-      "community": 1,
+      "community": 0,
       "norm_label": "dividarepo"
     },
     {
@@ -1119,7 +1070,7 @@
       "source_location": "L118",
       "_origin": "ast",
       "id": "src_repository_dividarepo_constructor",
-      "community": 1,
+      "community": 0,
       "norm_label": ".constructor()"
     },
     {
@@ -1129,7 +1080,7 @@
       "source_location": "L125",
       "_origin": "ast",
       "id": "src_repository_dividarepo_getbytipo",
-      "community": 1,
+      "community": 0,
       "norm_label": ".getbytipo()"
     },
     {
@@ -1139,7 +1090,7 @@
       "source_location": "L132",
       "_origin": "ast",
       "id": "src_repository_schema",
-      "community": 1,
+      "community": 0,
       "norm_label": "schema"
     },
     {
@@ -1149,7 +1100,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_services",
-      "community": 3,
+      "community": 2,
       "norm_label": "services.js"
     },
     {
@@ -1159,7 +1110,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "src_services_balanceservice",
-      "community": 3,
+      "community": 2,
       "norm_label": "balanceservice"
     },
     {
@@ -1169,7 +1120,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "src_services_categoryservice",
-      "community": 3,
+      "community": 2,
       "norm_label": "categoryservice"
     },
     {
@@ -1179,7 +1130,7 @@
       "source_location": "L93",
       "_origin": "ast",
       "id": "src_services_debtstatusservice",
-      "community": 3,
+      "community": 2,
       "norm_label": "debtstatusservice"
     },
     {
@@ -1189,7 +1140,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_theme_router",
-      "community": 16,
+      "community": 3,
       "norm_label": "theme-router.js"
     },
     {
@@ -1199,7 +1150,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_theme_router_themeengine",
-      "community": 16,
+      "community": 3,
       "norm_label": "themeengine"
     },
     {
@@ -1209,7 +1160,7 @@
       "source_location": "L64",
       "_origin": "ast",
       "id": "src_theme_router_router",
-      "community": 16,
+      "community": 1,
       "norm_label": "router"
     },
     {
@@ -1219,424 +1170,125 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "sw",
-      "community": 15,
+      "community": 12,
       "norm_label": "sw.js"
     },
     {
-      "label": "App Shell (UI scaffold)",
+      "label": "App Shell Layout",
       "file_type": "document",
       "source_file": "index.html",
-      "source_location": "index.html:57",
+      "source_location": "line 60",
       "source_url": null,
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
-      "norm_label": "app shell (ui scaffold)",
-      "id": "index_appshell"
-    },
-    {
-      "label": "Top Header (mobile brand + month nav)",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:59",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "top header (mobile brand + month nav)",
-      "id": "index_top_header"
-    },
-    {
-      "label": "Bottom Nav (page switcher: dashboard/transacoes/objetivos/dividas/config)",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:72",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "bottom nav (page switcher: dashboard/transacoes/objetivos/dividas/config)",
-      "id": "index_bottom_nav"
-    },
-    {
-      "label": "Dashboard Page Section (balance + donut + categories + recent tx)",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:103",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "dashboard page section (balance + donut + categories + recent tx)",
-      "id": "index_page_dashboard_section"
-    },
-    {
-      "label": "Transa\u00e7\u00f5es Page Section (filter chips + full tx list)",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:161",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "transacoes page section (filter chips + full tx list)",
-      "id": "index_page_transacoes_section"
-    },
-    {
-      "label": "Objetivos Page Section (goals list + add button)",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:204",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "objetivos page section (goals list + add button)",
-      "id": "index_page_objetivos_section"
-    },
-    {
-      "label": "D\u00edvidas Page Section (tabs devo/me_devem + debts list)",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:221",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "dividas page section (tabs devo/me_devem + debts list)",
-      "id": "index_page_dividas_section"
-    },
-    {
-      "label": "Config Page Section (theme, backup, privacy/LGPD)",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:244",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "config page section (theme, backup, privacy/lgpd)",
-      "id": "index_page_config_section"
-    },
-    {
-      "label": "Nova Transa\u00e7\u00e3o Drawer (valor/desc/categoria/pagamento/parcelamento/data)",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:342",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "nova transacao drawer (valor/desc/categoria/pagamento/parcelamento/data)",
-      "id": "index_tx_drawer"
-    },
-    {
-      "label": "Novo Objetivo Drawer (nome/valor alvo/deadline)",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:405",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 9,
-      "norm_label": "novo objetivo drawer (nome/valor alvo/deadline)",
-      "id": "index_goal_drawer"
-    },
-    {
-      "label": "Nova D\u00edvida Drawer (tipo devo/me_devem/desc/total/pago/vencimento)",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:433",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "nova divida drawer (tipo devo/me_devem/desc/total/pago/vencimento)",
-      "id": "index_debt_drawer"
-    },
-    {
-      "label": "Aporte/Resgate Objetivo Drawer",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:471",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 8,
-      "norm_label": "aporte/resgate objetivo drawer",
-      "id": "index_goal_action_drawer"
-    },
-    {
-      "label": "Amortiza\u00e7\u00e3o de D\u00edvida Drawer",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:490",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 10,
-      "norm_label": "amortizacao de divida drawer",
-      "id": "index_pay_debt_drawer"
-    },
-    {
-      "label": "Editar Objetivo Drawer",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:509",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 6,
-      "norm_label": "editar objetivo drawer",
-      "id": "index_edit_goal_drawer"
-    },
-    {
-      "label": "Editar D\u00edvida Drawer",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:543",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "editar divida drawer",
-      "id": "index_edit_debt_drawer"
-    },
-    {
-      "label": "Editar Transa\u00e7\u00e3o Drawer",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:582",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "editar transacao drawer",
-      "id": "index_edit_tx_drawer"
-    },
-    {
-      "label": "Confirm Dialog (generic confirm/cancel)",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:329",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
+      "id": "index_app_shell",
       "community": 5,
-      "norm_label": "confirm dialog (generic confirm/cancel)",
-      "id": "index_confirm_dialog"
-    },
-    {
-      "label": "FAB (Adicionar transa\u00e7\u00e3o)",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:326",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "fab (adicionar transacao)",
-      "id": "index_fab"
+      "norm_label": "app shell layout"
     },
     {
       "label": "LGPD Privacy Banner",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:41",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "lgpd privacy banner",
-      "id": "index_lgpd_banner"
-    },
-    {
-      "label": "Content-Security-Policy Meta (connect-src 'none' \u2014 offline, LGPD)",
       "file_type": "rationale",
       "source_file": "index.html",
-      "source_location": "index.html:22",
+      "source_location": "line 44",
       "source_url": null,
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
-      "norm_label": "content-security-policy meta (connect-src 'none' \u2014 offline, lgpd)",
-      "id": "index_csp_meta"
+      "id": "index_lgpd_banner",
+      "community": 6,
+      "norm_label": "lgpd privacy banner"
     },
     {
-      "label": "Theme Toggle Group (dark/auto/light)",
+      "label": "Content Security Policy (connect-src none)",
+      "file_type": "rationale",
+      "source_file": "index.html",
+      "source_location": "line 25",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "index_csp",
+      "community": 6,
+      "norm_label": "content security policy (connect-src none)"
+    },
+    {
+      "label": "PWA Manifest Link",
       "file_type": "document",
       "source_file": "index.html",
-      "source_location": "index.html:256",
+      "source_location": "line 17",
       "source_url": null,
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
-      "norm_label": "theme toggle group (dark/auto/light)",
-      "id": "index_theme_toggle_group"
+      "id": "index_pwa_manifest",
+      "community": 5,
+      "norm_label": "pwa manifest link"
     },
     {
-      "label": "Backup Actions (export/share/import JSON)",
+      "label": "Bottom Navigation (5 pages)",
       "file_type": "document",
       "source_file": "index.html",
-      "source_location": "index.html:279",
+      "source_location": "line 75",
       "source_url": null,
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
-      "norm_label": "backup actions (export/share/import json)",
-      "id": "index_backup_actions"
-    },
-    {
-      "label": "Payment Methods Options (PIX/Cart\u00e3o Cr\u00e9dito/D\u00e9bito/Boleto/Dinheiro)",
-      "file_type": "concept",
-      "source_file": "index.html",
-      "source_location": "index.html:181",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "payment methods options (pix/cartao credito/debito/boleto/dinheiro)",
-      "id": "index_payment_methods"
-    },
-    {
-      "label": "Installment Form (parcela atual / total de parcelas)",
-      "file_type": "concept",
-      "source_file": "index.html",
-      "source_location": "index.html:380",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "installment form (parcela atual / total de parcelas)",
-      "id": "index_installment_form"
-    },
-    {
-      "label": "Donut Card (month distribution chart container)",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:119",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "donut card (month distribution chart container)",
-      "id": "index_donut_card"
-    },
-    {
-      "label": "Balance Hero (saldo dispon\u00edvel + entradas + sa\u00eddas)",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:104",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "balance hero (saldo disponivel + entradas + saidas)",
-      "id": "index_balance_hero"
-    },
-    {
-      "label": "Categories Breakdown (gastos por categoria)",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:137",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "categories breakdown (gastos por categoria)",
-      "id": "index_categories_breakdown"
-    },
-    {
-      "label": "Transa\u00e7\u00f5es Filters (chips + category/payment selects)",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:171",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "transacoes filters (chips + category/payment selects)",
-      "id": "index_tx_filters"
-    },
-    {
-      "label": "D\u00edvidas Tabs (Devo / Me devem)",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:229",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "dividas tabs (devo / me devem)",
-      "id": "index_debt_tabs"
-    },
-    {
-      "label": "Bootstrap Script (ES module entry \u2192 src/app.js)",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:634",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "bootstrap script (es module entry \u2192 src/app.js)",
-      "id": "index_bootstrap_script"
-    },
-    {
-      "label": "Google Fonts (Inter + DM Mono) external link",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:28",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
+      "id": "index_bottom_nav",
       "community": 7,
-      "norm_label": "google fonts (inter + dm mono) external link",
-      "id": "index_fonts_link"
+      "norm_label": "bottom navigation (5 pages)"
     },
     {
-      "label": "CSS Links (tokens \u2192 base \u2192 app)",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "index.html:31",
+      "label": "VFIcon - Application icon/logo image (~61KB PNG)",
+      "file_type": "image",
+      "source_file": "assets/VFIcon.png",
+      "source_location": null,
       "source_url": null,
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
-      "norm_label": "css links (tokens \u2192 base \u2192 app)",
-      "id": "index_css_links"
+      "id": "assets_vficon",
+      "community": 5,
+      "norm_label": "vficon - application icon/logo image (~61kb png)"
+    },
+    {
+      "label": "VFLogo.png - app brand logo",
+      "file_type": "image",
+      "source_file": "assets/VFLogo.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "assets_vflogo",
+      "community": 5,
+      "norm_label": "vflogo.png - app brand logo"
+    },
+    {
+      "label": "PWA icon 192x192",
+      "file_type": "image",
+      "source_file": "assets/icon-192.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "assets_icon_192",
+      "community": 5,
+      "norm_label": "pwa icon 192x192"
+    },
+    {
+      "label": "PWA icon 512x512",
+      "file_type": "image",
+      "source_file": "assets/icon-512.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "assets_icon_512",
+      "community": 5,
+      "norm_label": "pwa icon 512x512"
     }
   ],
   "links": [
@@ -4870,299 +4522,72 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "index.html",
-      "source_location": "index.html:57-97",
+      "source_location": "line 64",
       "weight": 1.0,
-      "source": "index_appshell",
-      "target": "index_bottom_nav"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": "index.html:57-69",
-      "weight": 1.0,
-      "source": "index_appshell",
-      "target": "index_top_header"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "index.html",
-      "source_location": "index.html:634",
-      "weight": 1.0,
-      "source": "index_bootstrap_script",
-      "target": "index_appshell"
-    },
-    {
-      "relation": "references",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "index.html",
-      "source_location": "index.html:31-33",
-      "weight": 1.0,
-      "source": "index_css_links",
-      "target": "index_appshell"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": "index.html:93 data-page=config",
-      "weight": 1.0,
-      "source": "index_bottom_nav",
-      "target": "index_page_config_section"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": "index.html:77 data-page=dashboard",
-      "weight": 1.0,
-      "source": "index_bottom_nav",
-      "target": "index_page_dashboard_section"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": "index.html:89 data-page=dividas",
-      "weight": 1.0,
-      "source": "index_bottom_nav",
-      "target": "index_page_dividas_section"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": "index.html:85 data-page=objetivos",
-      "weight": 1.0,
-      "source": "index_bottom_nav",
-      "target": "index_page_objetivos_section"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": "index.html:81 data-page=transacoes",
-      "weight": 1.0,
-      "source": "index_bottom_nav",
-      "target": "index_page_transacoes_section"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": "index.html:104",
-      "weight": 1.0,
-      "source": "index_page_dashboard_section",
-      "target": "index_balance_hero"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": "index.html:137",
-      "weight": 1.0,
-      "source": "index_page_dashboard_section",
-      "target": "index_categories_breakdown"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": "index.html:119",
-      "weight": 1.0,
-      "source": "index_page_dashboard_section",
-      "target": "index_donut_card"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": "index.html:171",
-      "weight": 1.0,
-      "source": "index_page_transacoes_section",
-      "target": "index_tx_filters"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": "index.html:229",
-      "weight": 1.0,
-      "source": "index_page_dividas_section",
-      "target": "index_debt_tabs"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": "index.html:279",
-      "weight": 1.0,
-      "source": "index_page_config_section",
-      "target": "index_backup_actions"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": "index.html:256",
-      "weight": 1.0,
-      "source": "index_page_config_section",
-      "target": "index_theme_toggle_group"
-    },
-    {
-      "relation": "references",
-      "confidence": "INFERRED",
-      "confidence_score": 0.95,
-      "source_file": "index.html",
-      "source_location": "index.html:326 aria-label=Adicionar transa\u00e7\u00e3o",
-      "weight": 1.0,
-      "source": "index_fab",
-      "target": "index_tx_drawer"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": "index.html:380",
-      "weight": 1.0,
-      "source": "index_tx_drawer",
-      "target": "index_installment_form"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": "index.html:371-377",
-      "weight": 1.0,
-      "source": "index_tx_drawer",
-      "target": "index_payment_methods"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "index.html",
-      "source_location": "index.html:438 & 229",
-      "weight": 1.0,
-      "source": "index_debt_drawer",
-      "target": "index_debt_tabs"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "index.html",
-      "source_location": "index.html:549 & 229",
-      "weight": 1.0,
-      "source": "index_edit_debt_drawer",
-      "target": "index_debt_tabs"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "index.html",
-      "source_location": "index.html:614-620",
-      "weight": 1.0,
-      "source": "index_edit_tx_drawer",
-      "target": "index_payment_methods"
+      "source": "index_app_shell",
+      "target": "assets_vficon"
     },
     {
       "relation": "rationale_for",
       "confidence": "INFERRED",
-      "confidence_score": 0.95,
+      "confidence_score": 0.85,
       "source_file": "index.html",
-      "source_location": "index.html:22 & 41",
+      "source_location": null,
       "weight": 1.0,
-      "source": "index_csp_meta",
+      "source": "index_csp",
       "target": "index_lgpd_banner"
     },
     {
-      "relation": "rationale_for",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "index.html",
-      "source_location": "index.html:22 & 279",
-      "weight": 1.0,
-      "source": "index_csp_meta",
-      "target": "index_backup_actions"
-    },
-    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "index.html",
-      "source_location": "index.html:181-188",
+      "source_location": "line 18",
       "weight": 1.0,
-      "source": "index_tx_filters",
-      "target": "index_payment_methods"
-    }
-  ],
-  "hyperedges": [
+      "source": "index_pwa_manifest",
+      "target": "assets_icon_192"
+    },
     {
-      "id": "index_payment_options_group",
-      "label": "Payment Method Enumeration",
-      "nodes": [
-        "index_tx_drawer",
-        "index_edit_tx_drawer",
-        "index_tx_filters",
-        "index_payment_methods"
-      ],
-      "relation": "participate_in",
-      "confidence": "EXTRACTED",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "assets/icon-192.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "assets_icon_192",
+      "target": "assets_vficon"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "assets/VFIcon.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "assets_vficon",
+      "target": "assets_vficon"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
       "confidence_score": 0.95,
-      "source_file": "index.html"
+      "source_file": "assets/VFLogo.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "assets_vflogo",
+      "target": "assets_vficon"
     },
     {
-      "id": "index_drawer_forms_flow",
-      "label": "CRUD Drawer Form Flow",
-      "nodes": [
-        "index_tx_drawer",
-        "index_goal_drawer",
-        "index_debt_drawer",
-        "index_edit_tx_drawer",
-        "index_edit_goal_drawer",
-        "index_edit_debt_drawer",
-        "index_goal_action_drawer",
-        "index_pay_debt_drawer"
-      ],
-      "relation": "form",
+      "relation": "semantically_similar_to",
       "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "index.html"
-    },
-    {
-      "id": "index_lgpd_privacy_scaffold",
-      "label": "LGPD Privacy Scaffold",
-      "nodes": [
-        "index_csp_meta",
-        "index_lgpd_banner",
-        "index_backup_actions",
-        "index_page_config_section"
-      ],
-      "relation": "participate_in",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "index.html"
+      "confidence_score": 0.95,
+      "source_file": "assets/icon-512.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "assets_icon_512",
+      "target": "assets_icon_192"
     }
   ],
-  "built_at_commit": "2d921a37b9e9fcfcacfaf28a43cf367db9a0829b"
+  "hyperedges": [],
+  "built_at_commit": "007040dde84e13a328cdf514abaccd380eaea8a5"
 }
