@@ -37,8 +37,16 @@ function changeMonth(delta) {
   if (state.currentYear < 1900) state.currentYear = 1900;
   if (state.currentYear > 2100) state.currentYear = 2100;
   updateMonthLabels();
-  // Reset filtros ao trocar mês (evita estado stale)
-  try { TransacoesPage.setFilterState({ category: '', payment: '' }); } catch(e) {}
+  TransacoesPage.setFilterState({ category: '', payment: '' });
+  // DOM select values persist on mobile; explicitly reset
+  var catSel = $('txFilterCategory'); if (catSel) catSel.value = '';
+  var pmtSel = $('txFilterPayment');  if (pmtSel) pmtSel.value = '';
+  var allChip = document.querySelector('.tx-filter-chip[data-filter-type="all"]');
+  if (allChip) {
+    $all('.tx-filter-chip').forEach(c => c.classList.remove('is-active'));
+    allChip.classList.add('is-active');
+  }
+  TransacoesPage.setFilterState({ type: 'all' });
   DashboardPage.refresh();
   TransacoesPage.refresh();
 }
@@ -969,15 +977,34 @@ function init() {
     });
   }
 
-  // TX form input handlers — only clear errors (never add) to avoid mobile blur quirks
-  ['txAmount', 'txDesc', 'txDate'].forEach(function(id) {
-    var el = $(id);
-    if (el) {
-      el.addEventListener('input', function() {
-        if (TxForm.validate(false)) return; // clears valid fields; never adds errors
-      });
-    }
-  });
+  // TX form input handlers — per-field clearing only (never add), avoids mobile cross-field red leaks
+  var amtEl = $('txAmount');
+  if (amtEl) {
+    amtEl.addEventListener('input', function() {
+      if (parseBRL(this.value) > 0) {
+        amtEl.classList.remove('is-invalid');
+        $('txAmountError').classList.remove('is-visible');
+      }
+    });
+  }
+  var descEl = $('txDesc');
+  if (descEl) {
+    descEl.addEventListener('input', function() {
+      if (this.value.trim()) {
+        descEl.classList.remove('is-invalid');
+        $('txDescError').classList.remove('is-visible');
+      }
+    });
+  }
+  var dateEl = $('txDate');
+  if (dateEl) {
+    dateEl.addEventListener('input', function() {
+      if (this.value && /^\d{4}-\d{2}-\d{2}$/.test(this.value)) {
+        dateEl.classList.remove('is-invalid');
+        $('txDateError').classList.remove('is-visible');
+      }
+    });
+  }
 
   // TX filters
   $all('.tx-filter-chip').forEach(chip => {

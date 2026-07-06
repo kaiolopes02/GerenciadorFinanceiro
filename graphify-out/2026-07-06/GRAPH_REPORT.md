@@ -1,16 +1,16 @@
 # Graph Report - GerenciadorFinanceiro  (2026-07-06)
 
 ## Corpus Check
-- 15 files · ~30,770 words
+- 15 files · ~30,900 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 126 nodes · 309 edges · 13 communities (11 shown, 2 thin omitted)
+- 126 nodes · 311 edges · 13 communities (11 shown, 2 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 6 edges (avg confidence: 0.79)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `9f17798b`
+- Built from commit: `dde5930e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -25,13 +25,13 @@
 - [[_COMMUNITY_Bottom Navigation|Bottom Navigation]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `$$` - 21 edges
+1. `$$` - 22 edges
 2. `init()` - 13 edges
 3. `sanitize()` - 10 edges
-4. `openDB()` - 7 edges
-5. `formatBRL()` - 7 edges
-6. `BaseRepo` - 7 edges
-7. `$all()` - 6 edges
+4. `$all()` - 7 edges
+5. `openDB()` - 7 edges
+6. `formatBRL()` - 7 edges
+7. `BaseRepo` - 7 edges
 8. `onClick()` - 6 edges
 9. `sanitizeTx()` - 6 edges
 10. `sanitizeGoal()` - 6 edges
@@ -58,7 +58,7 @@ Cohesion: 0.12
 Nodes (14): dbBulkImport(), dbClearAll(), dbDelete(), dbGetAll(), dbPut(), openDB(), PromiseShim(), _acquireLock() (+6 more)
 
 ### Community 1 - "App Bootstrap & Routing"
-Cohesion: 0.13
+Cohesion: 0.14
 Nodes (27): $$, changeMonth(), DebtForm, getMonthLabel(), GoalForm, handleDelegatedAction(), init(), initEventDelegation() (+19 more)
 
 ### Community 2 - "Data Views & Services"
@@ -88,10 +88,10 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `TransacaoRepo` connect `Data Persistence Layer` to `App Bootstrap & Routing`?**
   _High betweenness centrality (0.053) - this node is a cross-community bridge._
 - **Why does `$$` connect `App Bootstrap & Routing` to `Data Views & Services`, `UI Shell & Notifications`?**
-  _High betweenness centrality (0.040) - this node is a cross-community bridge._
+  _High betweenness centrality (0.043) - this node is a cross-community bridge._
 - **What connects `repos`, `TxForm`, `GoalForm` to the rest of the system?**
   _13 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Data Persistence Layer` be split into smaller, more focused modules?**
   _Cohesion score 0.12413793103448276 - nodes in this community are weakly interconnected._
 - **Should `App Bootstrap & Routing` be split into smaller, more focused modules?**
-  _Cohesion score 0.13054187192118227 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1354679802955665 - nodes in this community are weakly interconnected._

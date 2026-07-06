@@ -1,7 +1,7 @@
 {
   "index.html": {
-    "mtime": 1783373067.1544323,
-    "ast_hash": "a93714eba84b695e8256fa143a16162d",
+    "mtime": 1783376444.1370003,
+    "ast_hash": "de715b0f85014d9dfff5d6272927b6e6",
     "semantic_hash": ""
   },
   "src/core.js": {
@@ -65,13 +65,13 @@
     "semantic_hash": "0cfd73495780ba2d658b7fb75a6e3d65"
   },
   "src/page-config.js": {
-    "mtime": 1783280954.1903188,
-    "ast_hash": "38cab26f6a100b5a02032b252fa86b6f",
-    "semantic_hash": "38cab26f6a100b5a02032b252fa86b6f"
+    "mtime": 1783376447.9533768,
+    "ast_hash": "1352546991d60a3263efa3ff7385d590",
+    "semantic_hash": ""
   },
   "src/app.js": {
-    "mtime": 1783376390.4247272,
-    "ast_hash": "c56434ba2c6dd3728f957105e57f596f",
+    "mtime": 1783377338.6355968,
+    "ast_hash": "ea2e3ebabc4e8b634f54f894c4845d22",
     "semantic_hash": ""
   },
   "sw.js": {
