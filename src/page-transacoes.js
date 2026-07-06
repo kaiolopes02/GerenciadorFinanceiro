@@ -39,10 +39,11 @@ export const TransacoesPage = {
     if (!sel) return;
     var cats = {};
     txs.forEach(t => { if (t.categoria) cats[t.categoria] = true; });
-    var current = txFilterState.category || sel.value || '';
+    var current = sanitize(txFilterState.category || sel.value || '');
     var html = '<option value="">Todas as categorias</option>';
     Object.keys(cats).sort().forEach(c => {
-      html += '<option value="' + sanitize(c) + '"' + (current === c ? ' selected' : '') + '>' + sanitize(c) + '</option>';
+      var sanitized = sanitize(c);
+      html += '<option value="' + sanitized + '"' + (current === sanitized ? ' selected' : '') + '>' + sanitize(c) + '</option>';
     });
     sel.innerHTML = html;
     sel.value = current;

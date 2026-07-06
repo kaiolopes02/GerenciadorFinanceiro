@@ -43,6 +43,8 @@ function changeMonth(delta) {
 
 /* === TX FORM === */
 const TxForm = {
+  _touched: { amount: false, desc: false, date: false },
+
   reset() {
     var today = new Date().toISOString().split('T')[0];
     $('txAmount').value    = '';
@@ -50,12 +52,21 @@ const TxForm = {
     $('txDate').value      = today;
     $('txInstallCurrent').value = '1';
     $('txInstallTotal').value   = '1';
+    this._touched = { amount: false, desc: false, date: false };
     var txOvl = $('txOverlay');
     if (txOvl) {
       $all('.form-error', txOvl).forEach(e => e.classList.remove('is-visible'));
       $all('.form-control', txOvl).forEach(e => e.classList.remove('is-invalid'));
     }
     this.setType('receita');
+  },
+
+  markTouched(field) {
+    if (this._touched.hasOwnProperty(field)) this._touched[field] = true;
+  },
+
+  shouldValidate(field) {
+    return this._touched[field] === true;
   },
 
   setType(type) {
@@ -88,47 +99,53 @@ const TxForm = {
     }
   },
 
-  validate() {
+  validate(forceAll = false) {
     var valid = true;
     var amt  = parseBRL($('txAmount').value);
     var desc = $('txDesc').value.trim();
     var dateVal = $('txDate').value;
 
-    if (amt <= 0) {
-      $('txAmount').classList.add('is-invalid');
-      $('txAmountError').classList.add('is-visible');
-      valid = false;
-    } else {
-      $('txAmount').classList.remove('is-invalid');
-      $('txAmountError').classList.remove('is-visible');
+    if (forceAll || this.shouldValidate('amount')) {
+      if (amt <= 0) {
+        $('txAmount').classList.add('is-invalid');
+        $('txAmountError').classList.add('is-visible');
+        valid = false;
+      } else {
+        $('txAmount').classList.remove('is-invalid');
+        $('txAmountError').classList.remove('is-visible');
+      }
     }
 
-    if (!desc) {
-      $('txDesc').classList.add('is-invalid');
-      $('txDescError').classList.add('is-visible');
-      valid = false;
-    } else {
-      $('txDesc').classList.remove('is-invalid');
-      $('txDescError').classList.remove('is-visible');
+    if (forceAll || this.shouldValidate('desc')) {
+      if (!desc) {
+        $('txDesc').classList.add('is-invalid');
+        $('txDescError').classList.add('is-visible');
+        valid = false;
+      } else {
+        $('txDesc').classList.remove('is-invalid');
+        $('txDescError').classList.remove('is-visible');
+      }
     }
 
-    if (!dateVal) {
-      $('txDate').classList.add('is-invalid');
-      $('txDateError').classList.add('is-visible');
-      valid = false;
-    } else if (!/^\d{4}-\d{2}-\d{2}$/.test(dateVal)) {
-      $('txDate').classList.add('is-invalid');
-      $('txDateError').classList.add('is-visible');
-      valid = false;
-    } else {
-      $('txDate').classList.remove('is-invalid');
-      $('txDateError').classList.remove('is-visible');
+    if (forceAll || this.shouldValidate('date')) {
+      if (!dateVal) {
+        $('txDate').classList.add('is-invalid');
+        $('txDateError').classList.add('is-visible');
+        valid = false;
+      } else if (!/^\d{4}-\d{2}-\d{2}$/.test(dateVal)) {
+        $('txDate').classList.add('is-invalid');
+        $('txDateError').classList.add('is-visible');
+        valid = false;
+      } else {
+        $('txDate').classList.remove('is-invalid');
+        $('txDateError').classList.remove('is-visible');
+      }
     }
     return valid;
   },
 
   save() {
-    if (!this.validate()) return;
+    if (!this.validate(true)) return;
 
     var amt          = parseBRL($('txAmount').value);
     var desc         = $('txDesc').value.trim();
@@ -969,6 +986,17 @@ function init() {
       if (instGrp) instGrp.style.display = (this.value === 'Cartão de Crédito' && state.txType === 'despesa') ? '' : 'none';
     });
   }
+
+  // TX form blur handlers for touched validation
+  ['txAmount', 'txDesc', 'txDate'].forEach(function(id) {
+    var el = $(id);
+    if (el) {
+      el.addEventListener('blur', function() {
+        TxForm.markTouched(id === 'txAmount' ? 'amount' : id === 'txDesc' ? 'desc' : 'date');
+        TxForm.validate();
+      });
+    }
+  });
 
   // TX filters
   $all('.tx-filter-chip').forEach(chip => {
