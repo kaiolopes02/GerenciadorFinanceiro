@@ -1,7 +1,7 @@
 {
   "index.html": {
-    "mtime": 1783376444.1370003,
-    "ast_hash": "de715b0f85014d9dfff5d6272927b6e6",
+    "mtime": 1783380945.0027864,
+    "ast_hash": "dc48591362215b715cd8bfcc0e3a90e7",
     "semantic_hash": ""
   },
   "src/core.js": {
@@ -45,13 +45,13 @@
     "semantic_hash": "e239f0c01a5fb72712b32091dc3f07b0"
   },
   "src/page-dashboard.js": {
-    "mtime": 1783288929.6785638,
-    "ast_hash": "c45f8a80ebd367ad8a22069b222bb66b",
-    "semantic_hash": "c45f8a80ebd367ad8a22069b222bb66b"
+    "mtime": 1783378229.6016226,
+    "ast_hash": "d327c5f7704d7d7a9c646888194938ec",
+    "semantic_hash": ""
   },
   "src/page-transacoes.js": {
-    "mtime": 1783376412.0051568,
-    "ast_hash": "01bf159a4b46a9d205ad4f874c777fdc",
+    "mtime": 1783379821.9189632,
+    "ast_hash": "330554d12cb94a8af283f0fa40e911a4",
     "semantic_hash": ""
   },
   "src/page-objetivos.js": {
@@ -70,8 +70,8 @@
     "semantic_hash": ""
   },
   "src/app.js": {
-    "mtime": 1783377338.6355968,
-    "ast_hash": "ea2e3ebabc4e8b634f54f894c4845d22",
+    "mtime": 1783380957.558095,
+    "ast_hash": "d6004b3cd2d1a2fd87d55f826324f5a6",
     "semantic_hash": ""
   },
   "sw.js": {

@@ -37,10 +37,6 @@ function changeMonth(delta) {
   if (state.currentYear < 1900) state.currentYear = 1900;
   if (state.currentYear > 2100) state.currentYear = 2100;
   updateMonthLabels();
-  TransacoesPage.setFilterState({ category: '', payment: '' });
-  // DOM select values persist on mobile; explicitly reset
-  var catSel = $('txFilterCategory'); if (catSel) catSel.value = '';
-  var pmtSel = $('txFilterPayment');  if (pmtSel) pmtSel.value = '';
   var allChip = document.querySelector('.tx-filter-chip[data-filter-type="all"]');
   if (allChip) {
     $all('.tx-filter-chip').forEach(c => c.classList.remove('is-active'));
@@ -1015,22 +1011,6 @@ function init() {
       TransacoesPage.refresh();
     });
   });
-
-  var txFilterCat = $('txFilterCategory');
-  if (txFilterCat) {
-    txFilterCat.addEventListener('change', function() {
-      TransacoesPage.setFilterState({ category: this.value });
-      TransacoesPage.refresh();
-    });
-  }
-
-  var txFilterPmt = $('txFilterPayment');
-  if (txFilterPmt) {
-    txFilterPmt.addEventListener('change', function() {
-      TransacoesPage.setFilterState({ payment: this.value });
-      TransacoesPage.refresh();
-    });
-  }
 
   // Goal drawer
   onClick('addGoalBtn',          () => { GoalForm.reset(); openOverlay('goalOverlay'); });

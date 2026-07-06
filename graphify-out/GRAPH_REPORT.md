@@ -1,16 +1,16 @@
 # Graph Report - GerenciadorFinanceiro  (2026-07-06)
 
 ## Corpus Check
-- 15 files · ~30,931 words
+- 15 files · ~30,805 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 126 nodes · 312 edges · 16 communities (14 shown, 2 thin omitted)
+- 126 nodes · 311 edges · 16 communities (14 shown, 2 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 6 edges (avg confidence: 0.79)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `dde5930e`
+- Built from commit: `db52297a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -28,7 +28,7 @@
 - [[_COMMUNITY_$all|$all]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `$$` - 22 edges
+1. `$$` - 21 edges
 2. `init()` - 14 edges
 3. `sanitize()` - 10 edges
 4. `$all()` - 7 edges
@@ -61,8 +61,8 @@ Cohesion: 0.12
 Nodes (14): dbBulkImport(), dbClearAll(), dbDelete(), dbGetAll(), dbPut(), openDB(), PromiseShim(), _acquireLock() (+6 more)
 
 ### Community 1 - "App Bootstrap & Routing"
-Cohesion: 0.27
-Nodes (9): DebtForm, GoalForm, repos, TxForm, genId(), parseBRL(), Divida, Objetivo (+1 more)
+Cohesion: 0.24
+Nodes (10): DebtForm, GoalForm, repos, showDiagnostics(), TxForm, genId(), parseBRL(), Divida (+2 more)
 
 ### Community 2 - "Data Views & Services"
 Cohesion: 0.21
@@ -81,8 +81,8 @@ Cohesion: 0.40
 Nodes (6): PWA icon 192x192, PWA icon 512x512, VFIcon - Application icon/logo image (~61KB PNG), VFLogo.png - app brand logo, App Shell Layout, PWA Manifest Link
 
 ### Community 13 - "$$"
-Cohesion: 0.33
-Nodes (10): $$, handleDelegatedAction(), init(), initEventDelegation(), initLGPD(), initOverlayHandlers(), showDiagnostics(), closeOverlay() (+2 more)
+Cohesion: 0.39
+Nodes (9): $$, handleDelegatedAction(), init(), initEventDelegation(), initLGPD(), initOverlayHandlers(), closeOverlay(), handleResize() (+1 more)
 
 ### Community 14 - "components-shell.js"
 Cohesion: 0.29
@@ -102,8 +102,8 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `TransacaoRepo` connect `Data Persistence Layer` to `App Bootstrap & Routing`?**
   _High betweenness centrality (0.053) - this node is a cross-community bridge._
-- **Why does `$$` connect `$$` to `App Bootstrap & Routing`, `Data Views & Services`, `UI Shell & Notifications`, `components-shell.js`, `$all`?**
-  _High betweenness centrality (0.043) - this node is a cross-community bridge._
+- **Why does `$$` connect `$$` to `App Bootstrap & Routing`, `Data Views & Services`, `UI Shell & Notifications`, `components-shell.js`?**
+  _High betweenness centrality (0.040) - this node is a cross-community bridge._
 - **What connects `repos`, `TxForm`, `GoalForm` to the rest of the system?**
   _13 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Data Persistence Layer` be split into smaller, more focused modules?**

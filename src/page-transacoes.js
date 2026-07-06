@@ -36,16 +36,16 @@ export const TransacoesPage = {
     if (!sel) return;
     var cats = {};
     txs.forEach(t => { if (t.categoria) cats[t.categoria] = true; });
-    var current = sanitize(txFilterState.category || sel.value || '');
-    var html = '<option value="">Todas as categorias</option>';
-    var exists = (current === '');
+    var current = sanitize(txFilterState.category || '');
+    var html = '';
+    var exists = false;
     Object.keys(cats).sort().forEach(c => {
       var sanitized = sanitize(c);
       if (current === sanitized) exists = true;
       html += '<option value="' + sanitized + '"' + (current === sanitized ? ' selected' : '') + '>' + sanitize(c) + '</option>';
     });
     // Stale state: selected category doesn't exist this month -> reset
-    if (!exists) {
+    if (!exists && current !== '') {
       txFilterState.category = '';
       current = '';
     }

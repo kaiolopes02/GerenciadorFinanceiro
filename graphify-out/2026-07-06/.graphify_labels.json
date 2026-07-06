@@ -11,5 +11,8 @@
   "9": "Array polyfill (find)",
   "10": "Array polyfill (findIndex)",
   "11": "String polyfill (padStart)",
-  "12": "Service Worker"
+  "12": "Service Worker",
+  "13": "$$",
+  "14": "components-shell.js",
+  "15": "$all"
 }
