@@ -864,7 +864,8 @@ function initOverlayHandlers() {
     overlay.addEventListener('click', e => {
       if (e.target === overlay) {
         if (overlay.id === 'confirmDialog') { /* ConfirmDialog handles its own */ }
-        closeOverlay(overlay.id);
+        else if (overlay.id === 'txOverlay') { closeOverlay('txOverlay'); TxForm.reset(); }
+        else closeOverlay(overlay.id);
       }
     });
   });
@@ -875,7 +876,8 @@ function initOverlayHandlers() {
     var open = $all('.overlay.is-open');
     if (open.length) {
       var top = open[open.length - 1];
-      closeOverlay(top.id);
+      if (top.id === 'txOverlay') { closeOverlay(top.id); TxForm.reset(); }
+      else closeOverlay(top.id);
       e.preventDefault();
     }
   });
@@ -941,6 +943,8 @@ function init() {
   onClick('nextMonthBtn',  () => changeMonth(1));
   onClick('prevMonthBtn2', () => changeMonth(-1));
   onClick('nextMonthBtn2', () => changeMonth(1));
+  onClick('prevMonthBtnDash', () => changeMonth(-1));
+  onClick('nextMonthBtnDash', () => changeMonth(1));
 
   // FAB
   onClick('fabBtn', () => { TxForm.reset(); openOverlay('txOverlay'); });
@@ -949,7 +953,7 @@ function init() {
   onClick('typeIncomeBtn',  () => TxForm.setType('receita'));
   onClick('typeExpenseBtn', () => TxForm.setType('despesa'));
   onClick('saveTxBtn',      () => TxForm.save());
-  onClick('cancelTxBtn',    () => closeOverlay('txOverlay'));
+  onClick('cancelTxBtn',    () => { closeOverlay('txOverlay'); TxForm.reset(); });
 
   // Edit TX
   onClick('editTypeIncomeBtn',  () => TxForm.setEditType('receita'));

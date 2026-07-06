@@ -39,12 +39,13 @@ export const TransacoesPage = {
     if (!sel) return;
     var cats = {};
     txs.forEach(t => { if (t.categoria) cats[t.categoria] = true; });
-    var current = sel.value;
+    var current = txFilterState.category || sel.value || '';
     var html = '<option value="">Todas as categorias</option>';
     Object.keys(cats).sort().forEach(c => {
-      html += '<option value="' + sanitize(c) + '"' + (current === sanitize(c) ? ' selected' : '') + '>' + sanitize(c) + '</option>';
+      html += '<option value="' + sanitize(c) + '"' + (current === c ? ' selected' : '') + '>' + sanitize(c) + '</option>';
     });
     sel.innerHTML = html;
+    sel.value = current;
   },
 
   /**
@@ -56,7 +57,7 @@ export const TransacoesPage = {
     return txs.filter(t => {
       if (txFilterState.type !== 'all' && t.tipo !== txFilterState.type) return false;
       if (txFilterState.category && sanitize(t.categoria) !== sanitize(txFilterState.category)) return false;
-      if (txFilterState.payment  && t.forma_pagamento !== txFilterState.payment) return false;
+      if (txFilterState.payment && t.tipo === 'despesa' && t.forma_pagamento !== txFilterState.payment) return false;
       return true;
     });
   },

@@ -105,6 +105,15 @@
 
       <!-- ======== PAGE: DASHBOARD ======== -->
       <section class="page is-active fade-in" id="page-dashboard" aria-label="Dashboard">
+        <div class="section-header">
+          <h2 class="section-title" style="margin:0">Visão geral</h2>
+          <div class="top-header__month-nav" aria-label="Navegação mensal">
+            <button class="month-nav__btn" id="prevMonthBtnDash" aria-label="Mês anterior">‹</button>
+            <span class="month-nav__label" id="monthLabelDash" aria-live="polite">Mês</span>
+            <button class="month-nav__btn" id="nextMonthBtnDash" aria-label="Próximo mês">›</button>
+          </div>
+        </div>
+
         <div class="balance-hero" id="balanceHero">
           <p class="balance-hero__label">Saldo disponível</p>
           <p class="balance-hero__amount" id="balanceAmount" aria-live="polite" aria-atomic="true">R$ 0,00</p>

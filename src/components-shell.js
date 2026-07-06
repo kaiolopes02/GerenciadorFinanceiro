@@ -171,8 +171,10 @@ export const MonthNav = {
   update(label) {
     var el1 = $('monthLabel');
     var el2 = $('monthLabel2');
+    var el3 = $('monthLabelDash');
     if (el1) el1.textContent = label;
     if (el2) el2.textContent = label;
+    if (el3) el3.textContent = label;
   }
 };
 
