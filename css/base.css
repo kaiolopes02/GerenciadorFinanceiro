@@ -228,7 +228,7 @@ html { scrollbar-width: thin; scrollbar-color: var(--clr-border) transparent; }
   .bottom-nav {
     position: fixed;
     left: 0; top: 0; bottom: 0; right: auto;
-    width: 220px;
+    width: 240px;
     height: 100vh;
     height: 100dvh;
     flex-direction: column;
@@ -236,7 +236,7 @@ html { scrollbar-width: thin; scrollbar-color: var(--clr-border) transparent; }
     justify-content: flex-start;
     border-top: none;
     border-right: 1px solid var(--clr-border);
-    padding: var(--sp-6) var(--sp-3) var(--sp-6);
+    padding: var(--sp-6) var(--sp-4) var(--sp-6);
   }
 
   .bottom-nav__brand {
@@ -244,7 +244,7 @@ html { scrollbar-width: thin; scrollbar-color: var(--clr-border) transparent; }
     align-items: center;
     gap: var(--sp-2);
     font-weight: 700;
-    font-size: .9375rem;
+    font-size: 1rem;
     letter-spacing: -.02em;
     padding: var(--sp-2) var(--sp-3);
     margin-bottom: var(--sp-5);
@@ -252,12 +252,16 @@ html { scrollbar-width: thin; scrollbar-color: var(--clr-border) transparent; }
     padding-bottom: var(--sp-5);
   }
 
+  .bottom-nav__brand-icon {
+    width: 40px; height: 40px;
+  }
+
   .bottom-nav__item {
     flex: none;
     flex-direction: row;
     justify-content: flex-start;
     gap: var(--sp-3);
-    padding: 10px var(--sp-3);
+    padding: 11px var(--sp-4);
     border-radius: var(--r-md);
     font-size: .875rem;
     letter-spacing: 0;
@@ -273,17 +277,17 @@ html { scrollbar-width: thin; scrollbar-color: var(--clr-border) transparent; }
   .bottom-nav__icon { font-size: 18px; }
 
   .main-content {
-    margin-left: 220px;
-    max-width: 900px;
-    padding: var(--sp-8) var(--sp-8) var(--sp-8);
+    margin-left: 240px;
+    max-width: 1200px;
+    padding: var(--sp-8) var(--sp-10) calc(var(--sp-10) + env(safe-area-inset-bottom, 0px));
   }
 
   .balance-hero {
-    padding: var(--sp-6) var(--sp-8);
+    padding: var(--sp-8) var(--sp-10);
   }
 
   .balance-hero__amount {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   .fab {
@@ -293,7 +297,7 @@ html { scrollbar-width: thin; scrollbar-color: var(--clr-border) transparent; }
 
   .lgpd-banner {
     bottom: var(--sp-4);
-    left: 240px;
+    left: 260px;
     right: var(--sp-4);
   }
 }

@@ -1060,3 +1060,95 @@ input[type="date"].form-control {
   background: var(--clr-surface-2);
   color: var(--clr-text);
 }
+
+/* ============================================================
+   DESKTOP RESPONSIVE (min-width: 768px)
+   Multi-column grids + larger icons + better horizontal density.
+   ============================================================ */
+@media (min-width: 768px) {
+  /* Balance hero: 3 stats columns */
+  .balance-hero__stats {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--sp-4);
+  }
+  .balance-stat { padding: var(--sp-4); }
+
+  /* Dashboard: 2-column grid. Balance hero + section header + recent tx span full width;
+     donut card + category card sit side-by-side. Only when active. */
+  #page-dashboard.is-active {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--sp-4);
+    align-items: stretch;
+  }
+  /* Layout order on desktop:
+     1: balance-hero (full)   2: donutCard   3: recentTxCard   4: section header   5: category card (full) */
+  #page-dashboard.is-active > .balance-hero { order: 1; grid-column: 1 / -1; }
+  #page-dashboard.is-active > #donutCard     { order: 2; margin-bottom: 0; }
+  #page-dashboard.is-active > #recentTxCard  { order: 3; margin-bottom: 0; }
+  #page-dashboard.is-active > .section-header { order: 4; grid-column: 1 / -1; }
+  #page-dashboard.is-active > .card:not(#donutCard):not(#recentTxCard) { order: 5; grid-column: 1 / -1; margin-bottom: 0; }
+
+  /* Donut chart bigger on desktop */
+  .donut-wrap { min-height: 280px; }
+  .donut-center-label__pct { font-size: 2rem; }
+
+  /* Transaction item icon larger */
+  .tx-item__icon { width: 48px; height: 48px; font-size: 22px; }
+
+  /* Objetivos: 2-column grid (needs wrapper class) */
+  #goalsList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--sp-4);
+    align-items: start;
+  }
+  #goalsList > .goal-card,
+  #goalsList > .empty-state {
+    grid-column: span 1;
+    margin-bottom: 0;
+  }
+  #goalsList > .empty-state { grid-column: 1 / -1; }
+
+  /* Dívidas: 2-column grid */
+  #debtsList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--sp-4);
+    align-items: start;
+  }
+  #debtsList > .debt-item,
+  #debtsList > .empty-state {
+    grid-column: span 1;
+    margin-bottom: 0;
+  }
+  #debtsList > .empty-state { grid-column: 1 / -1; }
+
+  /* Theme toggle buttons larger */
+  .theme-btn { padding: var(--sp-4) var(--sp-3); }
+  .theme-btn__icon { font-size: 24px; }
+
+  /* Backup buttons larger */
+  .backup-btn__icon { font-size: 32px; }
+
+  /* Config logo bigger */
+  .config-logo { max-width: 360px; }
+
+  /* Confirm dialog centered & wider */
+  .confirm-dialog__box { max-width: 420px; }
+
+  /* Drawer centered on desktop */
+  .drawer { max-width: 520px; }
+
+  /* Recent transactions list: horizontal pairs */
+  #recentTxCard { margin-bottom: var(--sp-4); }
+}
+
+/* Larger desktop: 3-column grid for goals/debts on wide screens */
+@media (min-width: 1200px) {
+  #goalsList { grid-template-columns: repeat(3, 1fr); }
+  #debtsList { grid-template-columns: repeat(3, 1fr); }
+  .balance-hero__amount { font-size: 4rem; }
+  .donut-wrap { min-height: 320px; }
+  .tx-item__icon { width: 52px; height: 52px; font-size: 24px; }
+}
