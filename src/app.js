@@ -37,14 +37,14 @@ function changeMonth(delta) {
   if (state.currentYear < 1900) state.currentYear = 1900;
   if (state.currentYear > 2100) state.currentYear = 2100;
   updateMonthLabels();
+  // Reset filtros ao trocar mês (evita estado stale)
+  try { TransacoesPage.setFilterState({ category: '', payment: '' }); } catch(e) {}
   DashboardPage.refresh();
   TransacoesPage.refresh();
 }
 
 /* === TX FORM === */
 const TxForm = {
-  _touched: { amount: false, desc: false, date: false },
-
   reset() {
     var today = new Date().toISOString().split('T')[0];
     $('txAmount').value    = '';
@@ -52,21 +52,12 @@ const TxForm = {
     $('txDate').value      = today;
     $('txInstallCurrent').value = '1';
     $('txInstallTotal').value   = '1';
-    this._touched = { amount: false, desc: false, date: false };
     var txOvl = $('txOverlay');
     if (txOvl) {
       $all('.form-error', txOvl).forEach(e => e.classList.remove('is-visible'));
       $all('.form-control', txOvl).forEach(e => e.classList.remove('is-invalid'));
     }
     this.setType('receita');
-  },
-
-  markTouched(field) {
-    if (this._touched.hasOwnProperty(field)) this._touched[field] = true;
-  },
-
-  shouldValidate(field) {
-    return this._touched[field] === true;
   },
 
   setType(type) {
@@ -105,41 +96,32 @@ const TxForm = {
     var desc = $('txDesc').value.trim();
     var dateVal = $('txDate').value;
 
-    if (forceAll || this.shouldValidate('amount')) {
-      if (amt <= 0) {
-        $('txAmount').classList.add('is-invalid');
-        $('txAmountError').classList.add('is-visible');
-        valid = false;
-      } else {
-        $('txAmount').classList.remove('is-invalid');
-        $('txAmountError').classList.remove('is-visible');
-      }
+    // Limpam sempre; adicionam só no submit (forceAll)
+    if (amt > 0) {
+      $('txAmount').classList.remove('is-invalid');
+      $('txAmountError').classList.remove('is-visible');
+    } else if (forceAll) {
+      $('txAmount').classList.add('is-invalid');
+      $('txAmountError').classList.add('is-visible');
+      valid = false;
     }
 
-    if (forceAll || this.shouldValidate('desc')) {
-      if (!desc) {
-        $('txDesc').classList.add('is-invalid');
-        $('txDescError').classList.add('is-visible');
-        valid = false;
-      } else {
-        $('txDesc').classList.remove('is-invalid');
-        $('txDescError').classList.remove('is-visible');
-      }
+    if (desc) {
+      $('txDesc').classList.remove('is-invalid');
+      $('txDescError').classList.remove('is-visible');
+    } else if (forceAll) {
+      $('txDesc').classList.add('is-invalid');
+      $('txDescError').classList.add('is-visible');
+      valid = false;
     }
 
-    if (forceAll || this.shouldValidate('date')) {
-      if (!dateVal) {
-        $('txDate').classList.add('is-invalid');
-        $('txDateError').classList.add('is-visible');
-        valid = false;
-      } else if (!/^\d{4}-\d{2}-\d{2}$/.test(dateVal)) {
-        $('txDate').classList.add('is-invalid');
-        $('txDateError').classList.add('is-visible');
-        valid = false;
-      } else {
-        $('txDate').classList.remove('is-invalid');
-        $('txDateError').classList.remove('is-visible');
-      }
+    if (dateVal && /^\d{4}-\d{2}-\d{2}$/.test(dateVal)) {
+      $('txDate').classList.remove('is-invalid');
+      $('txDateError').classList.remove('is-visible');
+    } else if (forceAll) {
+      $('txDate').classList.add('is-invalid');
+      $('txDateError').classList.add('is-visible');
+      valid = false;
     }
     return valid;
   },
@@ -987,13 +969,12 @@ function init() {
     });
   }
 
-  // TX form blur handlers for touched validation
+  // TX form input handlers — only clear errors (never add) to avoid mobile blur quirks
   ['txAmount', 'txDesc', 'txDate'].forEach(function(id) {
     var el = $(id);
     if (el) {
-      el.addEventListener('blur', function() {
-        TxForm.markTouched(id === 'txAmount' ? 'amount' : id === 'txDesc' ? 'desc' : 'date');
-        TxForm.validate();
+      el.addEventListener('input', function() {
+        if (TxForm.validate(false)) return; // clears valid fields; never adds errors
       });
     }
   });

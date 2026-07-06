@@ -40,6 +40,10 @@ export const ConfigPage = {
     onClick('shareBtn',  () => this.shareData());
     onClick('clearDataBtn', () => this.clearAllData());
     onClick('privPolicyBtn', () => smoothScroll($('privacidade')));
+    onClick('importBtn', () => {
+      var imp = $('importInput');
+      if (imp) imp.click(); // sync call inside touch handler (user-gesture for iOS)
+    });
 
     var importInput = $('importInput');
     if (importInput) {

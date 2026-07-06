@@ -302,11 +302,11 @@
               <span class="backup-btn__icon">🔗</span>
               <span>Compartilhar</span>
             </button>
-            <label class="backup-btn" for="importInput" style="cursor:pointer">
+            <button class="backup-btn" id="importBtn" type="button">
               <span class="backup-btn__icon">📥</span>
               <span>Importar JSON</span>
-              <input type="file" id="importInput" accept=".json,application/json" style="opacity:0;position:absolute;pointer-events:none;width:0;height:0" aria-label="Importar arquivo de backup">
-            </label>
+            </button>
+            <input type="file" id="importInput" accept=".json,application/json" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0" aria-label="Importar arquivo de backup">
           </div>
         </div>
 
