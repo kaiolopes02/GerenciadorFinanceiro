@@ -973,32 +973,26 @@ function init() {
     });
   }
 
-  // TX form input handlers — per-field clearing only (never add), avoids mobile cross-field red leaks
+  // TX form input handlers — clears red-border state on any edit (mobile fires input only when content changes, so unconditional clear is safest)
   var amtEl = $('txAmount');
   if (amtEl) {
     amtEl.addEventListener('input', function() {
-      if (parseBRL(this.value) > 0) {
-        amtEl.classList.remove('is-invalid');
-        $('txAmountError').classList.remove('is-visible');
-      }
+      amtEl.classList.remove('is-invalid');
+      $('txAmountError').classList.remove('is-visible');
     });
   }
   var descEl = $('txDesc');
   if (descEl) {
     descEl.addEventListener('input', function() {
-      if (this.value.trim()) {
-        descEl.classList.remove('is-invalid');
-        $('txDescError').classList.remove('is-visible');
-      }
+      descEl.classList.remove('is-invalid');
+      $('txDescError').classList.remove('is-visible');
     });
   }
   var dateEl = $('txDate');
   if (dateEl) {
     dateEl.addEventListener('input', function() {
-      if (this.value && /^\d{4}-\d{2}-\d{2}$/.test(this.value)) {
-        dateEl.classList.remove('is-invalid');
-        $('txDateError').classList.remove('is-visible');
-      }
+      dateEl.classList.remove('is-invalid');
+      $('txDateError').classList.remove('is-visible');
     });
   }
 
