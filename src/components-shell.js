@@ -121,6 +121,7 @@ export function openOverlay(id) {
 
   var shell = document.querySelector('.app-shell');
   if (shell) shell.classList.add('is-frozen');
+  document.body.classList.add('overlay-open');
 
   if (_focusTrapHandler) document.removeEventListener('keydown', _focusTrapHandler);
   _focusTrapHandler = function(ev) {
@@ -145,6 +146,7 @@ export function closeOverlay(id) {
   if (el) el.classList.remove('is-open');
   var shell = document.querySelector('.app-shell');
   if (shell) shell.classList.remove('is-frozen');
+  document.body.classList.remove('overlay-open');
   if (_focusTrapHandler) {
     document.removeEventListener('keydown', _focusTrapHandler);
     _focusTrapHandler = null;

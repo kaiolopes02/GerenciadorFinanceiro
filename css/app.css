@@ -248,7 +248,7 @@
    COMPONENTS: MODAL / DRAWER
    ============================================================ */
 .overlay {
-  display: none;
+  display: -webkit-flex; display: flex;
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
   inset: 0;
@@ -261,8 +261,17 @@
   -webkit-justify-content: center;
   justify-content: center;
   padding: var(--sp-4);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: visibility .2s, opacity var(--t-base);
+  transition: visibility .2s, opacity var(--t-base);
 }
-.overlay.is-open { display: -webkit-flex; display: flex; }
+.overlay.is-open {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
 
 .drawer {
   width: 100%;
@@ -303,10 +312,11 @@
 }
 
 /* === FAB hidden when overlay open === */
-.overlay.is-open ~ .fab {
+body.overlay-open .fab {
   pointer-events: none;
   opacity: 0;
   transform: scale(.5);
+  transition: opacity var(--t-base), transform var(--t-base);
 }
 
 .drawer__title {
