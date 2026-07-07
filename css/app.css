@@ -256,39 +256,57 @@
   background: rgba(0,0,0,.6);
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
-  -webkit-align-items: flex-end;
-  align-items: flex-end;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: var(--sp-4);
 }
 .overlay.is-open { display: -webkit-flex; display: flex; }
 
 .drawer {
   width: 100%;
   max-width: 480px;
-  margin: 0 auto;
   background: var(--clr-surface);
-  border-radius: var(--r-xl) var(--r-xl) 0 0;
-  padding: var(--sp-2) var(--sp-4) calc(var(--sp-6) + env(safe-area-inset-bottom, 0px));
+  border-radius: var(--r-xl);
+  padding: var(--sp-6) var(--sp-4) var(--sp-6);
   max-height: 92vh;
   max-height: 92dvh;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   overscroll-behavior: contain;
-  -webkit-transform: translateY(100%);
-  transform: translateY(100%);
-  -webkit-transition: -webkit-transform var(--t-slow);
-  transition: transform var(--t-slow);
+  -webkit-transform: scale(.88);
+  transform: scale(.88);
+  opacity: 0;
+  -webkit-transition: -webkit-transform var(--t-base), opacity var(--t-base);
+  transition: transform var(--t-base), opacity var(--t-base);
 }
 
 .overlay.is-open .drawer {
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
 }
 
 .drawer__handle {
   width: 40px; height: 4px;
   background: var(--clr-border);
   border-radius: 2px;
-  margin: var(--sp-3) auto var(--sp-5);
+  margin: 0 auto var(--sp-4);
+}
+
+/* === APP SHELL FREEZE (overlay aberta) === */
+.app-shell.is-frozen {
+  pointer-events: none;
+  user-select: none;
+  opacity: .35;
+}
+
+/* === FAB hidden when overlay open === */
+.overlay.is-open ~ .fab {
+  pointer-events: none;
+  opacity: 0;
+  transform: scale(.5);
 }
 
 .drawer__title {
@@ -1137,8 +1155,8 @@ input[type="date"].form-control {
   /* Confirm dialog centered & wider */
   .confirm-dialog__box { max-width: 420px; }
 
-  /* Drawer centered on desktop */
-  .drawer { max-width: 520px; }
+  /* Drawer wider on desktop */
+  .drawer { max-width: 540px; }
 
   /* Recent transactions list: horizontal pairs */
   #recentTxCard { margin-bottom: var(--sp-4); }

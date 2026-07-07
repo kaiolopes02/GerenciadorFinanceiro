@@ -1,0 +1,15 @@
+{
+  "0": "Data Persistence Layer",
+  "1": "App Bootstrap & Routing",
+  "2": "Data Views & Services",
+  "3": "UI Shell & Notifications",
+  "4": "Currency & Sanitization Utils",
+  "5": "PWA Branding & Manifest",
+  "6": "Privacy Policy (LGPD/CSP)",
+  "7": "Bottom Navigation",
+  "8": "Array polyfill (at)",
+  "9": "Array polyfill (find)",
+  "10": "Array polyfill (findIndex)",
+  "11": "String polyfill (padStart)",
+  "12": "Service Worker"
+}

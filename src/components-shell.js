@@ -119,6 +119,9 @@ export function openOverlay(id) {
 
   el.classList.add('is-open');
 
+  var shell = document.querySelector('.app-shell');
+  if (shell) shell.classList.add('is-frozen');
+
   if (_focusTrapHandler) document.removeEventListener('keydown', _focusTrapHandler);
   _focusTrapHandler = function(ev) {
     if ((ev.key || ev.keyCode) !== 'Tab' && (ev.key || ev.keyCode) !== 9) return;
@@ -140,6 +143,8 @@ export function openOverlay(id) {
 export function closeOverlay(id) {
   var el = $(id);
   if (el) el.classList.remove('is-open');
+  var shell = document.querySelector('.app-shell');
+  if (shell) shell.classList.remove('is-frozen');
   if (_focusTrapHandler) {
     document.removeEventListener('keydown', _focusTrapHandler);
     _focusTrapHandler = null;
