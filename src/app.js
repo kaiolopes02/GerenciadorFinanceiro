@@ -845,7 +845,7 @@ function initEventDelegation() {
     var touch = e.changedTouches && e.changedTouches[0];
     if (touch && typeof document.elementFromPoint === 'function') {
       var realTarget = document.elementFromPoint(touch.clientX, touch.clientY);
-      if (realTarget) {
+      if (realTarget && mainContent.contains(realTarget)) {
         handleDelegatedAction({ target: realTarget });
         e.preventDefault();
         return;
