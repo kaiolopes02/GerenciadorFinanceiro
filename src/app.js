@@ -850,6 +850,9 @@ function initEventDelegation() {
         e.preventDefault();
         return;
       }
+      // Touch ended outside mainContent (e.g., bottom nav) — consume it so bottom-nav handlers ignore
+      window._delegationConsumedTouch = true;
+      setTimeout(() => { window._delegationConsumedTouch = false; }, 400);
     }
     handleDelegatedAction(e);
     e.preventDefault();

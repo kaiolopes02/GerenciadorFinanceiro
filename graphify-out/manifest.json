@@ -5,9 +5,9 @@
     "semantic_hash": ""
   },
   "src/core.js": {
-    "mtime": 1783291124.3978336,
-    "ast_hash": "6a9f378a330a453d8cd293d6e4956404",
-    "semantic_hash": "6a9f378a330a453d8cd293d6e4956404"
+    "mtime": 1783384840.7384756,
+    "ast_hash": "87d5a61a29c084595a29267cfcf48aad",
+    "semantic_hash": ""
   },
   "src/repository.js": {
     "mtime": 1783290937.5977294,
@@ -70,8 +70,8 @@
     "semantic_hash": ""
   },
   "src/app.js": {
-    "mtime": 1783383636.5891151,
-    "ast_hash": "9e9ee7e2fe6d671d91deec4c82d6b12d",
+    "mtime": 1783384872.5725493,
+    "ast_hash": "e60d4e3ae71da8e2ae6c6d2a17ebf3aa",
     "semantic_hash": ""
   },
   "sw.js": {

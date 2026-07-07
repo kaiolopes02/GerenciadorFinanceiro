@@ -199,7 +199,7 @@ export function onClick(selector, handler) {
     el.addEventListener('touchstart', function() { moved = false; }, { passive: true });
     el.addEventListener('touchmove',  function() { moved = true;  }, { passive: true });
     el.addEventListener('touchend',   function(e) {
-      if (!moved) { touchFired = true; setTimeout(function() { touchFired = false; }, 500); handler(e); }
+      if (!moved && !window._delegationConsumedTouch) { touchFired = true; setTimeout(function() { touchFired = false; }, 500); handler(e); }
     });
     el.addEventListener('click', function(e) {
       if (touchFired) { touchFired = false; return; }
