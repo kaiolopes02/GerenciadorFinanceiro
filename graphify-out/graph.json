@@ -4,154 +4,14 @@
   "graph": {},
   "nodes": [
     {
-      "label": "app.js",
-      "file_type": "code",
-      "source_file": "src/app.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "src_app",
-      "community": 1,
-      "norm_label": "app.js"
-    },
-    {
-      "label": "repos",
-      "file_type": "code",
-      "source_file": "src/app.js",
-      "source_location": "L18",
-      "_origin": "ast",
-      "id": "src_app_repos",
-      "community": 1,
-      "norm_label": "repos"
-    },
-    {
-      "label": "getMonthLabel()",
-      "file_type": "code",
-      "source_file": "src/app.js",
-      "source_location": "L25",
-      "_origin": "ast",
-      "id": "src_app_getmonthlabel",
-      "community": 1,
-      "norm_label": "getmonthlabel()"
-    },
-    {
-      "label": "updateMonthLabels()",
-      "file_type": "code",
-      "source_file": "src/app.js",
-      "source_location": "L29",
-      "_origin": "ast",
-      "id": "src_app_updatemonthlabels",
-      "community": 1,
-      "norm_label": "updatemonthlabels()"
-    },
-    {
-      "label": "changeMonth()",
-      "file_type": "code",
-      "source_file": "src/app.js",
-      "source_location": "L33",
-      "_origin": "ast",
-      "id": "src_app_changemonth",
-      "community": 1,
-      "norm_label": "changemonth()"
-    },
-    {
-      "label": "TxForm",
-      "file_type": "code",
-      "source_file": "src/app.js",
-      "source_location": "L51",
-      "_origin": "ast",
-      "id": "src_app_txform",
-      "community": 1,
-      "norm_label": "txform"
-    },
-    {
-      "label": "GoalForm",
-      "file_type": "code",
-      "source_file": "src/app.js",
-      "source_location": "L386",
-      "_origin": "ast",
-      "id": "src_app_goalform",
-      "community": 1,
-      "norm_label": "goalform"
-    },
-    {
-      "label": "DebtForm",
-      "file_type": "code",
-      "source_file": "src/app.js",
-      "source_location": "L563",
-      "_origin": "ast",
-      "id": "src_app_debtform",
-      "community": 1,
-      "norm_label": "debtform"
-    },
-    {
-      "label": "initLGPD()",
-      "file_type": "code",
-      "source_file": "src/app.js",
-      "source_location": "L779",
-      "_origin": "ast",
-      "id": "src_app_initlgpd",
-      "community": 1,
-      "norm_label": "initlgpd()"
-    },
-    {
-      "label": "handleDelegatedAction()",
-      "file_type": "code",
-      "source_file": "src/app.js",
-      "source_location": "L788",
-      "_origin": "ast",
-      "id": "src_app_handledelegatedaction",
-      "community": 1,
-      "norm_label": "handledelegatedaction()"
-    },
-    {
-      "label": "initEventDelegation()",
-      "file_type": "code",
-      "source_file": "src/app.js",
-      "source_location": "L815",
-      "_origin": "ast",
-      "id": "src_app_initeventdelegation",
-      "community": 1,
-      "norm_label": "initeventdelegation()"
-    },
-    {
-      "label": "initOverlayHandlers()",
-      "file_type": "code",
-      "source_file": "src/app.js",
-      "source_location": "L868",
-      "_origin": "ast",
-      "id": "src_app_initoverlayhandlers",
-      "community": 1,
-      "norm_label": "initoverlayhandlers()"
-    },
-    {
-      "label": "showDiagnostics()",
-      "file_type": "code",
-      "source_file": "src/app.js",
-      "source_location": "L893",
-      "_origin": "ast",
-      "id": "src_app_showdiagnostics",
-      "community": 1,
-      "norm_label": "showdiagnostics()"
-    },
-    {
-      "label": "init()",
-      "file_type": "code",
-      "source_file": "src/app.js",
-      "source_location": "L906",
-      "_origin": "ast",
-      "id": "src_app_init",
-      "community": 1,
-      "norm_label": "init()"
-    },
-    {
       "label": "components-data.js",
       "file_type": "code",
       "source_file": "src/components-data.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_components_data",
-      "community": 2,
-      "norm_label": "components-data.js"
+      "community": 4,
+      "norm_label": "components-data.js",
+      "id": "src_components_data"
     },
     {
       "label": "BalanceHero()",
@@ -159,9 +19,9 @@
       "source_file": "src/components-data.js",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "src_components_data_balancehero",
-      "community": 2,
-      "norm_label": "balancehero()"
+      "community": 4,
+      "norm_label": "balancehero()",
+      "id": "src_components_data_balancehero"
     },
     {
       "label": "polarToXY()",
@@ -169,9 +29,9 @@
       "source_file": "src/components-data.js",
       "source_location": "L31",
       "_origin": "ast",
-      "id": "src_components_data_polartoxy",
-      "community": 2,
-      "norm_label": "polartoxy()"
+      "community": 4,
+      "norm_label": "polartoxy()",
+      "id": "src_components_data_polartoxy"
     },
     {
       "label": "makeArcPath()",
@@ -179,9 +39,9 @@
       "source_file": "src/components-data.js",
       "source_location": "L36",
       "_origin": "ast",
-      "id": "src_components_data_makearcpath",
-      "community": 2,
-      "norm_label": "makearcpath()"
+      "community": 4,
+      "norm_label": "makearcpath()",
+      "id": "src_components_data_makearcpath"
     },
     {
       "label": "DonutChart()",
@@ -189,9 +49,9 @@
       "source_file": "src/components-data.js",
       "source_location": "L57",
       "_origin": "ast",
-      "id": "src_components_data_donutchart",
-      "community": 2,
-      "norm_label": "donutchart()"
+      "community": 4,
+      "norm_label": "donutchart()",
+      "id": "src_components_data_donutchart"
     },
     {
       "label": "CategoryBars()",
@@ -199,9 +59,9 @@
       "source_file": "src/components-data.js",
       "source_location": "L152",
       "_origin": "ast",
-      "id": "src_components_data_categorybars",
-      "community": 2,
-      "norm_label": "categorybars()"
+      "community": 4,
+      "norm_label": "categorybars()",
+      "id": "src_components_data_categorybars"
     },
     {
       "label": "TxItem()",
@@ -209,9 +69,9 @@
       "source_file": "src/components-data.js",
       "source_location": "L186",
       "_origin": "ast",
-      "id": "src_components_data_txitem",
-      "community": 2,
-      "norm_label": "txitem()"
+      "community": 4,
+      "norm_label": "txitem()",
+      "id": "src_components_data_txitem"
     },
     {
       "label": "TxList()",
@@ -219,9 +79,9 @@
       "source_file": "src/components-data.js",
       "source_location": "L226",
       "_origin": "ast",
-      "id": "src_components_data_txlist",
-      "community": 2,
-      "norm_label": "txlist()"
+      "community": 4,
+      "norm_label": "txlist()",
+      "id": "src_components_data_txlist"
     },
     {
       "label": "GoalCard()",
@@ -229,9 +89,9 @@
       "source_file": "src/components-data.js",
       "source_location": "L273",
       "_origin": "ast",
-      "id": "src_components_data_goalcard",
-      "community": 2,
-      "norm_label": "goalcard()"
+      "community": 4,
+      "norm_label": "goalcard()",
+      "id": "src_components_data_goalcard"
     },
     {
       "label": "DebtCard()",
@@ -239,319 +99,9 @@
       "source_file": "src/components-data.js",
       "source_location": "L309",
       "_origin": "ast",
-      "id": "src_components_data_debtcard",
-      "community": 2,
-      "norm_label": "debtcard()"
-    },
-    {
-      "label": "components-shell.js",
-      "file_type": "code",
-      "source_file": "src/components-shell.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "src_components_shell",
-      "community": 3,
-      "norm_label": "components-shell.js"
-    },
-    {
-      "label": "ToastStack",
-      "file_type": "code",
-      "source_file": "src/components-shell.js",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "src_components_shell_toaststack",
-      "community": 3,
-      "norm_label": "toaststack"
-    },
-    {
-      "label": "ConfirmDialog",
-      "file_type": "code",
-      "source_file": "src/components-shell.js",
-      "source_location": "L35",
-      "_origin": "ast",
-      "id": "src_components_shell_confirmdialog",
-      "community": 3,
-      "norm_label": "confirmdialog"
-    },
-    {
-      "label": "openOverlay()",
-      "file_type": "code",
-      "source_file": "src/components-shell.js",
-      "source_location": "L91",
-      "_origin": "ast",
-      "id": "src_components_shell_openoverlay",
-      "community": 1,
-      "norm_label": "openoverlay()"
-    },
-    {
-      "label": "closeOverlay()",
-      "file_type": "code",
-      "source_file": "src/components-shell.js",
-      "source_location": "L144",
-      "_origin": "ast",
-      "id": "src_components_shell_closeoverlay",
-      "community": 1,
-      "norm_label": "closeoverlay()"
-    },
-    {
-      "label": "EmptyState()",
-      "file_type": "code",
-      "source_file": "src/components-shell.js",
-      "source_location": "L164",
-      "_origin": "ast",
-      "id": "src_components_shell_emptystate",
-      "community": 3,
-      "norm_label": "emptystate()"
-    },
-    {
-      "label": "MonthNav",
-      "file_type": "code",
-      "source_file": "src/components-shell.js",
-      "source_location": "L173",
-      "_origin": "ast",
-      "id": "src_components_shell_monthnav",
-      "community": 3,
-      "norm_label": "monthnav"
-    },
-    {
-      "label": "handleResize()",
-      "file_type": "code",
-      "source_file": "src/components-shell.js",
-      "source_location": "L189",
-      "_origin": "ast",
-      "id": "src_components_shell_handleresize",
-      "community": 1,
-      "norm_label": "handleresize()"
-    },
-    {
-      "label": "smoothScroll()",
-      "file_type": "code",
-      "source_file": "src/components-shell.js",
-      "source_location": "L195",
-      "_origin": "ast",
-      "id": "src_components_shell_smoothscroll",
-      "community": 3,
-      "norm_label": "smoothscroll()"
-    },
-    {
-      "label": "core.js",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "src_core",
-      "community": 3,
-      "norm_label": "core.js"
-    },
-    {
-      "label": "PromiseShim()",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L9",
-      "_origin": "ast",
-      "id": "src_core_promiseshim",
-      "community": 0,
-      "norm_label": "promiseshim()"
-    },
-    {
-      "label": ".then()",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L25",
-      "_origin": "ast",
-      "id": "src_core_promiseshim_then",
-      "community": 0,
-      "norm_label": ".then()"
-    },
-    {
-      "label": ".catch()",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L40",
-      "_origin": "ast",
-      "id": "src_core_promiseshim_catch",
-      "community": 0,
-      "norm_label": ".catch()"
-    },
-    {
-      "label": ".at()",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L60",
-      "_origin": "ast",
-      "id": "src_core_array_at",
-      "community": 8,
-      "norm_label": ".at()"
-    },
-    {
-      "label": ".find()",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L68",
-      "_origin": "ast",
-      "id": "src_core_array_find",
-      "community": 9,
-      "norm_label": ".find()"
-    },
-    {
-      "label": ".findIndex()",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L76",
-      "_origin": "ast",
-      "id": "src_core_array_findindex",
-      "community": 10,
-      "norm_label": ".findindex()"
-    },
-    {
-      "label": ".padStart()",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L84",
-      "_origin": "ast",
-      "id": "src_core_string_padstart",
-      "community": 11,
-      "norm_label": ".padstart()"
-    },
-    {
-      "label": "EventBus",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L111",
-      "_origin": "ast",
-      "id": "src_core_eventbus",
-      "community": 3,
-      "norm_label": "eventbus"
-    },
-    {
-      "label": "$$",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L166",
-      "_origin": "ast",
-      "id": "c_users_suass_onedrive_\u00e1rea_de_trabalho_projetos_programa\u00e7\u00e3o_gerenciadorfinanceiro_src_core",
-      "community": 1,
-      "norm_label": "$$"
-    },
-    {
-      "label": "$all()",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L176",
-      "_origin": "ast",
-      "id": "src_core_all",
-      "community": 1,
-      "norm_label": "$all()"
-    },
-    {
-      "label": "onClick()",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L185",
-      "_origin": "ast",
-      "id": "src_core_onclick",
-      "community": 3,
-      "norm_label": "onclick()"
-    },
-    {
-      "label": "createEl()",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L220",
-      "_origin": "ast",
-      "id": "src_core_createel",
-      "community": 3,
-      "norm_label": "createel()"
-    },
-    {
-      "label": "storage",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L236",
-      "_origin": "ast",
-      "id": "src_core_storage",
-      "community": 3,
-      "norm_label": "storage"
-    },
-    {
-      "label": "DB_STORES",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L253",
-      "_origin": "ast",
-      "id": "src_core_db_stores",
-      "community": 3,
-      "norm_label": "db_stores"
-    },
-    {
-      "label": "openDB()",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L261",
-      "_origin": "ast",
-      "id": "src_core_opendb",
-      "community": 0,
-      "norm_label": "opendb()"
-    },
-    {
-      "label": "dbGetAll()",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L303",
-      "_origin": "ast",
-      "id": "src_core_dbgetall",
-      "community": 0,
-      "norm_label": "dbgetall()"
-    },
-    {
-      "label": "dbPut()",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L332",
-      "_origin": "ast",
-      "id": "src_core_dbput",
-      "community": 0,
-      "norm_label": "dbput()"
-    },
-    {
-      "label": "dbDelete()",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L349",
-      "_origin": "ast",
-      "id": "src_core_dbdelete",
-      "community": 0,
-      "norm_label": "dbdelete()"
-    },
-    {
-      "label": "dbClearAll()",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L364",
-      "_origin": "ast",
-      "id": "src_core_dbclearall",
-      "community": 0,
-      "norm_label": "dbclearall()"
-    },
-    {
-      "label": "dbBulkImport()",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L381",
-      "_origin": "ast",
-      "id": "src_core_dbbulkimport",
-      "community": 0,
-      "norm_label": "dbbulkimport()"
-    },
-    {
-      "label": "state",
-      "file_type": "code",
-      "source_file": "src/core.js",
-      "source_location": "L396",
-      "_origin": "ast",
-      "id": "src_core_state",
-      "community": 2,
-      "norm_label": "state"
+      "community": 4,
+      "norm_label": "debtcard()",
+      "id": "src_components_data_debtcard"
     },
     {
       "label": "currency-utils.js",
@@ -559,9 +109,9 @@
       "source_file": "src/currency-utils.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_currency_utils",
-      "community": 4,
-      "norm_label": "currency-utils.js"
+      "community": 5,
+      "norm_label": "currency-utils.js",
+      "id": "src_currency_utils"
     },
     {
       "label": "sanitize()",
@@ -569,9 +119,9 @@
       "source_file": "src/currency-utils.js",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "src_currency_utils_sanitize",
-      "community": 2,
-      "norm_label": "sanitize()"
+      "community": 4,
+      "norm_label": "sanitize()",
+      "id": "src_currency_utils_sanitize"
     },
     {
       "label": "genId()",
@@ -579,9 +129,9 @@
       "source_file": "src/currency-utils.js",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "src_currency_utils_genid",
-      "community": 1,
-      "norm_label": "genid()"
+      "community": 5,
+      "norm_label": "genid()",
+      "id": "src_currency_utils_genid"
     },
     {
       "label": "parseBRL()",
@@ -589,9 +139,9 @@
       "source_file": "src/currency-utils.js",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "src_currency_utils_parsebrl",
-      "community": 1,
-      "norm_label": "parsebrl()"
+      "community": 5,
+      "norm_label": "parsebrl()",
+      "id": "src_currency_utils_parsebrl"
     },
     {
       "label": "formatBRL()",
@@ -599,9 +149,9 @@
       "source_file": "src/currency-utils.js",
       "source_location": "L54",
       "_origin": "ast",
-      "id": "src_currency_utils_formatbrl",
-      "community": 2,
-      "norm_label": "formatbrl()"
+      "community": 4,
+      "norm_label": "formatbrl()",
+      "id": "src_currency_utils_formatbrl"
     },
     {
       "label": "formatDate()",
@@ -609,9 +159,9 @@
       "source_file": "src/currency-utils.js",
       "source_location": "L63",
       "_origin": "ast",
-      "id": "src_currency_utils_formatdate",
-      "community": 2,
-      "norm_label": "formatdate()"
+      "community": 4,
+      "norm_label": "formatdate()",
+      "id": "src_currency_utils_formatdate"
     },
     {
       "label": "_cleanStr()",
@@ -619,9 +169,9 @@
       "source_file": "src/currency-utils.js",
       "source_location": "L77",
       "_origin": "ast",
-      "id": "src_currency_utils_cleanstr",
-      "community": 4,
-      "norm_label": "_cleanstr()"
+      "community": 5,
+      "norm_label": "_cleanstr()",
+      "id": "src_currency_utils_cleanstr"
     },
     {
       "label": "_cleanNum()",
@@ -629,9 +179,9 @@
       "source_file": "src/currency-utils.js",
       "source_location": "L80",
       "_origin": "ast",
-      "id": "src_currency_utils_cleannum",
-      "community": 4,
-      "norm_label": "_cleannum()"
+      "community": 5,
+      "norm_label": "_cleannum()",
+      "id": "src_currency_utils_cleannum"
     },
     {
       "label": "_cleanDate()",
@@ -639,9 +189,9 @@
       "source_file": "src/currency-utils.js",
       "source_location": "L84",
       "_origin": "ast",
-      "id": "src_currency_utils_cleandate",
-      "community": 4,
-      "norm_label": "_cleandate()"
+      "community": 5,
+      "norm_label": "_cleandate()",
+      "id": "src_currency_utils_cleandate"
     },
     {
       "label": "_cleanId()",
@@ -649,9 +199,9 @@
       "source_file": "src/currency-utils.js",
       "source_location": "L88",
       "_origin": "ast",
-      "id": "src_currency_utils_cleanid",
-      "community": 4,
-      "norm_label": "_cleanid()"
+      "community": 5,
+      "norm_label": "_cleanid()",
+      "id": "src_currency_utils_cleanid"
     },
     {
       "label": "sanitizeTx()",
@@ -659,9 +209,9 @@
       "source_file": "src/currency-utils.js",
       "source_location": "L92",
       "_origin": "ast",
-      "id": "src_currency_utils_sanitizetx",
-      "community": 4,
-      "norm_label": "sanitizetx()"
+      "community": 5,
+      "norm_label": "sanitizetx()",
+      "id": "src_currency_utils_sanitizetx"
     },
     {
       "label": "sanitizeGoal()",
@@ -669,9 +219,9 @@
       "source_file": "src/currency-utils.js",
       "source_location": "L112",
       "_origin": "ast",
-      "id": "src_currency_utils_sanitizegoal",
-      "community": 4,
-      "norm_label": "sanitizegoal()"
+      "community": 5,
+      "norm_label": "sanitizegoal()",
+      "id": "src_currency_utils_sanitizegoal"
     },
     {
       "label": "sanitizeDebt()",
@@ -679,9 +229,9 @@
       "source_file": "src/currency-utils.js",
       "source_location": "L125",
       "_origin": "ast",
-      "id": "src_currency_utils_sanitizedebt",
-      "community": 4,
-      "norm_label": "sanitizedebt()"
+      "community": 5,
+      "norm_label": "sanitizedebt()",
+      "id": "src_currency_utils_sanitizedebt"
     },
     {
       "label": "CATEGORY_ICONS",
@@ -689,9 +239,9 @@
       "source_file": "src/currency-utils.js",
       "source_location": "L143",
       "_origin": "ast",
-      "id": "src_currency_utils_category_icons",
-      "community": 4,
-      "norm_label": "category_icons"
+      "community": 5,
+      "norm_label": "category_icons",
+      "id": "src_currency_utils_category_icons"
     },
     {
       "label": "CATEGORY_COLORS",
@@ -699,9 +249,9 @@
       "source_file": "src/currency-utils.js",
       "source_location": "L153",
       "_origin": "ast",
-      "id": "src_currency_utils_category_colors",
-      "community": 4,
-      "norm_label": "category_colors"
+      "community": 5,
+      "norm_label": "category_colors",
+      "id": "src_currency_utils_category_colors"
     },
     {
       "label": "PAYMENT_BADGES",
@@ -709,9 +259,9 @@
       "source_file": "src/currency-utils.js",
       "source_location": "L174",
       "_origin": "ast",
-      "id": "src_currency_utils_payment_badges",
-      "community": 4,
-      "norm_label": "payment_badges"
+      "community": 5,
+      "norm_label": "payment_badges",
+      "id": "src_currency_utils_payment_badges"
     },
     {
       "label": "INCOME_CATEGORIES",
@@ -719,9 +269,9 @@
       "source_file": "src/currency-utils.js",
       "source_location": "L179",
       "_origin": "ast",
-      "id": "src_currency_utils_income_categories",
-      "community": 4,
-      "norm_label": "income_categories"
+      "community": 5,
+      "norm_label": "income_categories",
+      "id": "src_currency_utils_income_categories"
     },
     {
       "label": "EXPENSE_CATEGORIES",
@@ -729,9 +279,9 @@
       "source_file": "src/currency-utils.js",
       "source_location": "L191",
       "_origin": "ast",
-      "id": "src_currency_utils_expense_categories",
-      "community": 4,
-      "norm_label": "expense_categories"
+      "community": 5,
+      "norm_label": "expense_categories",
+      "id": "src_currency_utils_expense_categories"
     },
     {
       "label": "MONTHS_PT",
@@ -739,9 +289,9 @@
       "source_file": "src/currency-utils.js",
       "source_location": "L202",
       "_origin": "ast",
-      "id": "src_currency_utils_months_pt",
-      "community": 4,
-      "norm_label": "months_pt"
+      "community": 5,
+      "norm_label": "months_pt",
+      "id": "src_currency_utils_months_pt"
     },
     {
       "label": "models.js",
@@ -749,9 +299,9 @@
       "source_file": "src/models.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_models",
-      "community": 1,
-      "norm_label": "models.js"
+      "community": 5,
+      "norm_label": "models.js",
+      "id": "src_models"
     },
     {
       "label": "Transacao",
@@ -759,9 +309,9 @@
       "source_file": "src/models.js",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "src_models_transacao",
-      "community": 1,
-      "norm_label": "transacao"
+      "community": 5,
+      "norm_label": "transacao",
+      "id": "src_models_transacao"
     },
     {
       "label": "Objetivo",
@@ -769,9 +319,9 @@
       "source_file": "src/models.js",
       "source_location": "L82",
       "_origin": "ast",
-      "id": "src_models_objetivo",
-      "community": 1,
-      "norm_label": "objetivo"
+      "community": 5,
+      "norm_label": "objetivo",
+      "id": "src_models_objetivo"
     },
     {
       "label": "Divida",
@@ -779,49 +329,9 @@
       "source_file": "src/models.js",
       "source_location": "L142",
       "_origin": "ast",
-      "id": "src_models_divida",
-      "community": 1,
-      "norm_label": "divida"
-    },
-    {
-      "label": "page-config.js",
-      "file_type": "code",
-      "source_file": "src/page-config.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "src_page_config",
-      "community": 3,
-      "norm_label": "page-config.js"
-    },
-    {
-      "label": "ConfigPage",
-      "file_type": "code",
-      "source_file": "src/page-config.js",
-      "source_location": "L9",
-      "_origin": "ast",
-      "id": "src_page_config_configpage",
-      "community": 1,
-      "norm_label": "configpage"
-    },
-    {
-      "label": "page-dashboard.js",
-      "file_type": "code",
-      "source_file": "src/page-dashboard.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "src_page_dashboard",
-      "community": 2,
-      "norm_label": "page-dashboard.js"
-    },
-    {
-      "label": "DashboardPage",
-      "file_type": "code",
-      "source_file": "src/page-dashboard.js",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "src_page_dashboard_dashboardpage",
-      "community": 1,
-      "norm_label": "dashboardpage"
+      "community": 5,
+      "norm_label": "divida",
+      "id": "src_models_divida"
     },
     {
       "label": "page-dividas.js",
@@ -829,9 +339,9 @@
       "source_file": "src/page-dividas.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_page_dividas",
-      "community": 2,
-      "norm_label": "page-dividas.js"
+      "community": 4,
+      "norm_label": "page-dividas.js",
+      "id": "src_page_dividas"
     },
     {
       "label": "DividasPage",
@@ -839,9 +349,9 @@
       "source_file": "src/page-dividas.js",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "src_page_dividas_dividaspage",
-      "community": 2,
-      "norm_label": "dividaspage"
+      "community": 4,
+      "norm_label": "dividaspage",
+      "id": "src_page_dividas_dividaspage"
     },
     {
       "label": "page-objetivos.js",
@@ -849,9 +359,9 @@
       "source_file": "src/page-objetivos.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_page_objetivos",
-      "community": 3,
-      "norm_label": "page-objetivos.js"
+      "community": 4,
+      "norm_label": "page-objetivos.js",
+      "id": "src_page_objetivos"
     },
     {
       "label": "ObjetivosPage",
@@ -859,29 +369,9 @@
       "source_file": "src/page-objetivos.js",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "src_page_objetivos_objetivospage",
-      "community": 3,
-      "norm_label": "objetivospage"
-    },
-    {
-      "label": "page-transacoes.js",
-      "file_type": "code",
-      "source_file": "src/page-transacoes.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "src_page_transacoes",
-      "community": 2,
-      "norm_label": "page-transacoes.js"
-    },
-    {
-      "label": "TransacoesPage",
-      "file_type": "code",
-      "source_file": "src/page-transacoes.js",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "src_page_transacoes_transacoespage",
-      "community": 1,
-      "norm_label": "transacoespage"
+      "community": 4,
+      "norm_label": "objetivospage",
+      "id": "src_page_objetivos_objetivospage"
     },
     {
       "label": "repository.js",
@@ -889,9 +379,9 @@
       "source_file": "src/repository.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_repository",
-      "community": 0,
-      "norm_label": "repository.js"
+      "community": 1,
+      "norm_label": "repository.js",
+      "id": "src_repository"
     },
     {
       "label": "_acquireLock()",
@@ -899,9 +389,9 @@
       "source_file": "src/repository.js",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "src_repository_acquirelock",
-      "community": 0,
-      "norm_label": "_acquirelock()"
+      "community": 1,
+      "norm_label": "_acquirelock()",
+      "id": "src_repository_acquirelock"
     },
     {
       "label": "_releaseLock()",
@@ -909,9 +399,9 @@
       "source_file": "src/repository.js",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "src_repository_releaselock",
-      "community": 0,
-      "norm_label": "_releaselock()"
+      "community": 1,
+      "norm_label": "_releaselock()",
+      "id": "src_repository_releaselock"
     },
     {
       "label": "BaseRepo",
@@ -919,9 +409,9 @@
       "source_file": "src/repository.js",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "src_repository_baserepo",
-      "community": 0,
-      "norm_label": "baserepo"
+      "community": 1,
+      "norm_label": "baserepo",
+      "id": "src_repository_baserepo"
     },
     {
       "label": ".constructor()",
@@ -929,9 +419,9 @@
       "source_file": "src/repository.js",
       "source_location": "L31",
       "_origin": "ast",
-      "id": "src_repository_baserepo_constructor",
-      "community": 0,
-      "norm_label": ".constructor()"
+      "community": 1,
+      "norm_label": ".constructor()",
+      "id": "src_repository_baserepo_constructor"
     },
     {
       "label": ".getAll()",
@@ -939,9 +429,9 @@
       "source_file": "src/repository.js",
       "source_location": "L36",
       "_origin": "ast",
-      "id": "src_repository_baserepo_getall",
-      "community": 0,
-      "norm_label": ".getall()"
+      "community": 1,
+      "norm_label": ".getall()",
+      "id": "src_repository_baserepo_getall"
     },
     {
       "label": ".getById()",
@@ -949,9 +439,9 @@
       "source_file": "src/repository.js",
       "source_location": "L39",
       "_origin": "ast",
-      "id": "src_repository_baserepo_getbyid",
-      "community": 0,
-      "norm_label": ".getbyid()"
+      "community": 1,
+      "norm_label": ".getbyid()",
+      "id": "src_repository_baserepo_getbyid"
     },
     {
       "label": ".put()",
@@ -959,9 +449,9 @@
       "source_file": "src/repository.js",
       "source_location": "L45",
       "_origin": "ast",
-      "id": "src_repository_baserepo_put",
-      "community": 0,
-      "norm_label": ".put()"
+      "community": 1,
+      "norm_label": ".put()",
+      "id": "src_repository_baserepo_put"
     },
     {
       "label": ".delete()",
@@ -969,9 +459,9 @@
       "source_file": "src/repository.js",
       "source_location": "L55",
       "_origin": "ast",
-      "id": "src_repository_baserepo_delete",
-      "community": 0,
-      "norm_label": ".delete()"
+      "community": 1,
+      "norm_label": ".delete()",
+      "id": "src_repository_baserepo_delete"
     },
     {
       "label": ".clear()",
@@ -979,9 +469,9 @@
       "source_file": "src/repository.js",
       "source_location": "L65",
       "_origin": "ast",
-      "id": "src_repository_baserepo_clear",
-      "community": 0,
-      "norm_label": ".clear()"
+      "community": 1,
+      "norm_label": ".clear()",
+      "id": "src_repository_baserepo_clear"
     },
     {
       "label": "TransacaoRepo",
@@ -989,9 +479,9 @@
       "source_file": "src/repository.js",
       "source_location": "L76",
       "_origin": "ast",
-      "id": "src_repository_transacaorepo",
-      "community": 0,
-      "norm_label": "transacaorepo"
+      "community": 1,
+      "norm_label": "transacaorepo",
+      "id": "src_repository_transacaorepo"
     },
     {
       "label": ".constructor()",
@@ -999,9 +489,9 @@
       "source_file": "src/repository.js",
       "source_location": "L77",
       "_origin": "ast",
-      "id": "src_repository_transacaorepo_constructor",
-      "community": 0,
-      "norm_label": ".constructor()"
+      "community": 1,
+      "norm_label": ".constructor()",
+      "id": "src_repository_transacaorepo_constructor"
     },
     {
       "label": ".getByMonth()",
@@ -1009,9 +499,9 @@
       "source_file": "src/repository.js",
       "source_location": "L85",
       "_origin": "ast",
-      "id": "src_repository_transacaorepo_getbymonth",
-      "community": 0,
-      "norm_label": ".getbymonth()"
+      "community": 1,
+      "norm_label": ".getbymonth()",
+      "id": "src_repository_transacaorepo_getbymonth"
     },
     {
       "label": ".getLinkedTo()",
@@ -1019,9 +509,9 @@
       "source_file": "src/repository.js",
       "source_location": "L97",
       "_origin": "ast",
-      "id": "src_repository_transacaorepo_getlinkedto",
-      "community": 0,
-      "norm_label": ".getlinkedto()"
+      "community": 1,
+      "norm_label": ".getlinkedto()",
+      "id": "src_repository_transacaorepo_getlinkedto"
     },
     {
       "label": ".getCurrentMonth()",
@@ -1029,9 +519,9 @@
       "source_file": "src/repository.js",
       "source_location": "L106",
       "_origin": "ast",
-      "id": "src_repository_transacaorepo_getcurrentmonth",
-      "community": 0,
-      "norm_label": ".getcurrentmonth()"
+      "community": 1,
+      "norm_label": ".getcurrentmonth()",
+      "id": "src_repository_transacaorepo_getcurrentmonth"
     },
     {
       "label": "ObjetivoRepo",
@@ -1039,9 +529,9 @@
       "source_file": "src/repository.js",
       "source_location": "L112",
       "_origin": "ast",
-      "id": "src_repository_objetivorepo",
-      "community": 0,
-      "norm_label": "objetivorepo"
+      "community": 1,
+      "norm_label": "objetivorepo",
+      "id": "src_repository_objetivorepo"
     },
     {
       "label": ".constructor()",
@@ -1049,9 +539,9 @@
       "source_file": "src/repository.js",
       "source_location": "L113",
       "_origin": "ast",
-      "id": "src_repository_objetivorepo_constructor",
-      "community": 0,
-      "norm_label": ".constructor()"
+      "community": 1,
+      "norm_label": ".constructor()",
+      "id": "src_repository_objetivorepo_constructor"
     },
     {
       "label": "DividaRepo",
@@ -1059,9 +549,9 @@
       "source_file": "src/repository.js",
       "source_location": "L117",
       "_origin": "ast",
-      "id": "src_repository_dividarepo",
-      "community": 0,
-      "norm_label": "dividarepo"
+      "community": 1,
+      "norm_label": "dividarepo",
+      "id": "src_repository_dividarepo"
     },
     {
       "label": ".constructor()",
@@ -1069,9 +559,9 @@
       "source_file": "src/repository.js",
       "source_location": "L118",
       "_origin": "ast",
-      "id": "src_repository_dividarepo_constructor",
-      "community": 0,
-      "norm_label": ".constructor()"
+      "community": 1,
+      "norm_label": ".constructor()",
+      "id": "src_repository_dividarepo_constructor"
     },
     {
       "label": ".getByTipo()",
@@ -1079,9 +569,9 @@
       "source_file": "src/repository.js",
       "source_location": "L125",
       "_origin": "ast",
-      "id": "src_repository_dividarepo_getbytipo",
-      "community": 0,
-      "norm_label": ".getbytipo()"
+      "community": 1,
+      "norm_label": ".getbytipo()",
+      "id": "src_repository_dividarepo_getbytipo"
     },
     {
       "label": "Schema",
@@ -1089,9 +579,9 @@
       "source_file": "src/repository.js",
       "source_location": "L132",
       "_origin": "ast",
-      "id": "src_repository_schema",
-      "community": 0,
-      "norm_label": "schema"
+      "community": 1,
+      "norm_label": "schema",
+      "id": "src_repository_schema"
     },
     {
       "label": "services.js",
@@ -1099,9 +589,9 @@
       "source_file": "src/services.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_services",
-      "community": 2,
-      "norm_label": "services.js"
+      "community": 4,
+      "norm_label": "services.js",
+      "id": "src_services"
     },
     {
       "label": "BalanceService",
@@ -1109,9 +599,9 @@
       "source_file": "src/services.js",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "src_services_balanceservice",
-      "community": 2,
-      "norm_label": "balanceservice"
+      "community": 4,
+      "norm_label": "balanceservice",
+      "id": "src_services_balanceservice"
     },
     {
       "label": "CategoryService",
@@ -1119,9 +609,9 @@
       "source_file": "src/services.js",
       "source_location": "L39",
       "_origin": "ast",
-      "id": "src_services_categoryservice",
-      "community": 2,
-      "norm_label": "categoryservice"
+      "community": 4,
+      "norm_label": "categoryservice",
+      "id": "src_services_categoryservice"
     },
     {
       "label": "DebtStatusService",
@@ -1129,9 +619,9 @@
       "source_file": "src/services.js",
       "source_location": "L93",
       "_origin": "ast",
-      "id": "src_services_debtstatusservice",
-      "community": 2,
-      "norm_label": "debtstatusservice"
+      "community": 4,
+      "norm_label": "debtstatusservice",
+      "id": "src_services_debtstatusservice"
     },
     {
       "label": "theme-router.js",
@@ -1139,9 +629,9 @@
       "source_file": "src/theme-router.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_theme_router",
-      "community": 3,
-      "norm_label": "theme-router.js"
+      "community": 0,
+      "norm_label": "theme-router.js",
+      "id": "src_theme_router"
     },
     {
       "label": "ThemeEngine",
@@ -1149,9 +639,9 @@
       "source_file": "src/theme-router.js",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "src_theme_router_themeengine",
-      "community": 3,
-      "norm_label": "themeengine"
+      "community": 0,
+      "norm_label": "themeengine",
+      "id": "src_theme_router_themeengine"
     },
     {
       "label": "Router",
@@ -1159,9 +649,9 @@
       "source_file": "src/theme-router.js",
       "source_location": "L64",
       "_origin": "ast",
-      "id": "src_theme_router_router",
-      "community": 1,
-      "norm_label": "router"
+      "community": 0,
+      "norm_label": "router",
+      "id": "src_theme_router_router"
     },
     {
       "label": "sw.js",
@@ -1169,74 +659,9 @@
       "source_file": "sw.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "sw",
-      "community": 12,
-      "norm_label": "sw.js"
-    },
-    {
-      "label": "App Shell Layout",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "line 60",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 5,
-      "norm_label": "app shell layout",
-      "id": "index_app_shell"
-    },
-    {
-      "label": "LGPD Privacy Banner",
-      "file_type": "rationale",
-      "source_file": "index.html",
-      "source_location": "line 44",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 6,
-      "norm_label": "lgpd privacy banner",
-      "id": "index_lgpd_banner"
-    },
-    {
-      "label": "Content Security Policy (connect-src none)",
-      "file_type": "rationale",
-      "source_file": "index.html",
-      "source_location": "line 25",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 6,
-      "norm_label": "content security policy (connect-src none)",
-      "id": "index_csp"
-    },
-    {
-      "label": "PWA Manifest Link",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "line 17",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 5,
-      "norm_label": "pwa manifest link",
-      "id": "index_pwa_manifest"
-    },
-    {
-      "label": "Bottom Navigation (5 pages)",
-      "file_type": "document",
-      "source_file": "index.html",
-      "source_location": "line 75",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 7,
-      "norm_label": "bottom navigation (5 pages)",
-      "id": "index_bottom_nav"
+      "community": 11,
+      "norm_label": "sw.js",
+      "id": "sw"
     },
     {
       "label": "VFIcon - Application icon/logo image (~61KB PNG)",
@@ -1247,7 +672,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "vficon - application icon/logo image (~61kb png)",
       "id": "assets_vficon"
     },
@@ -1260,7 +685,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "vflogo.png - app brand logo",
       "id": "assets_vflogo"
     },
@@ -1273,7 +698,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "pwa icon 192x192",
       "id": "assets_icon_192"
     },
@@ -1286,12 +711,2606 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "pwa icon 512x512",
       "id": "assets_icon_512"
+    },
+    {
+      "label": "app.js",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_app",
+      "community": 0,
+      "norm_label": "app.js"
+    },
+    {
+      "label": "repos",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "src_app_repos",
+      "community": 0,
+      "norm_label": "repos"
+    },
+    {
+      "label": "getMonthLabel()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "src_app_getmonthlabel",
+      "community": 0,
+      "norm_label": "getmonthlabel()"
+    },
+    {
+      "label": "updateMonthLabels()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "src_app_updatemonthlabels",
+      "community": 0,
+      "norm_label": "updatemonthlabels()"
+    },
+    {
+      "label": "changeMonth()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "src_app_changemonth",
+      "community": 0,
+      "norm_label": "changemonth()"
+    },
+    {
+      "label": "TxForm",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "src_app_txform",
+      "community": 0,
+      "norm_label": "txform"
+    },
+    {
+      "label": "GoalForm",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L386",
+      "_origin": "ast",
+      "id": "src_app_goalform",
+      "community": 0,
+      "norm_label": "goalform"
+    },
+    {
+      "label": "DebtForm",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L563",
+      "_origin": "ast",
+      "id": "src_app_debtform",
+      "community": 0,
+      "norm_label": "debtform"
+    },
+    {
+      "label": "initLGPD()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L779",
+      "_origin": "ast",
+      "id": "src_app_initlgpd",
+      "community": 0,
+      "norm_label": "initlgpd()"
+    },
+    {
+      "label": "handleDelegatedAction()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L788",
+      "_origin": "ast",
+      "id": "src_app_handledelegatedaction",
+      "community": 0,
+      "norm_label": "handledelegatedaction()"
+    },
+    {
+      "label": "initEventDelegation()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L815",
+      "_origin": "ast",
+      "id": "src_app_initeventdelegation",
+      "community": 0,
+      "norm_label": "initeventdelegation()"
+    },
+    {
+      "label": "initOverlayHandlers()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L868",
+      "_origin": "ast",
+      "id": "src_app_initoverlayhandlers",
+      "community": 0,
+      "norm_label": "initoverlayhandlers()"
+    },
+    {
+      "label": "showDiagnostics()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L893",
+      "_origin": "ast",
+      "id": "src_app_showdiagnostics",
+      "community": 0,
+      "norm_label": "showdiagnostics()"
+    },
+    {
+      "label": "init()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L906",
+      "_origin": "ast",
+      "id": "src_app_init",
+      "community": 0,
+      "norm_label": "init()"
+    },
+    {
+      "label": "components-shell.js",
+      "file_type": "code",
+      "source_file": "src/components-shell.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_components_shell",
+      "community": 0,
+      "norm_label": "components-shell.js"
+    },
+    {
+      "label": "ToastStack",
+      "file_type": "code",
+      "source_file": "src/components-shell.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "src_components_shell_toaststack",
+      "community": 0,
+      "norm_label": "toaststack"
+    },
+    {
+      "label": "ConfirmDialog",
+      "file_type": "code",
+      "source_file": "src/components-shell.js",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "src_components_shell_confirmdialog",
+      "community": 0,
+      "norm_label": "confirmdialog"
+    },
+    {
+      "label": "openOverlay()",
+      "file_type": "code",
+      "source_file": "src/components-shell.js",
+      "source_location": "L91",
+      "_origin": "ast",
+      "id": "src_components_shell_openoverlay",
+      "community": 0,
+      "norm_label": "openoverlay()"
+    },
+    {
+      "label": "closeOverlay()",
+      "file_type": "code",
+      "source_file": "src/components-shell.js",
+      "source_location": "L144",
+      "_origin": "ast",
+      "id": "src_components_shell_closeoverlay",
+      "community": 0,
+      "norm_label": "closeoverlay()"
+    },
+    {
+      "label": "EmptyState()",
+      "file_type": "code",
+      "source_file": "src/components-shell.js",
+      "source_location": "L164",
+      "_origin": "ast",
+      "id": "src_components_shell_emptystate",
+      "community": 4,
+      "norm_label": "emptystate()"
+    },
+    {
+      "label": "MonthNav",
+      "file_type": "code",
+      "source_file": "src/components-shell.js",
+      "source_location": "L173",
+      "_origin": "ast",
+      "id": "src_components_shell_monthnav",
+      "community": 0,
+      "norm_label": "monthnav"
+    },
+    {
+      "label": "handleResize()",
+      "file_type": "code",
+      "source_file": "src/components-shell.js",
+      "source_location": "L189",
+      "_origin": "ast",
+      "id": "src_components_shell_handleresize",
+      "community": 0,
+      "norm_label": "handleresize()"
+    },
+    {
+      "label": "smoothScroll()",
+      "file_type": "code",
+      "source_file": "src/components-shell.js",
+      "source_location": "L195",
+      "_origin": "ast",
+      "id": "src_components_shell_smoothscroll",
+      "community": 0,
+      "norm_label": "smoothscroll()"
+    },
+    {
+      "label": "core.js",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_core",
+      "community": 0,
+      "norm_label": "core.js"
+    },
+    {
+      "label": "PromiseShim()",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "src_core_promiseshim",
+      "community": 1,
+      "norm_label": "promiseshim()"
+    },
+    {
+      "label": ".then()",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "src_core_promiseshim_then",
+      "community": 1,
+      "norm_label": ".then()"
+    },
+    {
+      "label": ".catch()",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "src_core_promiseshim_catch",
+      "community": 1,
+      "norm_label": ".catch()"
+    },
+    {
+      "label": ".at()",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "src_core_array_at",
+      "community": 7,
+      "norm_label": ".at()"
+    },
+    {
+      "label": ".find()",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "src_core_array_find",
+      "community": 8,
+      "norm_label": ".find()"
+    },
+    {
+      "label": ".findIndex()",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L76",
+      "_origin": "ast",
+      "id": "src_core_array_findindex",
+      "community": 9,
+      "norm_label": ".findindex()"
+    },
+    {
+      "label": ".padStart()",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L84",
+      "_origin": "ast",
+      "id": "src_core_string_padstart",
+      "community": 10,
+      "norm_label": ".padstart()"
+    },
+    {
+      "label": "EventBus",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L111",
+      "_origin": "ast",
+      "id": "src_core_eventbus",
+      "community": 0,
+      "norm_label": "eventbus"
+    },
+    {
+      "label": "$()",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L156",
+      "_origin": "ast",
+      "id": "c_users_suass_onedrive_\u00e1rea_de_trabalho_projetos_programa\u00e7\u00e3o_gerenciadorfinanceiro_src_core",
+      "community": 0,
+      "norm_label": "$()"
+    },
+    {
+      "label": "$all()",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L176",
+      "_origin": "ast",
+      "id": "src_core_all",
+      "community": 0,
+      "norm_label": "$all()"
+    },
+    {
+      "label": "onClick()",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L185",
+      "_origin": "ast",
+      "id": "src_core_onclick",
+      "community": 0,
+      "norm_label": "onclick()"
+    },
+    {
+      "label": "createEl()",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L220",
+      "_origin": "ast",
+      "id": "src_core_createel",
+      "community": 0,
+      "norm_label": "createel()"
+    },
+    {
+      "label": "storage",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L236",
+      "_origin": "ast",
+      "id": "src_core_storage",
+      "community": 0,
+      "norm_label": "storage"
+    },
+    {
+      "label": "DB_STORES",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L253",
+      "_origin": "ast",
+      "id": "src_core_db_stores",
+      "community": 0,
+      "norm_label": "db_stores"
+    },
+    {
+      "label": "openDB()",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L261",
+      "_origin": "ast",
+      "id": "src_core_opendb",
+      "community": 1,
+      "norm_label": "opendb()"
+    },
+    {
+      "label": "dbGetAll()",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L303",
+      "_origin": "ast",
+      "id": "src_core_dbgetall",
+      "community": 1,
+      "norm_label": "dbgetall()"
+    },
+    {
+      "label": "dbPut()",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L332",
+      "_origin": "ast",
+      "id": "src_core_dbput",
+      "community": 1,
+      "norm_label": "dbput()"
+    },
+    {
+      "label": "dbDelete()",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L349",
+      "_origin": "ast",
+      "id": "src_core_dbdelete",
+      "community": 1,
+      "norm_label": "dbdelete()"
+    },
+    {
+      "label": "dbClearAll()",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L364",
+      "_origin": "ast",
+      "id": "src_core_dbclearall",
+      "community": 1,
+      "norm_label": "dbclearall()"
+    },
+    {
+      "label": "dbBulkImport()",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L381",
+      "_origin": "ast",
+      "id": "src_core_dbbulkimport",
+      "community": 1,
+      "norm_label": "dbbulkimport()"
+    },
+    {
+      "label": "state",
+      "file_type": "code",
+      "source_file": "src/core.js",
+      "source_location": "L396",
+      "_origin": "ast",
+      "id": "src_core_state",
+      "community": 0,
+      "norm_label": "state"
+    },
+    {
+      "label": "page-config.js",
+      "file_type": "code",
+      "source_file": "src/page-config.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_page_config",
+      "community": 0,
+      "norm_label": "page-config.js"
+    },
+    {
+      "label": "ConfigPage",
+      "file_type": "code",
+      "source_file": "src/page-config.js",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "src_page_config_configpage",
+      "community": 0,
+      "norm_label": "configpage"
+    },
+    {
+      "label": "page-dashboard.js",
+      "file_type": "code",
+      "source_file": "src/page-dashboard.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_page_dashboard",
+      "community": 0,
+      "norm_label": "page-dashboard.js"
+    },
+    {
+      "label": "DashboardPage",
+      "file_type": "code",
+      "source_file": "src/page-dashboard.js",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_page_dashboard_dashboardpage",
+      "community": 0,
+      "norm_label": "dashboardpage"
+    },
+    {
+      "label": "page-transacoes.js",
+      "file_type": "code",
+      "source_file": "src/page-transacoes.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_page_transacoes",
+      "community": 0,
+      "norm_label": "page-transacoes.js"
+    },
+    {
+      "label": "TransacoesPage",
+      "file_type": "code",
+      "source_file": "src/page-transacoes.js",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_page_transacoes_transacoespage",
+      "community": 0,
+      "norm_label": "transacoespage"
+    },
+    {
+      "label": "index.html",
+      "type": "HTMLDocument",
+      "source_file": "index.html",
+      "summary": "Root HTML document for Gestor Financeiro PWA \u2014 privacy-first offline financial manager (LGPD compliant). Loads CSS tokens, base, app styles and ES module app.js; declares all UI sections, drawers and dialogs.",
+      "file_type": "concept",
+      "id": "index.html",
+      "community": 2,
+      "norm_label": "index.html"
+    },
+    {
+      "label": "<head>",
+      "type": "HTMLElement",
+      "source_file": "index.html",
+      "source_location": "lines 3-37",
+      "summary": "Head element with charset, viewport, theme-color, PWA metas, CSP, Google Fonts links and local CSS stylesheet links.",
+      "file_type": "concept",
+      "id": "head",
+      "community": 2,
+      "norm_label": "<head>"
+    },
+    {
+      "label": "Content-Security-Policy meta",
+      "type": "SecurityPolicy",
+      "source_file": "index.html",
+      "source_location": "lines 25-26",
+      "summary": "CSP blocking external connections (connect-src none); allows self + unsafe-inline scripts, self + Google Fonts styles/fonts, self + data/blob images, blob workers, no objects. Enforces LGPD local-only data.",
+      "file_type": "concept",
+      "id": "csp-meta",
+      "community": 2,
+      "norm_label": "content-security-policy meta"
+    },
+    {
+      "label": "site.webmanifest",
+      "type": "ManifestLink",
+      "source_file": "index.html",
+      "source_location": "line 17",
+      "summary": "PWA manifest link.",
+      "file_type": "concept",
+      "id": "manifest-link",
+      "community": 2,
+      "norm_label": "site.webmanifest"
+    },
+    {
+      "label": "assets/icon-192.png",
+      "type": "ImageAsset",
+      "source_file": "index.html",
+      "source_location": "lines 18-19",
+      "summary": "PNG favicon and apple-touch-icon.",
+      "file_type": "concept",
+      "id": "icon-192",
+      "community": 2,
+      "norm_label": "assets/icon-192.png"
+    },
+    {
+      "label": "inline base64 favicon",
+      "type": "ImageAsset",
+      "source_file": "index.html",
+      "source_location": "line 20",
+      "summary": "Inline base64-encoded PNG favicon.",
+      "file_type": "concept",
+      "id": "icon-data",
+      "community": 2,
+      "norm_label": "inline base64 favicon"
+    },
+    {
+      "label": "Google Fonts Inter",
+      "type": "ExternalFont",
+      "source_file": "index.html",
+      "source_location": "line 31",
+      "summary": "Inter font family (400-700) loaded from Google Fonts CDN.",
+      "file_type": "concept",
+      "id": "font-inter",
+      "community": 2,
+      "norm_label": "google fonts inter"
+    },
+    {
+      "label": "Google Fonts DM Mono",
+      "type": "ExternalFont",
+      "source_file": "index.html",
+      "source_location": "line 31",
+      "summary": "DM Mono font family (400-500) loaded from Google Fonts CDN for numeric displays.",
+      "file_type": "concept",
+      "id": "font-dmmono",
+      "community": 2,
+      "norm_label": "google fonts dm mono"
+    },
+    {
+      "label": "css/tokens.css",
+      "type": "Stylesheet",
+      "source_file": "index.html",
+      "source_location": "line 34",
+      "summary": "Design tokens stylesheet (colors, spacing, typography variables).",
+      "file_type": "concept",
+      "id": "css-tokens",
+      "community": 2,
+      "norm_label": "css/tokens.css"
+    },
+    {
+      "label": "css/base.css",
+      "type": "Stylesheet",
+      "source_file": "index.html",
+      "source_location": "line 35",
+      "summary": "Base reset/layout stylesheet.",
+      "file_type": "concept",
+      "id": "css-base",
+      "community": 2,
+      "norm_label": "css/base.css"
+    },
+    {
+      "label": "css/app.css",
+      "type": "Stylesheet",
+      "source_file": "index.html",
+      "source_location": "line 36",
+      "summary": "Application component styles.",
+      "file_type": "concept",
+      "id": "css-app",
+      "community": 2,
+      "norm_label": "css/app.css"
+    },
+    {
+      "label": "src/app.js",
+      "type": "ScriptModule",
+      "source_file": "index.html",
+      "source_location": "line 639",
+      "summary": "Bootstrap ES module entry point for vanilla JS application logic.",
+      "file_type": "concept",
+      "id": "app-js",
+      "community": 2,
+      "norm_label": "src/app.js"
+    },
+    {
+      "label": "<body>",
+      "type": "HTMLElement",
+      "source_file": "index.html",
+      "source_location": "lines 39-640",
+      "summary": "Body containing app shell, pages, drawers, dialogs and script bootstrap.",
+      "file_type": "concept",
+      "id": "body",
+      "community": 2,
+      "norm_label": "<body>"
+    },
+    {
+      "label": "#toastContainer",
+      "type": "UIComponent",
+      "source_file": "index.html",
+      "source_location": "line 41",
+      "summary": "ARIA live region for transient toast notifications.",
+      "file_type": "concept",
+      "id": "toast-container",
+      "community": 2,
+      "norm_label": "#toastcontainer"
+    },
+    {
+      "label": "#lgpdBanner",
+      "type": "UIComponent",
+      "source_file": "index.html",
+      "source_location": "lines 44-58",
+      "summary": "LGPD privacy banner with accept and details buttons; explains local-only IndexedDB storage and LGPD rights.",
+      "file_type": "concept",
+      "id": "lgpd-banner",
+      "community": 2,
+      "norm_label": "#lgpdbanner"
+    },
+    {
+      "label": ".app-shell",
+      "type": "Layout",
+      "source_file": "index.html",
+      "source_location": "line 60",
+      "summary": "Main application shell container holding header, nav and content.",
+      "file_type": "concept",
+      "id": "app-shell",
+      "community": 3,
+      "norm_label": ".app-shell"
+    },
+    {
+      "label": ".top-header",
+      "type": "UIComponent",
+      "source_file": "index.html",
+      "source_location": "lines 62-72",
+      "summary": "Mobile-only top header with brand and month navigation (prev/next month buttons).",
+      "file_type": "concept",
+      "id": "top-header",
+      "community": 3,
+      "norm_label": ".top-header"
+    },
+    {
+      "label": ".bottom-nav",
+      "type": "UIComponent",
+      "source_file": "index.html",
+      "source_location": "lines 75-101",
+      "summary": "Bottom/side navigation with buttons for dashboard, transacoes, objetivos, dividas, config pages.",
+      "file_type": "concept",
+      "id": "bottom-nav",
+      "community": 3,
+      "norm_label": ".bottom-nav"
+    },
+    {
+      "label": "nav item: dashboard",
+      "type": "NavLink",
+      "source_file": "index.html",
+      "source_location": "line 81",
+      "summary": "Navigation button with data-page=dashboard.",
+      "file_type": "concept",
+      "id": "nav-dashboard",
+      "community": 3,
+      "norm_label": "nav item: dashboard"
+    },
+    {
+      "label": "nav item: transacoes",
+      "type": "NavLink",
+      "source_file": "index.html",
+      "source_location": "line 85",
+      "summary": "Navigation button with data-page=transacoes.",
+      "file_type": "concept",
+      "id": "nav-transacoes",
+      "community": 3,
+      "norm_label": "nav item: transacoes"
+    },
+    {
+      "label": "nav item: objetivos",
+      "type": "NavLink",
+      "source_file": "index.html",
+      "source_location": "line 89",
+      "summary": "Navigation button with data-page=objetivos.",
+      "file_type": "concept",
+      "id": "nav-objetivos",
+      "community": 3,
+      "norm_label": "nav item: objetivos"
+    },
+    {
+      "label": "nav item: dividas",
+      "type": "NavLink",
+      "source_file": "index.html",
+      "source_location": "line 93",
+      "summary": "Navigation button with data-page=dividas.",
+      "file_type": "concept",
+      "id": "nav-dividas",
+      "community": 3,
+      "norm_label": "nav item: dividas"
+    },
+    {
+      "label": "nav item: config",
+      "type": "NavLink",
+      "source_file": "index.html",
+      "source_location": "line 97",
+      "summary": "Navigation button with data-page=config.",
+      "file_type": "concept",
+      "id": "nav-config",
+      "community": 3,
+      "norm_label": "nav item: config"
+    },
+    {
+      "label": "#mainContent",
+      "type": "Layout",
+      "source_file": "index.html",
+      "source_location": "line 104",
+      "summary": "Main content region hosting all page sections.",
+      "file_type": "concept",
+      "id": "main-content",
+      "community": 3,
+      "norm_label": "#maincontent"
+    },
+    {
+      "label": "#page-dashboard",
+      "type": "PageSection",
+      "source_file": "index.html",
+      "source_location": "lines 107-171",
+      "summary": "Dashboard page: balance hero, donut chart card, categories breakdown, recent transactions list.",
+      "file_type": "concept",
+      "id": "page-dashboard",
+      "community": 3,
+      "norm_label": "#page-dashboard"
+    },
+    {
+      "label": "#balanceHero",
+      "type": "UIComponent",
+      "source_file": "index.html",
+      "source_location": "lines 117-130",
+      "summary": "Balance hero displaying saldo dispon\u00edvel plus income/expense stats.",
+      "file_type": "concept",
+      "id": "balance-hero",
+      "community": 3,
+      "norm_label": "#balancehero"
+    },
+    {
+      "label": "#donutCard",
+      "type": "UIComponent",
+      "source_file": "index.html",
+      "source_location": "lines 132-144",
+      "summary": "Card with donut chart wrap and legend for monthly distribution.",
+      "file_type": "concept",
+      "id": "donut-card",
+      "community": 3,
+      "norm_label": "#donutcard"
+    },
+    {
+      "label": "#categoriesBreakdown",
+      "type": "UIComponent",
+      "source_file": "index.html",
+      "source_location": "lines 146-157",
+      "summary": "Card listing spending breakdown by category.",
+      "file_type": "concept",
+      "id": "categories-breakdown",
+      "community": 3,
+      "norm_label": "#categoriesbreakdown"
+    },
+    {
+      "label": "#recentTxCard",
+      "type": "UIComponent",
+      "source_file": "index.html",
+      "source_location": "lines 162-170",
+      "summary": "Card with list of recent transactions.",
+      "file_type": "concept",
+      "id": "recent-tx-card",
+      "community": 3,
+      "norm_label": "#recenttxcard"
+    },
+    {
+      "label": "#page-transacoes",
+      "type": "PageSection",
+      "source_file": "index.html",
+      "source_location": "lines 174-201",
+      "summary": "Transactions page: filter chips (all/receita/despesa) and full transactions list.",
+      "file_type": "concept",
+      "id": "page-transacoes",
+      "community": 3,
+      "norm_label": "#page-transacoes"
+    },
+    {
+      "label": "#txFilters",
+      "type": "UIComponent",
+      "source_file": "index.html",
+      "source_location": "lines 184-190",
+      "summary": "Transaction filter chips with data-filter-type attributes.",
+      "file_type": "concept",
+      "id": "tx-filters",
+      "community": 3,
+      "norm_label": "#txfilters"
+    },
+    {
+      "label": "#page-objetivos",
+      "type": "PageSection",
+      "source_file": "index.html",
+      "source_location": "lines 204-218",
+      "summary": "Goals page with add-goal button and goals list container.",
+      "file_type": "concept",
+      "id": "page-objetivos",
+      "community": 3,
+      "norm_label": "#page-objetivos"
+    },
+    {
+      "label": "#page-dividas",
+      "type": "PageSection",
+      "source_file": "index.html",
+      "source_location": "lines 221-241",
+      "summary": "Debts page with add-debt button, tab bar (devo / me_devem) and debts list.",
+      "file_type": "concept",
+      "id": "page-dividas",
+      "community": 3,
+      "norm_label": "#page-dividas"
+    },
+    {
+      "label": "#page-config",
+      "type": "PageSection",
+      "source_file": "index.html",
+      "source_location": "lines 244-324",
+      "summary": "Settings page: appearance theme toggle, backup export/import/share, data & privacy clear-data, version footer.",
+      "file_type": "concept",
+      "id": "page-config",
+      "community": 3,
+      "norm_label": "#page-config"
+    },
+    {
+      "label": ".theme-toggle-group",
+      "type": "UIComponent",
+      "source_file": "index.html",
+      "source_location": "lines 260-273",
+      "summary": "Theme selector buttons: dark, auto, light.",
+      "file_type": "concept",
+      "id": "theme-toggle-group",
+      "community": 3,
+      "norm_label": ".theme-toggle-group"
+    },
+    {
+      "label": ".backup-actions",
+      "type": "UIComponent",
+      "source_file": "index.html",
+      "source_location": "lines 283-297",
+      "summary": "Backup controls: export JSON, share, import JSON (hidden file input).",
+      "file_type": "concept",
+      "id": "backup-actions",
+      "community": 3,
+      "norm_label": ".backup-actions"
+    },
+    {
+      "label": "#clearDataBtn",
+      "type": "UIComponent",
+      "source_file": "index.html",
+      "source_location": "line 312",
+      "summary": "Danger button to erase all local data (LGPD right to erasure).",
+      "file_type": "concept",
+      "id": "clear-data-btn",
+      "community": 2,
+      "norm_label": "#cleardatabtn"
+    },
+    {
+      "label": "#fabBtn",
+      "type": "UIComponent",
+      "source_file": "index.html",
+      "source_location": "line 330",
+      "summary": "Floating action button to add a transaction.",
+      "file_type": "concept",
+      "id": "fab-btn",
+      "community": 2,
+      "norm_label": "#fabbtn"
+    },
+    {
+      "label": "#confirmDialog",
+      "type": "Dialog",
+      "source_file": "index.html",
+      "source_location": "lines 333-343",
+      "summary": "Generic confirmation alert dialog with confirm/cancel actions.",
+      "file_type": "concept",
+      "id": "confirm-dialog",
+      "community": 2,
+      "norm_label": "#confirmdialog"
+    },
+    {
+      "label": "#txOverlay",
+      "type": "Drawer",
+      "source_file": "index.html",
+      "source_location": "lines 346-407",
+      "summary": "New transaction drawer with type toggle, amount, description, category, payment method, installment fields, date.",
+      "file_type": "concept",
+      "id": "tx-overlay",
+      "community": 2,
+      "norm_label": "#txoverlay"
+    },
+    {
+      "label": "#goalOverlay",
+      "type": "Drawer",
+      "source_file": "index.html",
+      "source_location": "lines 410-435",
+      "summary": "New goal drawer with name, target amount, deadline fields.",
+      "file_type": "concept",
+      "id": "goal-overlay",
+      "community": 2,
+      "norm_label": "#goaloverlay"
+    },
+    {
+      "label": "#debtOverlay",
+      "type": "Drawer",
+      "source_file": "index.html",
+      "source_location": "lines 438-473",
+      "summary": "New debt drawer with type toggle (devo/me_devem), description, total, paid, due date.",
+      "file_type": "concept",
+      "id": "debt-overlay",
+      "community": 2,
+      "norm_label": "#debtoverlay"
+    },
+    {
+      "label": "#goalActionOverlay",
+      "type": "Drawer",
+      "source_file": "index.html",
+      "source_location": "lines 476-492",
+      "summary": "Goal aporte/resgate drawer with hidden id/type and amount input.",
+      "file_type": "concept",
+      "id": "goal-action-overlay",
+      "community": 2,
+      "norm_label": "#goalactionoverlay"
+    },
+    {
+      "label": "#editGoalOverlay",
+      "type": "Drawer",
+      "source_file": "index.html",
+      "source_location": "lines 514-545",
+      "summary": "Edit goal drawer: name, target, current, deadline fields.",
+      "file_type": "concept",
+      "id": "edit-goal-overlay",
+      "community": 2,
+      "norm_label": "#editgoaloverlay"
+    },
+    {
+      "label": "#editDebtOverlay",
+      "type": "Drawer",
+      "source_file": "index.html",
+      "source_location": "lines 548-584",
+      "summary": "Edit debt drawer: type toggle, description, total, paid, due date.",
+      "file_type": "concept",
+      "id": "edit-debt-overlay",
+      "community": 2,
+      "norm_label": "#editdebtoverlay"
+    },
+    {
+      "label": "#editTxOverlay",
+      "type": "Drawer",
+      "source_file": "index.html",
+      "source_location": "lines 587-636",
+      "summary": "Edit transaction drawer: type toggle, amount, description, category, payment, date; includes linked badge placeholder.",
+      "file_type": "concept",
+      "id": "edit-tx-overlay",
+      "community": 2,
+      "norm_label": "#edittxoverlay"
+    },
+    {
+      "label": "assets/VFIcon.png",
+      "type": "ImageAsset",
+      "source_file": "index.html",
+      "source_location": "lines 64,77",
+      "summary": "Brand icon used in top header and desktop brand.",
+      "file_type": "concept",
+      "id": "vficon",
+      "community": 3,
+      "norm_label": "assets/vficon.png"
+    },
+    {
+      "label": "assets/VFLogo.png",
+      "type": "ImageAsset",
+      "source_file": "index.html",
+      "source_location": "line 246",
+      "summary": "Logo image displayed on config page.",
+      "file_type": "concept",
+      "id": "vflogo",
+      "community": 3,
+      "norm_label": "assets/vflogo.png"
     }
   ],
   "links": [
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "c_users_suass_onedrive_\u00e1rea_de_trabalho_projetos_programa\u00e7\u00e3o_gerenciadorfinanceiro_src_core"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_components_data_balancehero"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L152",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_components_data_categorybars"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L309",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_components_data_debtcard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_components_data_donutchart"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L273",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_components_data_goalcard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_components_data_makearcpath"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_components_data_polartoxy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L186",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_components_data_txitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L226",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_components_data_txlist"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_core"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_currency_utils"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_currency_utils_category_colors"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_currency_utils_category_icons"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_currency_utils_formatbrl"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_currency_utils_formatdate"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_currency_utils_payment_badges"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_currency_utils_sanitize"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_models"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_models_divida"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_models_objetivo"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_services"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_services_balanceservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_services_categoryservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data",
+      "target": "src_services_debtstatusservice"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/page-dividas.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_page_dividas",
+      "target": "src_components_data"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/page-objetivos.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_page_objetivos",
+      "target": "src_components_data"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components-data.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_components_data_balancehero",
+      "target": "c_users_suass_onedrive_\u00e1rea_de_trabalho_projetos_programa\u00e7\u00e3o_gerenciadorfinanceiro_src_core"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components-data.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_components_data_balancehero",
+      "target": "src_currency_utils_formatbrl"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components-data.js",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_data_makearcpath",
+      "target": "src_components_data_polartoxy"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components-data.js",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "src_components_data_donutchart",
+      "target": "c_users_suass_onedrive_\u00e1rea_de_trabalho_projetos_programa\u00e7\u00e3o_gerenciadorfinanceiro_src_core"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components-data.js",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "src_components_data_donutchart",
+      "target": "src_currency_utils_formatbrl"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components-data.js",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "src_components_data_donutchart",
+      "target": "src_currency_utils_sanitize"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components-data.js",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "src_components_data_categorybars",
+      "target": "c_users_suass_onedrive_\u00e1rea_de_trabalho_projetos_programa\u00e7\u00e3o_gerenciadorfinanceiro_src_core"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components-data.js",
+      "source_location": "L209",
+      "weight": 1.0,
+      "source": "src_components_data_txitem",
+      "target": "src_currency_utils_formatbrl"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components-data.js",
+      "source_location": "L204",
+      "weight": 1.0,
+      "source": "src_components_data_txitem",
+      "target": "src_currency_utils_formatdate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components-data.js",
+      "source_location": "L198",
+      "weight": 1.0,
+      "source": "src_components_data_txitem",
+      "target": "src_currency_utils_sanitize"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components-data.js",
+      "source_location": "L227",
+      "weight": 1.0,
+      "source": "src_components_data_txlist",
+      "target": "c_users_suass_onedrive_\u00e1rea_de_trabalho_projetos_programa\u00e7\u00e3o_gerenciadorfinanceiro_src_core"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components-data.js",
+      "source_location": "L291",
+      "weight": 1.0,
+      "source": "src_components_data_goalcard",
+      "target": "src_currency_utils_formatbrl"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components-data.js",
+      "source_location": "L282",
+      "weight": 1.0,
+      "source": "src_components_data_goalcard",
+      "target": "src_currency_utils_formatdate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components-data.js",
+      "source_location": "L278",
+      "weight": 1.0,
+      "source": "src_components_data_goalcard",
+      "target": "src_currency_utils_sanitize"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/page-objetivos.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_page_objetivos",
+      "target": "src_components_data_goalcard"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components-data.js",
+      "source_location": "L325",
+      "weight": 1.0,
+      "source": "src_components_data_debtcard",
+      "target": "src_currency_utils_formatbrl"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components-data.js",
+      "source_location": "L337",
+      "weight": 1.0,
+      "source": "src_components_data_debtcard",
+      "target": "src_currency_utils_formatdate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components-data.js",
+      "source_location": "L316",
+      "weight": 1.0,
+      "source": "src_components_data_debtcard",
+      "target": "src_currency_utils_sanitize"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/page-dividas.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_page_dividas",
+      "target": "src_components_data_debtcard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L153",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils",
+      "target": "src_currency_utils_category_colors"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L143",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils",
+      "target": "src_currency_utils_category_icons"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils",
+      "target": "src_currency_utils_cleandate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils",
+      "target": "src_currency_utils_cleanid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils",
+      "target": "src_currency_utils_cleannum"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils",
+      "target": "src_currency_utils_cleanstr"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L191",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils",
+      "target": "src_currency_utils_expense_categories"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils",
+      "target": "src_currency_utils_formatbrl"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils",
+      "target": "src_currency_utils_formatdate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils",
+      "target": "src_currency_utils_genid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L179",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils",
+      "target": "src_currency_utils_income_categories"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L202",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils",
+      "target": "src_currency_utils_months_pt"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils",
+      "target": "src_currency_utils_parsebrl"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L174",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils",
+      "target": "src_currency_utils_payment_badges"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils",
+      "target": "src_currency_utils_sanitize"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L125",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils",
+      "target": "src_currency_utils_sanitizedebt"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L112",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils",
+      "target": "src_currency_utils_sanitizegoal"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L92",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils",
+      "target": "src_currency_utils_sanitizetx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/models.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_models",
+      "target": "src_currency_utils"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/models.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_models",
+      "target": "src_currency_utils_genid"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/models.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_models",
+      "target": "src_currency_utils_parsebrl"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L133",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils_sanitizedebt",
+      "target": "src_currency_utils_cleanstr"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L118",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils_sanitizegoal",
+      "target": "src_currency_utils_cleanstr"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L99",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils_sanitizetx",
+      "target": "src_currency_utils_cleanstr"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L129",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils_sanitizedebt",
+      "target": "src_currency_utils_cleannum"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L119",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils_sanitizegoal",
+      "target": "src_currency_utils_cleannum"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L102",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils_sanitizetx",
+      "target": "src_currency_utils_cleannum"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L137",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils_sanitizedebt",
+      "target": "src_currency_utils_cleandate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L121",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils_sanitizegoal",
+      "target": "src_currency_utils_cleandate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L104",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils_sanitizetx",
+      "target": "src_currency_utils_cleandate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L127",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils_sanitizedebt",
+      "target": "src_currency_utils_cleanid"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L114",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils_sanitizegoal",
+      "target": "src_currency_utils_cleanid"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/currency-utils.js",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_currency_utils_sanitizetx",
+      "target": "src_currency_utils_cleanid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/models.js",
+      "source_location": "L142",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_models",
+      "target": "src_models_divida"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/models.js",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_models",
+      "target": "src_models_objetivo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/models.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_models",
+      "target": "src_models_transacao"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/page-dividas.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_page_dividas",
+      "target": "c_users_suass_onedrive_\u00e1rea_de_trabalho_projetos_programa\u00e7\u00e3o_gerenciadorfinanceiro_src_core"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/page-dividas.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_page_dividas",
+      "target": "src_core"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/page-dividas.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_page_dividas",
+      "target": "src_core_state"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/page-dividas.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_page_dividas",
+      "target": "src_page_dividas_dividaspage"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/page-objetivos.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_page_objetivos",
+      "target": "c_users_suass_onedrive_\u00e1rea_de_trabalho_projetos_programa\u00e7\u00e3o_gerenciadorfinanceiro_src_core"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/page-objetivos.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_page_objetivos",
+      "target": "src_components_shell"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/page-objetivos.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_page_objetivos",
+      "target": "src_components_shell_emptystate"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/page-objetivos.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_page_objetivos",
+      "target": "src_core"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/page-objetivos.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_page_objetivos",
+      "target": "src_page_objetivos_objetivospage"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository",
+      "target": "src_core"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository",
+      "target": "src_core_dbbulkimport"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository",
+      "target": "src_core_dbclearall"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository",
+      "target": "src_core_dbdelete"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository",
+      "target": "src_core_dbgetall"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository",
+      "target": "src_core_dbput"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository",
+      "target": "src_core_state"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository",
+      "target": "src_repository_acquirelock"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository",
+      "target": "src_repository_baserepo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L117",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository",
+      "target": "src_repository_dividarepo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L112",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository",
+      "target": "src_repository_objetivorepo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository",
+      "target": "src_repository_releaselock"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L132",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository",
+      "target": "src_repository_schema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository",
+      "target": "src_repository_transacaorepo"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_baserepo_clear",
+      "target": "src_repository_acquirelock"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_baserepo_delete",
+      "target": "src_repository_acquirelock"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_baserepo_put",
+      "target": "src_repository_acquirelock"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L70",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_baserepo_clear",
+      "target": "src_repository_releaselock"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_baserepo_delete",
+      "target": "src_repository_releaselock"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_baserepo_put",
+      "target": "src_repository_releaselock"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_baserepo",
+      "target": "src_repository_baserepo_clear"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_baserepo",
+      "target": "src_repository_baserepo_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_baserepo",
+      "target": "src_repository_baserepo_delete"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_baserepo",
+      "target": "src_repository_baserepo_getall"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_baserepo",
+      "target": "src_repository_baserepo_getbyid"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_baserepo",
+      "target": "src_repository_baserepo_put"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/repository.js",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "src_repository_baserepo_getall",
+      "target": "src_core_dbgetall"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_baserepo_getbyid",
+      "target": "src_repository_baserepo_getall"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L126",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_dividarepo_getbytipo",
+      "target": "src_repository_baserepo_getall"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L86",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_transacaorepo_getbymonth",
+      "target": "src_repository_baserepo_getall"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_transacaorepo_getlinkedto",
+      "target": "src_repository_baserepo_getall"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/repository.js",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "src_repository_baserepo_put",
+      "target": "src_core_dbput"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/repository.js",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "src_repository_baserepo_delete",
+      "target": "src_core_dbdelete"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/repository.js",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "src_repository_baserepo_clear",
+      "target": "src_core_dbclearall"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_transacaorepo",
+      "target": "src_repository_transacaorepo_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L85",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_transacaorepo",
+      "target": "src_repository_transacaorepo_getbymonth"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L106",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_transacaorepo",
+      "target": "src_repository_transacaorepo_getcurrentmonth"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L97",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_transacaorepo",
+      "target": "src_repository_transacaorepo_getlinkedto"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L107",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_transacaorepo_getcurrentmonth",
+      "target": "src_repository_transacaorepo_getbymonth"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L113",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_objetivorepo",
+      "target": "src_repository_objetivorepo_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L118",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_dividarepo",
+      "target": "src_repository_dividarepo_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repository.js",
+      "source_location": "L125",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_repository_dividarepo",
+      "target": "src_repository_dividarepo_getbytipo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_services",
+      "target": "src_services_balanceservice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services.js",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_services",
+      "target": "src_services_categoryservice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services.js",
+      "source_location": "L93",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_services",
+      "target": "src_services_debtstatusservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme-router.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_theme_router",
+      "target": "c_users_suass_onedrive_\u00e1rea_de_trabalho_projetos_programa\u00e7\u00e3o_gerenciadorfinanceiro_src_core"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme-router.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_theme_router",
+      "target": "src_core"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme-router.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_theme_router",
+      "target": "src_core_all"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme-router.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_theme_router",
+      "target": "src_core_eventbus"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme-router.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_theme_router",
+      "target": "src_core_onclick"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme-router.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_theme_router",
+      "target": "src_core_storage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme-router.js",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_theme_router",
+      "target": "src_theme_router_router"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme-router.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_theme_router",
+      "target": "src_theme_router_themeengine"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "assets/icon-192.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "assets_icon_192",
+      "target": "assets_vficon"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "assets/VFLogo.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "assets_vflogo",
+      "target": "assets_vficon"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "assets/icon-512.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "assets_icon_512",
+      "target": "assets_icon_192"
+    },
     {
       "relation": "imports",
       "context": "import",
@@ -1593,116 +3612,6 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/app.js",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_currency_utils",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_currency_utils_expense_categories",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_currency_utils_genid",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_currency_utils_income_categories",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_currency_utils_months_pt",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_currency_utils_parsebrl",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_models",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_models_divida",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_models_objetivo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_models_transacao",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
       "source_location": "L15",
       "weight": 1.0,
       "source": "src_app",
@@ -1747,50 +3656,6 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/app.js",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_page_dividas",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_page_dividas_dividaspage",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_page_objetivos",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_page_objetivos_objetivospage",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
       "source_location": "L12",
       "weight": 1.0,
       "source": "src_app",
@@ -1806,105 +3671,6 @@
       "weight": 1.0,
       "source": "src_app",
       "target": "src_page_transacoes_transacoespage",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_repository",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_repository_dividarepo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_repository_objetivorepo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_repository_transacaorepo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_services",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_services_debtstatusservice",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_theme_router",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_theme_router_router",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_theme_router_themeengine",
       "confidence_score": 1.0
     },
     {
@@ -2131,580 +3897,6 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "c_users_suass_onedrive_\u00e1rea_de_trabalho_projetos_programa\u00e7\u00e3o_gerenciadorfinanceiro_src_core",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_components_data_balancehero",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L152",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_components_data_categorybars",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L309",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_components_data_debtcard",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L57",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_components_data_donutchart",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L273",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_components_data_goalcard",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L36",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_components_data_makearcpath",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L31",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_components_data_polartoxy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L186",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_components_data_txitem",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L226",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_components_data_txlist",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_core",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_currency_utils",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_currency_utils_category_colors",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_currency_utils_category_icons",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_currency_utils_formatbrl",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_currency_utils_formatdate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_currency_utils_payment_badges",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_currency_utils_sanitize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_models",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_models_divida",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_models_objetivo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_services",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_services_balanceservice",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_services_categoryservice",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_components_data",
-      "target": "src_services_debtstatusservice",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-dashboard.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_page_dashboard",
-      "target": "src_components_data",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-dividas.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_page_dividas",
-      "target": "src_components_data",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-objetivos.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_page_objetivos",
-      "target": "src_components_data",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-transacoes.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_page_transacoes",
-      "target": "src_components_data",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components-data.js",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "src_components_data_balancehero",
-      "target": "c_users_suass_onedrive_\u00e1rea_de_trabalho_projetos_programa\u00e7\u00e3o_gerenciadorfinanceiro_src_core"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components-data.js",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "src_components_data_balancehero",
-      "target": "src_currency_utils_formatbrl"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-dashboard.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_page_dashboard",
-      "target": "src_components_data_balancehero",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-data.js",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "src_components_data_makearcpath",
-      "target": "src_components_data_polartoxy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components-data.js",
-      "source_location": "L58",
-      "weight": 1.0,
-      "source": "src_components_data_donutchart",
-      "target": "c_users_suass_onedrive_\u00e1rea_de_trabalho_projetos_programa\u00e7\u00e3o_gerenciadorfinanceiro_src_core"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components-data.js",
-      "source_location": "L114",
-      "weight": 1.0,
-      "source": "src_components_data_donutchart",
-      "target": "src_currency_utils_formatbrl"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components-data.js",
-      "source_location": "L118",
-      "weight": 1.0,
-      "source": "src_components_data_donutchart",
-      "target": "src_currency_utils_sanitize"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-dashboard.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_page_dashboard",
-      "target": "src_components_data_donutchart",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components-data.js",
-      "source_location": "L153",
-      "weight": 1.0,
-      "source": "src_components_data_categorybars",
-      "target": "c_users_suass_onedrive_\u00e1rea_de_trabalho_projetos_programa\u00e7\u00e3o_gerenciadorfinanceiro_src_core"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-dashboard.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_page_dashboard",
-      "target": "src_components_data_categorybars",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components-data.js",
-      "source_location": "L209",
-      "weight": 1.0,
-      "source": "src_components_data_txitem",
-      "target": "src_currency_utils_formatbrl"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components-data.js",
-      "source_location": "L204",
-      "weight": 1.0,
-      "source": "src_components_data_txitem",
-      "target": "src_currency_utils_formatdate"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components-data.js",
-      "source_location": "L198",
-      "weight": 1.0,
-      "source": "src_components_data_txitem",
-      "target": "src_currency_utils_sanitize"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components-data.js",
-      "source_location": "L227",
-      "weight": 1.0,
-      "source": "src_components_data_txlist",
-      "target": "c_users_suass_onedrive_\u00e1rea_de_trabalho_projetos_programa\u00e7\u00e3o_gerenciadorfinanceiro_src_core"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-dashboard.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_page_dashboard",
-      "target": "src_components_data_txlist",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-transacoes.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_page_transacoes",
-      "target": "src_components_data_txlist",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components-data.js",
-      "source_location": "L291",
-      "weight": 1.0,
-      "source": "src_components_data_goalcard",
-      "target": "src_currency_utils_formatbrl"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components-data.js",
-      "source_location": "L282",
-      "weight": 1.0,
-      "source": "src_components_data_goalcard",
-      "target": "src_currency_utils_formatdate"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components-data.js",
-      "source_location": "L278",
-      "weight": 1.0,
-      "source": "src_components_data_goalcard",
-      "target": "src_currency_utils_sanitize"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-objetivos.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_page_objetivos",
-      "target": "src_components_data_goalcard",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components-data.js",
-      "source_location": "L325",
-      "weight": 1.0,
-      "source": "src_components_data_debtcard",
-      "target": "src_currency_utils_formatbrl"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components-data.js",
-      "source_location": "L337",
-      "weight": 1.0,
-      "source": "src_components_data_debtcard",
-      "target": "src_currency_utils_formatdate"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components-data.js",
-      "source_location": "L316",
-      "weight": 1.0,
-      "source": "src_components_data_debtcard",
-      "target": "src_currency_utils_sanitize"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-dividas.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_page_dividas",
-      "target": "src_components_data_debtcard",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/components-shell.js",
       "source_location": "L4",
       "weight": 1.0,
@@ -2829,43 +4021,10 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/components-shell.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_components_shell",
-      "target": "src_currency_utils",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components-shell.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_components_shell",
-      "target": "src_currency_utils_sanitize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/page-config.js",
       "source_location": "L6",
       "weight": 1.0,
       "source": "src_page_config",
-      "target": "src_components_shell",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-objetivos.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_page_objetivos",
       "target": "src_components_shell",
       "confidence_score": 1.0
     },
@@ -2912,28 +4071,6 @@
       "weight": 1.0,
       "source": "src_components_shell_closeoverlay",
       "target": "c_users_suass_onedrive_\u00e1rea_de_trabalho_projetos_programa\u00e7\u00e3o_gerenciadorfinanceiro_src_core"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components-shell.js",
-      "source_location": "L166",
-      "weight": 1.0,
-      "source": "src_components_shell_emptystate",
-      "target": "src_currency_utils_sanitize"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-objetivos.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_page_objetivos",
-      "target": "src_components_shell_emptystate",
-      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -3133,54 +4270,10 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/page-dividas.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_page_dividas",
-      "target": "src_core",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-objetivos.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_page_objetivos",
-      "target": "src_core",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/page-transacoes.js",
       "source_location": "L4",
       "weight": 1.0,
       "source": "src_page_transacoes",
-      "target": "src_core",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_repository",
-      "target": "src_core",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/theme-router.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_theme_router",
       "target": "src_core",
       "confidence_score": 1.0
     },
@@ -3285,17 +4378,6 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/theme-router.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_theme_router",
-      "target": "src_core_eventbus",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/page-config.js",
       "source_location": "L4",
       "weight": 1.0,
@@ -3318,28 +4400,6 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/page-dividas.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_page_dividas",
-      "target": "c_users_suass_onedrive_\u00e1rea_de_trabalho_projetos_programa\u00e7\u00e3o_gerenciadorfinanceiro_src_core",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-objetivos.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_page_objetivos",
-      "target": "c_users_suass_onedrive_\u00e1rea_de_trabalho_projetos_programa\u00e7\u00e3o_gerenciadorfinanceiro_src_core",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/page-transacoes.js",
       "source_location": "L4",
       "weight": 1.0,
@@ -3351,28 +4411,6 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/theme-router.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_theme_router",
-      "target": "c_users_suass_onedrive_\u00e1rea_de_trabalho_projetos_programa\u00e7\u00e3o_gerenciadorfinanceiro_src_core",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/theme-router.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_theme_router",
-      "target": "src_core_all",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/page-config.js",
       "source_location": "L4",
       "weight": 1.0,
@@ -3384,32 +4422,10 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/theme-router.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_theme_router",
-      "target": "src_core_onclick",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/page-config.js",
       "source_location": "L4",
       "weight": 1.0,
       "source": "src_page_config",
-      "target": "src_core_storage",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/theme-router.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_theme_router",
       "target": "src_core_storage",
       "confidence_score": 1.0
     },
@@ -3472,109 +4488,10 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_repository",
-      "target": "src_core_dbgetall",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/repository.js",
-      "source_location": "L36",
-      "weight": 1.0,
-      "source": "src_repository_baserepo_getall",
-      "target": "src_core_dbgetall"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_repository",
-      "target": "src_core_dbput",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/repository.js",
-      "source_location": "L48",
-      "weight": 1.0,
-      "source": "src_repository_baserepo_put",
-      "target": "src_core_dbput"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_repository",
-      "target": "src_core_dbdelete",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/repository.js",
-      "source_location": "L58",
-      "weight": 1.0,
-      "source": "src_repository_baserepo_delete",
-      "target": "src_core_dbdelete"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_repository",
-      "target": "src_core_dbclearall",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/repository.js",
-      "source_location": "L68",
-      "weight": 1.0,
-      "source": "src_repository_baserepo_clear",
-      "target": "src_core_dbclearall"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/page-config.js",
       "source_location": "L4",
       "weight": 1.0,
       "source": "src_page_config",
-      "target": "src_core_dbbulkimport",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_repository",
       "target": "src_core_dbbulkimport",
       "confidence_score": 1.0
     },
@@ -3587,480 +4504,6 @@
       "weight": 1.0,
       "source": "src_page_dashboard",
       "target": "src_core_state",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-dividas.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_page_dividas",
-      "target": "src_core_state",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_repository",
-      "target": "src_core_state",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L153",
-      "weight": 1.0,
-      "source": "src_currency_utils",
-      "target": "src_currency_utils_category_colors",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L143",
-      "weight": 1.0,
-      "source": "src_currency_utils",
-      "target": "src_currency_utils_category_icons",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L84",
-      "weight": 1.0,
-      "source": "src_currency_utils",
-      "target": "src_currency_utils_cleandate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L88",
-      "weight": 1.0,
-      "source": "src_currency_utils",
-      "target": "src_currency_utils_cleanid",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L80",
-      "weight": 1.0,
-      "source": "src_currency_utils",
-      "target": "src_currency_utils_cleannum",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L77",
-      "weight": 1.0,
-      "source": "src_currency_utils",
-      "target": "src_currency_utils_cleanstr",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L191",
-      "weight": 1.0,
-      "source": "src_currency_utils",
-      "target": "src_currency_utils_expense_categories",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L54",
-      "weight": 1.0,
-      "source": "src_currency_utils",
-      "target": "src_currency_utils_formatbrl",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L63",
-      "weight": 1.0,
-      "source": "src_currency_utils",
-      "target": "src_currency_utils_formatdate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "src_currency_utils",
-      "target": "src_currency_utils_genid",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L179",
-      "weight": 1.0,
-      "source": "src_currency_utils",
-      "target": "src_currency_utils_income_categories",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L202",
-      "weight": 1.0,
-      "source": "src_currency_utils",
-      "target": "src_currency_utils_months_pt",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L34",
-      "weight": 1.0,
-      "source": "src_currency_utils",
-      "target": "src_currency_utils_parsebrl",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L174",
-      "weight": 1.0,
-      "source": "src_currency_utils",
-      "target": "src_currency_utils_payment_badges",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_currency_utils",
-      "target": "src_currency_utils_sanitize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L125",
-      "weight": 1.0,
-      "source": "src_currency_utils",
-      "target": "src_currency_utils_sanitizedebt",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L112",
-      "weight": 1.0,
-      "source": "src_currency_utils",
-      "target": "src_currency_utils_sanitizegoal",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L92",
-      "weight": 1.0,
-      "source": "src_currency_utils",
-      "target": "src_currency_utils_sanitizetx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/models.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_models",
-      "target": "src_currency_utils",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-config.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "src_page_config",
-      "target": "src_currency_utils",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-transacoes.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_page_transacoes",
-      "target": "src_currency_utils",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-config.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "src_page_config",
-      "target": "src_currency_utils_sanitize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-transacoes.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_page_transacoes",
-      "target": "src_currency_utils_sanitize",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/models.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_models",
-      "target": "src_currency_utils_genid",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/models.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_models",
-      "target": "src_currency_utils_parsebrl",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L133",
-      "weight": 1.0,
-      "source": "src_currency_utils_sanitizedebt",
-      "target": "src_currency_utils_cleanstr",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L118",
-      "weight": 1.0,
-      "source": "src_currency_utils_sanitizegoal",
-      "target": "src_currency_utils_cleanstr",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L99",
-      "weight": 1.0,
-      "source": "src_currency_utils_sanitizetx",
-      "target": "src_currency_utils_cleanstr",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L129",
-      "weight": 1.0,
-      "source": "src_currency_utils_sanitizedebt",
-      "target": "src_currency_utils_cleannum",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L119",
-      "weight": 1.0,
-      "source": "src_currency_utils_sanitizegoal",
-      "target": "src_currency_utils_cleannum",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L102",
-      "weight": 1.0,
-      "source": "src_currency_utils_sanitizetx",
-      "target": "src_currency_utils_cleannum",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L137",
-      "weight": 1.0,
-      "source": "src_currency_utils_sanitizedebt",
-      "target": "src_currency_utils_cleandate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L121",
-      "weight": 1.0,
-      "source": "src_currency_utils_sanitizegoal",
-      "target": "src_currency_utils_cleandate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L104",
-      "weight": 1.0,
-      "source": "src_currency_utils_sanitizetx",
-      "target": "src_currency_utils_cleandate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L127",
-      "weight": 1.0,
-      "source": "src_currency_utils_sanitizedebt",
-      "target": "src_currency_utils_cleanid",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L114",
-      "weight": 1.0,
-      "source": "src_currency_utils_sanitizegoal",
-      "target": "src_currency_utils_cleanid",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/currency-utils.js",
-      "source_location": "L94",
-      "weight": 1.0,
-      "source": "src_currency_utils_sanitizetx",
-      "target": "src_currency_utils_cleanid",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-config.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "src_page_config",
-      "target": "src_currency_utils_sanitizetx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-config.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "src_page_config",
-      "target": "src_currency_utils_sanitizegoal",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-config.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "src_page_config",
-      "target": "src_currency_utils_sanitizedebt",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/models.js",
-      "source_location": "L142",
-      "weight": 1.0,
-      "source": "src_models",
-      "target": "src_models_divida",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/models.js",
-      "source_location": "L82",
-      "weight": 1.0,
-      "source": "src_models",
-      "target": "src_models_objetivo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/models.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "src_models",
-      "target": "src_models_transacao",
       "confidence_score": 1.0
     },
     {
@@ -4074,28 +4517,6 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-config.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_page_config",
-      "target": "src_theme_router",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-config.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_page_config",
-      "target": "src_theme_router_themeengine",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/page-dashboard.js",
@@ -4103,48 +4524,6 @@
       "weight": 1.0,
       "source": "src_page_dashboard",
       "target": "src_page_dashboard_dashboardpage",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-dashboard.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_page_dashboard",
-      "target": "src_services",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-dashboard.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_page_dashboard",
-      "target": "src_services_balanceservice",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-dividas.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "src_page_dividas",
-      "target": "src_page_dividas_dividaspage",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/page-objetivos.js",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "src_page_objetivos",
-      "target": "src_page_objetivos_objetivospage",
       "confidence_score": 1.0
     },
     {
@@ -4158,447 +4537,446 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "contains",
+      "type": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "src_repository",
-      "target": "src_repository_acquirelock",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "src_repository",
-      "target": "src_repository_baserepo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L117",
-      "weight": 1.0,
-      "source": "src_repository",
-      "target": "src_repository_dividarepo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L112",
-      "weight": 1.0,
-      "source": "src_repository",
-      "target": "src_repository_objetivorepo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "src_repository",
-      "target": "src_repository_releaselock",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L132",
-      "weight": 1.0,
-      "source": "src_repository",
-      "target": "src_repository_schema",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L76",
-      "weight": 1.0,
-      "source": "src_repository",
-      "target": "src_repository_transacaorepo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L66",
-      "weight": 1.0,
-      "source": "src_repository_baserepo_clear",
-      "target": "src_repository_acquirelock",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L56",
-      "weight": 1.0,
-      "source": "src_repository_baserepo_delete",
-      "target": "src_repository_acquirelock",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L46",
-      "weight": 1.0,
-      "source": "src_repository_baserepo_put",
-      "target": "src_repository_acquirelock",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L70",
-      "weight": 1.0,
-      "source": "src_repository_baserepo_clear",
-      "target": "src_repository_releaselock",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L60",
-      "weight": 1.0,
-      "source": "src_repository_baserepo_delete",
-      "target": "src_repository_releaselock",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L50",
-      "weight": 1.0,
-      "source": "src_repository_baserepo_put",
-      "target": "src_repository_releaselock",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L65",
-      "weight": 1.0,
-      "source": "src_repository_baserepo",
-      "target": "src_repository_baserepo_clear",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L31",
-      "weight": 1.0,
-      "source": "src_repository_baserepo",
-      "target": "src_repository_baserepo_constructor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L55",
-      "weight": 1.0,
-      "source": "src_repository_baserepo",
-      "target": "src_repository_baserepo_delete",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L36",
-      "weight": 1.0,
-      "source": "src_repository_baserepo",
-      "target": "src_repository_baserepo_getall",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L39",
-      "weight": 1.0,
-      "source": "src_repository_baserepo",
-      "target": "src_repository_baserepo_getbyid",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L45",
-      "weight": 1.0,
-      "source": "src_repository_baserepo",
-      "target": "src_repository_baserepo_put",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L40",
-      "weight": 1.0,
-      "source": "src_repository_baserepo_getbyid",
-      "target": "src_repository_baserepo_getall",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L126",
-      "weight": 1.0,
-      "source": "src_repository_dividarepo_getbytipo",
-      "target": "src_repository_baserepo_getall",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L86",
-      "weight": 1.0,
-      "source": "src_repository_transacaorepo_getbymonth",
-      "target": "src_repository_baserepo_getall",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L98",
-      "weight": 1.0,
-      "source": "src_repository_transacaorepo_getlinkedto",
-      "target": "src_repository_baserepo_getall",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L77",
-      "weight": 1.0,
-      "source": "src_repository_transacaorepo",
-      "target": "src_repository_transacaorepo_constructor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L85",
-      "weight": 1.0,
-      "source": "src_repository_transacaorepo",
-      "target": "src_repository_transacaorepo_getbymonth",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L106",
-      "weight": 1.0,
-      "source": "src_repository_transacaorepo",
-      "target": "src_repository_transacaorepo_getcurrentmonth",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L97",
-      "weight": 1.0,
-      "source": "src_repository_transacaorepo",
-      "target": "src_repository_transacaorepo_getlinkedto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L107",
-      "weight": 1.0,
-      "source": "src_repository_transacaorepo_getcurrentmonth",
-      "target": "src_repository_transacaorepo_getbymonth",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L113",
-      "weight": 1.0,
-      "source": "src_repository_objetivorepo",
-      "target": "src_repository_objetivorepo_constructor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L118",
-      "weight": 1.0,
-      "source": "src_repository_dividarepo",
-      "target": "src_repository_dividarepo_constructor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repository.js",
-      "source_location": "L125",
-      "weight": 1.0,
-      "source": "src_repository_dividarepo",
-      "target": "src_repository_dividarepo_getbytipo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_services",
-      "target": "src_services_balanceservice",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services.js",
-      "source_location": "L39",
-      "weight": 1.0,
-      "source": "src_services",
-      "target": "src_services_categoryservice",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services.js",
-      "source_location": "L93",
-      "weight": 1.0,
-      "source": "src_services",
-      "target": "src_services_debtstatusservice",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/theme-router.js",
-      "source_location": "L64",
-      "weight": 1.0,
-      "source": "src_theme_router",
-      "target": "src_theme_router_router",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/theme-router.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "src_theme_router",
-      "target": "src_theme_router_themeengine",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "index.html",
-      "source_location": "line 64",
-      "weight": 1.0,
-      "source": "index_app_shell",
-      "target": "assets_vficon"
+      "source": "index.html",
+      "target": "body",
+      "confidence_score": 1.0
     },
     {
-      "relation": "rationale_for",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "index.html",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "index_csp",
-      "target": "index_lgpd_banner"
-    },
-    {
-      "relation": "references",
+      "type": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "index.html",
-      "source_location": "line 18",
-      "weight": 1.0,
-      "source": "index_pwa_manifest",
-      "target": "assets_icon_192"
+      "source": "index.html",
+      "target": "head",
+      "confidence_score": 1.0
     },
     {
-      "relation": "semantically_similar_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "assets/icon-192.png",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "assets_icon_192",
-      "target": "assets_vficon"
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "head",
+      "target": "csp-meta",
+      "confidence_score": 1.0
     },
     {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.65,
-      "source_file": "assets/VFIcon.png",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "assets_vficon",
-      "target": "assets_vficon"
+      "type": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "head",
+      "target": "css-app",
+      "confidence_score": 1.0
     },
     {
-      "relation": "semantically_similar_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.95,
-      "source_file": "assets/VFLogo.png",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "assets_vflogo",
-      "target": "assets_vficon"
+      "type": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "head",
+      "target": "css-base",
+      "confidence_score": 1.0
     },
     {
-      "relation": "semantically_similar_to",
+      "type": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "head",
+      "target": "css-tokens",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "head",
+      "target": "font-dmmono",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "head",
+      "target": "font-inter",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "head",
+      "target": "icon-192",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "head",
+      "target": "icon-data",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "head",
+      "target": "manifest-link",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "enforced_by",
       "confidence": "INFERRED",
-      "confidence_score": 0.95,
-      "source_file": "assets/icon-512.png",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "assets_icon_512",
-      "target": "assets_icon_192"
+      "source_file": "index.html",
+      "source": "lgpd-banner",
+      "target": "csp-meta",
+      "confidence_score": 0.5
+    },
+    {
+      "type": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "body",
+      "target": "app-js",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "body",
+      "target": "app-shell",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "body",
+      "target": "confirm-dialog",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "body",
+      "target": "debt-overlay",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "body",
+      "target": "edit-debt-overlay",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "body",
+      "target": "edit-goal-overlay",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "body",
+      "target": "edit-tx-overlay",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "body",
+      "target": "fab-btn",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "body",
+      "target": "goal-action-overlay",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "body",
+      "target": "goal-overlay",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "body",
+      "target": "lgpd-banner",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "body",
+      "target": "toast-container",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "body",
+      "target": "tx-overlay",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "app-shell",
+      "target": "bottom-nav",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "app-shell",
+      "target": "main-content",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "app-shell",
+      "target": "top-header",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "top-header",
+      "target": "vficon",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "bottom-nav",
+      "target": "nav-config",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "bottom-nav",
+      "target": "nav-dashboard",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "bottom-nav",
+      "target": "nav-dividas",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "bottom-nav",
+      "target": "nav-objetivos",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "bottom-nav",
+      "target": "nav-transacoes",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "navigates_to",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "nav-dashboard",
+      "target": "page-dashboard",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "navigates_to",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "nav-transacoes",
+      "target": "page-transacoes",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "navigates_to",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "nav-objetivos",
+      "target": "page-objetivos",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "navigates_to",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "nav-dividas",
+      "target": "page-dividas",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "navigates_to",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "nav-config",
+      "target": "page-config",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "main-content",
+      "target": "page-config",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "main-content",
+      "target": "page-dashboard",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "main-content",
+      "target": "page-dividas",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "main-content",
+      "target": "page-objetivos",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "main-content",
+      "target": "page-transacoes",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "page-dashboard",
+      "target": "balance-hero",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "page-dashboard",
+      "target": "categories-breakdown",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "page-dashboard",
+      "target": "donut-card",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "page-dashboard",
+      "target": "recent-tx-card",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "page-transacoes",
+      "target": "tx-filters",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "page-config",
+      "target": "backup-actions",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "page-config",
+      "target": "clear-data-btn",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "page-config",
+      "target": "theme-toggle-group",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index.html",
+      "source": "page-config",
+      "target": "vflogo",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "opens",
+      "confidence": "INFERRED",
+      "source_file": "index.html",
+      "source": "clear-data-btn",
+      "target": "confirm-dialog",
+      "confidence_score": 0.5
+    },
+    {
+      "type": "opens",
+      "confidence": "INFERRED",
+      "source_file": "index.html",
+      "source": "fab-btn",
+      "target": "tx-overlay",
+      "confidence_score": 0.5
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "6c3148aab420dcd0233ed377bbae21896a586e14"
+  "built_at_commit": "a595c7b3c0d3a38f3116d73afcb360df40699ef3"
 }
